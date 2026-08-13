@@ -199,7 +199,7 @@
       "team": "Team Yandex"
     },
     "chira_junior": {
-      "name": "CHIRA_JUNIOR",
+      "name": "chira_junior",
       "kills": 9,
       "deaths": 0,
       "assists": 6,
@@ -207,7 +207,7 @@
       "team": "Team Yandex"
     },
     "dm": {
-      "name": "DM",
+      "name": "dm",
       "kills": 4,
       "deaths": 1,
       "assists": 8,
@@ -215,7 +215,7 @@
       "team": "Team Yandex"
     },
     "maladych": {
-      "name": "Maladych",
+      "name": "maladych",
       "kills": 2,
       "deaths": 2,
       "assists": 10,
@@ -223,7 +223,7 @@
       "team": "Team Yandex"
     },
     "saksa": {
-      "name": "Saksa",
+      "name": "saksa",
       "kills": 2,
       "deaths": 0,
       "assists": 11,
@@ -231,7 +231,7 @@
       "team": "Team Yandex"
     },
     "mirage`雨": {
-      "name": "Mirage`雨",
+      "name": "mirage`雨",
       "kills": 0,
       "deaths": 5,
       "assists": 1,
@@ -247,7 +247,7 @@
       "team": "HULIGANI"
     },
     "respect": {
-      "name": "RESPECT",
+      "name": "respect",
       "kills": 0,
       "deaths": 5,
       "assists": 3,
@@ -263,7 +263,7 @@
       "team": "HULIGANI"
     },
     "corrupted": {
-      "name": "Corrupted",
+      "name": "corrupted",
       "kills": 0,
       "deaths": 4,
       "assists": 0,
@@ -271,7 +271,7 @@
       "team": "HULIGANI"
     },
     "satanic": {
-      "name": "Satanic",
+      "name": "satanic",
       "kills": 47,
       "deaths": 6,
       "assists": 31,
@@ -279,7 +279,7 @@
       "team": "TEAM VISION"
     },
     "noticed": {
-      "name": "Noticed",
+      "name": "noticed",
       "kills": 16,
       "deaths": 7,
       "assists": 57,
@@ -287,7 +287,7 @@
       "team": "TEAM VISION"
     },
     "no[o]ne-": {
-      "name": "No[o]ne-",
+      "name": "no[o]ne-",
       "kills": 20,
       "deaths": 15,
       "assists": 46,
@@ -295,7 +295,7 @@
       "team": "TEAM VISION"
     },
     "9class": {
-      "name": "9Class",
+      "name": "9class",
       "kills": 19,
       "deaths": 22,
       "assists": 52,
@@ -303,23 +303,23 @@
       "team": "TEAM VISION"
     },
     "dukalis": {
-      "name": "Dukalis",
+      "name": "dukalis",
       "kills": 13,
       "deaths": 21,
       "assists": 62,
       "games": 3,
       "team": "TEAM VISION"
     },
-    "ysr-04e": {
-      "name": "YSR-04E",
+    "erika": {
+      "name": "erika",
       "kills": 22,
       "deaths": 23,
       "assists": 22,
       "games": 3,
       "team": "Team Resilience"
     },
-    "echozz": {
-      "name": "Echozz",
+    "echo": {
+      "name": "echo",
       "kills": 19,
       "deaths": 18,
       "assists": 35,
@@ -351,7 +351,7 @@
       "team": "Team Resilience"
     },
     "ghost": {
-      "name": "Ghost",
+      "name": "ghost",
       "kills": 6,
       "deaths": 7,
       "assists": 14,
@@ -359,7 +359,7 @@
       "team": "GamerLegion"
     },
     "rcy": {
-      "name": "RCY",
+      "name": "rcy",
       "kills": 13,
       "deaths": 6,
       "assists": 18,
@@ -367,7 +367,7 @@
       "team": "GamerLegion"
     },
     "speeed": {
-      "name": "Speeed",
+      "name": "speeed",
       "kills": 9,
       "deaths": 9,
       "assists": 21,
@@ -375,7 +375,7 @@
       "team": "GamerLegion"
     },
     "bignum": {
-      "name": "Bignum",
+      "name": "bignum",
       "kills": 5,
       "deaths": 14,
       "assists": 15,
@@ -383,7 +383,7 @@
       "team": "GamerLegion"
     },
     "fayde": {
-      "name": "Fayde",
+      "name": "fayde",
       "kills": 6,
       "deaths": 5,
       "assists": 16,
@@ -391,7 +391,7 @@
       "team": "GamerLegion"
     },
     "nightfall": {
-      "name": "Nightfall",
+      "name": "nightfall",
       "kills": 11,
       "deaths": 5,
       "assists": 15,
@@ -399,7 +399,7 @@
       "team": "Aurora Gaming"
     },
     "mikoto": {
-      "name": "Mikoto",
+      "name": "mikoto",
       "kills": 11,
       "deaths": 3,
       "assists": 15,
@@ -407,7 +407,7 @@
       "team": "Aurora Gaming"
     },
     "ws`": {
-      "name": "Ws`",
+      "name": "ws`",
       "kills": 12,
       "deaths": 7,
       "assists": 14,
@@ -415,7 +415,7 @@
       "team": "Aurora Gaming"
     },
     "mira": {
-      "name": "Mira",
+      "name": "mira",
       "kills": 4,
       "deaths": 11,
       "assists": 19,
@@ -431,7 +431,7 @@
       "team": "Aurora Gaming"
     },
     "tofu": {
-      "name": "tOfu",
+      "name": "tofu",
       "kills": 2,
       "deaths": 4,
       "assists": 19,
@@ -439,7 +439,7 @@
       "team": "Team Liquid"
     },
     "ace ♠": {
-      "name": "Ace ♠",
+      "name": "ace ♠",
       "kills": 4,
       "deaths": 5,
       "assists": 25,
@@ -447,7 +447,7 @@
       "team": "Team Liquid"
     },
     "nisha": {
-      "name": "Nisha",
+      "name": "nisha",
       "kills": 13,
       "deaths": 5,
       "assists": 17,
@@ -455,7 +455,7 @@
       "team": "Team Liquid"
     },
     "boxi": {
-      "name": "Boxi",
+      "name": "boxi",
       "kills": 1,
       "deaths": 7,
       "assists": 30,
@@ -463,7 +463,7 @@
       "team": "Team Liquid"
     },
     "m1cke": {
-      "name": "m1CKe",
+      "name": "m1cke",
       "kills": 19,
       "deaths": 4,
       "assists": 13,
@@ -479,7 +479,7 @@
       "team": "Vici Gaming"
     },
     "xm": {
-      "name": "Xm",
+      "name": "xm",
       "kills": 2,
       "deaths": 11,
       "assists": 15,
@@ -487,7 +487,7 @@
       "team": "Vici Gaming"
     },
     "bach": {
-      "name": "Bach",
+      "name": "bach",
       "kills": 7,
       "deaths": 6,
       "assists": 6,
@@ -495,7 +495,7 @@
       "team": "Vici Gaming"
     },
     "xinq": {
-      "name": "XinQ",
+      "name": "xinq",
       "kills": 1,
       "deaths": 6,
       "assists": 17,
@@ -511,7 +511,7 @@
       "team": "Vici Gaming"
     },
     "sneyking": {
-      "name": "Sneyking",
+      "name": "sneyking",
       "kills": 13,
       "deaths": 12,
       "assists": 47,
@@ -527,7 +527,7 @@
       "team": "Team Falcons"
     },
     "malr1ne": {
-      "name": "Malr1ne",
+      "name": "malr1ne",
       "kills": 29,
       "deaths": 8,
       "assists": 22,
@@ -535,7 +535,7 @@
       "team": "Team Falcons"
     },
     "ammar_the_f": {
-      "name": "AMMAR_THE_F",
+      "name": "ammar_the_f",
       "kills": 19,
       "deaths": 16,
       "assists": 26,
@@ -543,7 +543,7 @@
       "team": "Team Falcons"
     },
     "cr1t-": {
-      "name": "Cr1t-",
+      "name": "cr1t-",
       "kills": 7,
       "deaths": 18,
       "assists": 51,
@@ -551,7 +551,7 @@
       "team": "Team Falcons"
     },
     "yuma": {
-      "name": "Yuma",
+      "name": "yuma",
       "kills": 27,
       "deaths": 12,
       "assists": 19,
@@ -559,7 +559,7 @@
       "team": "LGD Gaming"
     },
     "topson": {
-      "name": "Topson",
+      "name": "topson",
       "kills": 11,
       "deaths": 13,
       "assists": 30,
@@ -567,7 +567,7 @@
       "team": "LGD Gaming"
     },
     "wisper": {
-      "name": "Wisper",
+      "name": "wisper",
       "kills": 12,
       "deaths": 17,
       "assists": 28,
@@ -575,7 +575,7 @@
       "team": "LGD Gaming"
     },
     "thiolicor": {
-      "name": "Thiolicor",
+      "name": "thiolicor",
       "kills": 9,
       "deaths": 26,
       "assists": 31,
@@ -583,7 +583,7 @@
       "team": "LGD Gaming"
     },
     "kingjungles": {
-      "name": "KingJungles",
+      "name": "kingjungles",
       "kills": 7,
       "deaths": 21,
       "assists": 35,
@@ -591,7 +591,7 @@
       "team": "LGD Gaming"
     },
     "yopaj-": {
-      "name": "Yopaj-",
+      "name": "yopaj-",
       "kills": 8,
       "deaths": 7,
       "assists": 7,
@@ -599,7 +599,7 @@
       "team": "OG"
     },
     "tims": {
-      "name": "TIMS",
+      "name": "tims",
       "kills": 2,
       "deaths": 12,
       "assists": 11,
@@ -607,7 +607,7 @@
       "team": "OG"
     },
     "raven": {
-      "name": "Raven",
+      "name": "raven",
       "kills": 0,
       "deaths": 11,
       "assists": 12,
@@ -623,7 +623,7 @@
       "team": "OG"
     },
     "natsumi": {
-      "name": "Natsumi",
+      "name": "natsumi",
       "kills": 8,
       "deaths": 7,
       "assists": 5,
@@ -631,7 +631,7 @@
       "team": "OG"
     },
     "kiritych~": {
-      "name": "Kiritych~",
+      "name": "kiritych~",
       "kills": 15,
       "deaths": 1,
       "assists": 19,
@@ -647,7 +647,7 @@
       "team": "BoomBoys"
     },
     "kataomi`": {
-      "name": "Kataomi`",
+      "name": "kataomi`",
       "kills": 4,
       "deaths": 7,
       "assists": 25,
@@ -655,7 +655,7 @@
       "team": "BoomBoys"
     },
     "miero": {
-      "name": "MieRo",
+      "name": "miero",
       "kills": 9,
       "deaths": 4,
       "assists": 21,
@@ -663,7 +663,7 @@
       "team": "BoomBoys"
     },
     "save-": {
-      "name": "Save-",
+      "name": "save-",
       "kills": 6,
       "deaths": 5,
       "assists": 28,
@@ -671,7 +671,7 @@
       "team": "BoomBoys"
     },
     "sumail-": {
-      "name": "SumaiL-",
+      "name": "sumail-",
       "kills": 8,
       "deaths": 10,
       "assists": 10,
@@ -679,7 +679,7 @@
       "team": "Nigma Galaxy "
     },
     "omar": {
-      "name": "OmaR",
+      "name": "omar",
       "kills": 3,
       "deaths": 27,
       "assists": 14,
@@ -687,7 +687,7 @@
       "team": "Nigma Galaxy "
     },
     "davai": {
-      "name": "Davai",
+      "name": "davai",
       "kills": 4,
       "deaths": 20,
       "assists": 9,
@@ -695,7 +695,7 @@
       "team": "Nigma Galaxy "
     },
     "gh": {
-      "name": "GH",
+      "name": "gh",
       "kills": 1,
       "deaths": 17,
       "assists": 18,
@@ -719,7 +719,7 @@
       "team": "Iron Wing"
     },
     "ari": {
-      "name": "Ari",
+      "name": "ari",
       "kills": 16,
       "deaths": 3,
       "assists": 48,
@@ -727,7 +727,7 @@
       "team": "Iron Wing"
     },
     "whitemon": {
-      "name": "Whitemon",
+      "name": "whitemon",
       "kills": 10,
       "deaths": 11,
       "assists": 54,
@@ -743,7 +743,7 @@
       "team": "Iron Wing"
     },
     "pure": {
-      "name": "Pure",
+      "name": "pure",
       "kills": 26,
       "deaths": 5,
       "assists": 35,
