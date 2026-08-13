@@ -4,86 +4,191 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TI2026 小组赛战报</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
-:root { --bg:#0d0f14; --card:#161a22; --border:#232936; --text:#e6e8ee;
-  --dim:#8a93a6; --gold:#d4a53c; --cn:#e5484d; --green:#3fb950; }
+:root {
+  --bg0:#070a12; --bg1:#0c111c; --card:#121a2a; --card2:#162034;
+  --border:#1f2a40; --border2:#2c3a58;
+  --text:#e9edf5; --dim:#8b95a8; --dim2:#5b6578;
+  --gold:#e8b34b; --gold2:#d4a53c; --gold3:#f5d489;
+  --red:#ff4d4f; --green:#34d399; --blue:#4da3ff;
+  --silver:#b8c2d4; --bronze:#d08a4a;
+}
 * { box-sizing:border-box; margin:0; padding:0; }
-body { background:var(--bg); color:var(--text); font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
-  line-height:1.5; padding:20px; max-width:900px; margin:0 auto; }
-h1 { font-size:22px; margin-bottom:4px; }
-h1 .aegis { color:var(--gold); }
-.sub { color:var(--dim); font-size:13px; margin-bottom:20px; }
-.card { background:var(--card); border:1px solid var(--border); border-radius:12px;
-  padding:18px 20px; margin-bottom:16px; }
-.card h2 { font-size:16px; margin-bottom:12px; color:var(--gold); }
-table { width:100%; border-collapse:collapse; font-size:14px; }
-th,td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--border); }
-th { color:var(--dim); font-weight:500; font-size:12px; }
-tr.cn td { background:rgba(229,72,77,0.08); }
-.rank { color:var(--dim); width:30px; }
-.team { display:flex; align-items:center; gap:8px; }
-.logo { width:22px; height:22px; object-fit:contain; }
-.match { display:flex; align-items:center; gap:10px; padding:6px 0; border-bottom:1px solid var(--border); font-size:14px; }
-.match:last-child { border-bottom:none; }
-.time { color:var(--dim); min-width:42px; font-variant-numeric:tabular-nums; }
-.mscore { font-weight:700; color:var(--gold); min-width:36px; }
-.win { color:var(--green); }
-.fire { color:var(--cn); }
-.muted { color:var(--dim); font-size:13px; }
-.grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-@media (max-width:640px) { .grid { grid-template-columns:1fr; } }
-.prow { display:flex; align-items:center; gap:8px; padding:5px 0; font-size:14px; border-bottom:1px solid var(--border); }
+body {
+  background:var(--bg0);
+  background-image:
+    radial-gradient(1100px 500px at 15% -5%, rgba(232,179,75,0.08), transparent 60%),
+    radial-gradient(900px 420px at 90% -10%, rgba(255,77,79,0.07), transparent 55%),
+    linear-gradient(180deg, var(--bg1) 0%, var(--bg0) 100%);
+  background-attachment:fixed;
+  color:var(--text);
+  font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
+  line-height:1.55; min-height:100vh;
+}
+.wrap { max-width:960px; margin:0 auto; padding:28px 20px 40px; }
+
+/* ===== HERO ===== */
+.hero { position:relative; padding:34px 0 26px; margin-bottom:24px; }
+.hero::after {
+  content:""; position:absolute; left:0; right:0; bottom:0; height:2px;
+  background:linear-gradient(90deg, transparent, var(--gold) 20%, var(--red) 50%, var(--gold) 80%, transparent);
+  opacity:0.7;
+}
+.hero-eyebrow {
+  font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:3px;
+  text-transform:uppercase; color:var(--gold); margin-bottom:10px;
+}
+.hero-title {
+  font-family:'Barlow Condensed',-apple-system,'PingFang SC',sans-serif;
+  font-size:58px; font-weight:800; line-height:1.02; letter-spacing:1px;
+  background:linear-gradient(115deg, #fff8e6 0%, #ffe9a8 18%, var(--gold3) 40%, var(--gold) 60%, #e09a2b 85%, var(--gold3) 100%);
+  background-size:200% 100%;
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  text-transform:uppercase;
+  animation:shine 5s ease-in-out infinite;
+}
+@keyframes shine {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
+}
+.hero-title .cn { font-size:34px; -webkit-text-fill-color:var(--text); letter-spacing:2px; }
+.hero-sub { display:flex; gap:16px; flex-wrap:wrap; margin-top:12px; color:var(--dim); font-size:13px; }
+.hero-sub .dot { color:var(--dim2); }
+.hero-sub .live { color:var(--red); font-weight:600; }
+
+/* ===== CARD ===== */
+.card {
+  position:relative; background:linear-gradient(180deg, var(--card2) 0%, var(--card) 100%);
+  border:1px solid var(--border); border-radius:10px;
+  padding:20px 22px; margin-bottom:18px;
+  clip-path:polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+  overflow:hidden;
+}
+.card::before {
+  content:""; position:absolute; top:0; left:0; width:3px; height:100%;
+  background:linear-gradient(180deg, var(--gold), transparent 70%);
+}
+.card-title {
+  font-family:'Barlow Condensed',-apple-system,sans-serif;
+  font-size:19px; font-weight:700; letter-spacing:0.5px;
+  color:var(--gold); margin-bottom:14px; display:flex; align-items:center; gap:8px;
+}
+.card-title .title-bar { width:4px; height:18px; background:var(--red); border-radius:2px; display:inline-block; }
+
+/* ===== STANDINGS ===== */
+table { width:100%; border-collapse:collapse; }
+th { text-align:left; padding:8px 10px; color:var(--dim2); font-size:11px; font-weight:500;
+  letter-spacing:1px; text-transform:uppercase; border-bottom:1px solid var(--border2); }
+td { padding:9px 10px; border-bottom:1px solid var(--border); font-size:14px; }
+tr:last-child td { border-bottom:none; }
+tr.cn-row { background:linear-gradient(90deg, rgba(255,77,79,0.10) 0%, rgba(255,77,79,0.02) 60%, transparent 100%); }
+tr.cn-row td:first-child { box-shadow:inset 3px 0 0 var(--red); }
+tr:hover td { background:rgba(255,255,255,0.025); }
+.td-rank { width:44px; }
+.rank-badge { display:inline-flex; width:26px; height:26px; align-items:center; justify-content:center;
+  border-radius:6px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px; }
+.rank-gold { background:linear-gradient(135deg,#f5d489,#d4a53c); color:#3a2800; box-shadow:0 0 12px rgba(232,179,75,0.45); }
+.rank-silver { background:linear-gradient(135deg,#dfe6f2,#9aa7bd); color:#2a3342; }
+.rank-bronze { background:linear-gradient(135deg,#e8b587,#c07a3a); color:#3a2008; }
+.rank-num { color:var(--dim); font-family:'JetBrains Mono',monospace; }
+.td-team { display:flex; align-items:center; gap:9px; }
+.logo { width:26px; height:26px; object-fit:contain; filter:drop-shadow(0 1px 2px rgba(0,0,0,0.5)); }
+.logo-ph { display:inline-flex; width:26px; height:26px; align-items:center; justify-content:center;
+  border-radius:50%; font-size:12px; font-weight:700; flex:none; }
+.cn-flag { font-size:12px; }
+.td-score { font-family:'JetBrains Mono',monospace; font-variant-numeric:tabular-nums; font-weight:700; font-size:14px; }
+.td-score .dash { color:var(--dim2); margin:0 2px; }
+.td-score .w { color:var(--text); }
+.td-score .l { color:var(--dim); }
+.td-score.dim .w, .td-score.dim .l { color:var(--dim2); }
+
+/* ===== MATCH ROWS ===== */
+.match-row { display:flex; align-items:center; gap:12px; padding:9px 2px; border-bottom:1px solid var(--border); }
+.match-row:last-child { border-bottom:none; }
+.match-time { font-family:'JetBrains Mono',monospace; color:var(--dim); font-size:13px; min-width:44px; }
+.match-score { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:16px; color:var(--gold);
+  min-width:40px; text-shadow:0 0 14px rgba(232,179,75,0.35); }
+.match-teams { font-size:14px; flex:1; }
+.match-teams .vs { color:var(--dim2); font-size:12px; margin:0 4px; }
+.match-win { color:var(--green); font-size:13px; font-weight:600; }
+.match-row.is-done { opacity:0.82; }
+.fire { font-size:12px; }
+
+/* ===== PLAYER ROWS ===== */
+.prow { display:flex; align-items:center; gap:9px; padding:8px 2px; border-bottom:1px solid var(--border); font-size:14px; }
 .prow:last-child { border-bottom:none; }
+.p-rank { font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--gold); font-weight:700; width:16px; }
 .pname { font-weight:600; }
-.pval { color:var(--gold); font-weight:700; margin-left:auto; }
-.psub { color:var(--dim); font-size:12px; }
-.cntag { color:var(--cn); font-size:12px; font-weight:600; }
-.footer { text-align:center; color:var(--dim); font-size:11px; margin-top:20px; }
-.analysis { border-color:var(--gold); }
+.pval { font-family:'JetBrains Mono',monospace; color:var(--gold); font-weight:700; margin-left:auto;
+  text-shadow:0 0 12px rgba(232,179,75,0.3); }
+.punit { font-size:11px; color:var(--dim); }
+.psub { color:var(--dim2); font-size:11px; }
+.cntag { color:var(--red); font-size:11px; font-weight:700; }
+.team-tag { display:inline-block; background:rgba(255,77,79,0.15); border:1px solid rgba(255,77,79,0.35);
+  border-radius:4px; padding:0 5px; margin-right:2px; }
+
+/* ===== GRID ===== */
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+@media (max-width:660px) { .grid { grid-template-columns:1fr; } }
+
+/* ===== ANALYSIS ===== */
+.card-analysis { border-color:var(--gold2); }
+.card-analysis::before { background:linear-gradient(180deg, var(--gold), var(--red) 100%); }
 .analysis-body { font-size:14px; }
-.analysis-body h3 { color:var(--text); font-size:14px; margin:10px 0 6px; }
+.analysis-body h3 { font-family:'Barlow Condensed',sans-serif; color:var(--text); font-size:16px;
+  font-weight:700; margin:14px 0 7px; padding-left:8px; border-left:2px solid var(--red); }
+.analysis-body h3:first-child { margin-top:0; }
 .analysis-body p { margin:6px 0; }
-.analysis-body ul { padding-left:18px; }
-.analysis-body li { margin:4px 0; }
-.analysis-body .good { color:var(--green); font-weight:600; }
-.analysis-body .bad { color:var(--cn); font-weight:600; }
-.analysis-body .warn { color:var(--gold); font-weight:600; }
+.analysis-body ul { padding-left:20px; }
+.analysis-body li { margin:5px 0; }
+.analysis-body strong { color:var(--gold3); }
+.analysis-body code { font-family:'JetBrains Mono',monospace; background:rgba(255,255,255,0.06);
+  padding:1px 5px; border-radius:4px; font-size:12px; }
+
+/* ===== MISC ===== */
+.muted { color:var(--dim2); font-size:13px; padding:4px 0; }
+.footer { text-align:center; color:var(--dim2); font-size:11px; margin-top:26px;
+  font-family:'JetBrains Mono',monospace; letter-spacing:1px; }
 </style>
 </head>
 <body>
-<h1><span class="aegis">🏆</span> TI2026 小组赛战报</h1>
-<div class="sub">上海时间 2026-08-13 14:30 · 数据源 Liquipedia / OpenDota</div>
+<div class="wrap">
 
-<div class="card">
-<h2>📊 积分榜 <span class="cntag">🇨🇳=中国战队</span></h2>
+<div class="hero">
+  <div class="hero-eyebrow">The International 2026 · Shanghai</div>
+  <h1 class="hero-title">TI2026 <span class="cn">小组赛战报</span></h1>
+  <div class="hero-sub">
+    <span>上海时间 2026-08-13 14:30</span>
+    <span class="dot">·</span>
+    <span>Swiss 制 · 5 轮 · Bo3</span>
+    <span class="dot">·</span>
+    <span>数据源 Liquipedia / OpenDota</span>
+  </div>
+</div>
+
+<section class="card">
+<h2 class="card-title"><span class="title-bar"></span>📊 积分榜</h2>
 <table>
 <thead><tr><th>#</th><th>战队</th><th>大分</th><th>小分</th></tr></thead>
-<tbody><tr><td class="rank">1</td><td class="team"><span>Iron Wing</span></td><td>1-0</td><td>2-0</td></tr><tr><td class="rank">1</td><td class="team"><span>BoomBoys</span></td><td>1-0</td><td>2-0</td></tr><tr><td class="rank">3</td><td class="team"><span>Falcons</span></td><td>0-0</td><td>1-1</td></tr><tr><td class="rank">3</td><td class="team"><span>LGD</span></td><td>0-0</td><td>1-1</td></tr><tr><td class="rank">3</td><td class="team"><span>Vision</span></td><td>0-0</td><td>1-0</td></tr><tr class="cn"><td class="rank">3</td><td class="team"><span>Resilience 🇨🇳</span></td><td>0-0</td><td>0-1</td></tr><tr><td class="rank">3</td><td class="team"><span>Spirit</span></td><td>0-0</td><td>0-0</td></tr><tr class="cn"><td class="rank">3</td><td class="team"><span>Xtreme Gaming(XG) 🇨🇳</span></td><td>0-0</td><td>0-0</td></tr><tr><td class="rank">3</td><td class="team"><span>Liquid</span></td><td>0-0</td><td>0-0</td></tr><tr class="cn"><td class="rank">3</td><td class="team"><span>Vici Gaming(VG) 🇨🇳</span></td><td>0-0</td><td>0-0</td></tr><tr><td class="rank">3</td><td class="team"><span>Aurora</span></td><td>0-0</td><td>0-0</td></tr><tr><td class="rank">3</td><td class="team"><span>GamerLegion</span></td><td>0-0</td><td>0-0</td></tr><tr><td class="rank">3</td><td class="team"><span>Yandex</span></td><td>0-0</td><td>0-0</td></tr><tr><td class="rank">3</td><td class="team"><span>HULIGANI</span></td><td>0-0</td><td>0-0</td></tr><tr><td class="rank">15</td><td class="team"><span>Nigma</span></td><td>0-1</td><td>0-2</td></tr><tr><td class="rank">15</td><td class="team"><span>OG</span></td><td>0-1</td><td>0-2</td></tr></tbody>
+<tbody><tr><td class="td-rank"><span class="rank-badge rank-gold">1</span></td><td class="td-team"><span class="logo-ph" style="background:#22c55e;color:#fff">I</span><span>Iron Wing</span></td><td class="td-score"><span class="w">1</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">2</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-gold">1</span></td><td class="td-team"><span class="logo-ph" style="background:#f59e0b;color:#fff">B</span><span>BoomBoys</span></td><td class="td-score"><span class="w">1</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">2</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#ec4899;color:#fff">T</span><span>Falcons</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">1</span><span class="dash">-</span><span class="l">1</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#f97316;color:#fff">L</span><span>LGD</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">1</span><span class="dash">-</span><span class="l">1</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#22c55e;color:#fff">T</span><span>Vision</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">1</span><span class="dash">-</span><span class="l">0</span></td></tr><tr class="cn-row"><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#a855f7;color:#fff">T</span><span>Resilience <span class="cn-flag">🇨🇳</span></span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">1</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#a855f7;color:#fff">T</span><span>Spirit</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr class="cn-row"><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#e5484d;color:#fff">X</span><span>Xtreme Gaming(XG) <span class="cn-flag">🇨🇳</span></span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#ec4899;color:#fff">T</span><span>Liquid</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr class="cn-row"><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#f97316;color:#fff">V</span><span>Vici Gaming(VG) <span class="cn-flag">🇨🇳</span></span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#ec4899;color:#fff">A</span><span>Aurora</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#f59e0b;color:#fff">G</span><span>GamerLegion</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#a855f7;color:#fff">T</span><span>Yandex</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-badge rank-bronze">3</span></td><td class="td-team"><span class="logo-ph" style="background:#ec4899;color:#fff">H</span><span>HULIGANI</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">0</span></td></tr><tr><td class="td-rank"><span class="rank-num">15</span></td><td class="td-team"><span class="logo-ph" style="background:#e5484d;color:#fff">N</span><span>Nigma</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">1</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">2</span></td></tr><tr><td class="td-rank"><span class="rank-num">15</span></td><td class="td-team"><span class="logo-ph" style="background:#e5484d;color:#fff">O</span><span>OG</span></td><td class="td-score"><span class="w">0</span><span class="dash">-</span><span class="l">1</span></td><td class="td-score dim"><span class="w">0</span><span class="dash">-</span><span class="l">2</span></td></tr></tbody>
 </table>
-</div>
+</section>
 
-<div class="card">
-<h2>📰 昨日战报</h2>
-<div class="muted">无（小组赛刚开赛）</div>
-</div>
+<section class="card">
+<h2 class="card-title"><span class="title-bar"></span>📰 昨日战报</h2>
+<div class="muted">暂无已结束比赛</div>
+</section>
 
-<div class="card">
-<h2>🗓️ 今日赛程 <span class="fire">🔥=中国队出战</span></h2>
-<div class="match done"><span class="time">11:00</span><span>Falcons vs LGD</span><span class="mscore">（1-1）</span><span class="fire"></span></div><div class="match done"><span class="time">11:00</span><span>Nigma vs Iron Wing</span><span class="mscore">（0-2）</span><span class="fire"></span></div><div class="match"><span class="time">11:30</span><span>BoomBoys vs OG</span><span class="fire"></span></div><div class="match"><span class="time">11:30</span><span>Vision vs Resilience</span><span class="fire"> 🔥</span></div><div class="match"><span class="time">14:30</span><span>Spirit vs Xtreme Gaming(XG)</span><span class="fire"> 🔥</span></div><div class="match"><span class="time">14:00</span><span>Liquid vs Vici Gaming(VG)</span><span class="fire"> 🔥</span></div><div class="match"><span class="time">14:00</span><span>Aurora vs GamerLegion</span><span class="fire"></span></div><div class="match"><span class="time">14:00</span><span>Yandex vs HULIGANI</span><span class="fire"></span></div>
-</div>
+<section class="card">
+<h2 class="card-title"><span class="title-bar"></span>🗓️ 今日赛程</h2>
+<div class="match-row is-done"><div class="match-time">11:00</div><div class="match-teams">Falcons <span class="vs">vs</span> LGD</div><div class="match-score">（1-1）</div></div><div class="match-row is-done"><div class="match-time">11:00</div><div class="match-teams">Nigma <span class="vs">vs</span> Iron Wing</div><div class="match-score">（0-2）</div></div><div class="match-row"><div class="match-time">11:30</div><div class="match-teams">BoomBoys <span class="vs">vs</span> OG</div></div><div class="match-row"><div class="match-time">11:30</div><div class="match-teams">Vision <span class="vs">vs</span> Resilience <span class="fire">🔥</span></div></div><div class="match-row"><div class="match-time">14:30</div><div class="match-teams">Spirit <span class="vs">vs</span> Xtreme Gaming(XG) <span class="fire">🔥</span></div></div><div class="match-row"><div class="match-time">14:00</div><div class="match-teams">Liquid <span class="vs">vs</span> Vici Gaming(VG) <span class="fire">🔥</span></div></div><div class="match-row"><div class="match-time">14:00</div><div class="match-teams">Aurora <span class="vs">vs</span> GamerLegion</div></div><div class="match-row"><div class="match-time">14:00</div><div class="match-teams">Yandex <span class="vs">vs</span> HULIGANI</div></div>
+</section>
 
-<div class="grid">
-<div class="card">
-<h2>⭐ 场均击杀 TOP3</h2>
-<div class="prow"><span class="pname">Satanic</span><span class="pval">15.7 K/局</span><span class="psub">3局 · KDA 13.0</span></div><div class="prow"><span class="pname">Pure</span><span class="pval">13.0 K/局</span><span class="psub">2局 · KDA 12.2</span></div><div class="prow"><span class="pname">Malr1ne</span><span class="pval">9.7 K/局</span><span class="psub">3局 · KDA 6.4</span></div>
-</div>
-<div class="card">
-<h2>⭐ KDA TOP3</h2>
-<div class="prow"><span class="pname">Kiritych~</span><span class="pval">KDA 34.0</span><span class="psub">2局</span></div><div class="prow"><span class="pname">bzm</span><span class="pval">KDA 22.7</span><span class="psub">2局</span></div><div class="prow"><span class="pname">Ari</span><span class="pval">KDA 21.3</span><span class="psub">2局</span></div>
-</div>
-</div>
-
-<div class="card analysis"><h2>🔍 形势分析</h2><div class="analysis-body"><h3>出线形势</h3>
+<section class="card card-analysis"><h2 class="card-title"><span class="title-bar"></span>🔍 形势分析</h2><div class="analysis-body"><h3>出线形势</h3>
 <ul>
 <li><strong>Iron Wing、BoomBoys</strong> 首日 2-0 领跑，再取一胜基本锁定前 3 直通名额</li>
 <li><strong>Nigma、OG</strong> 首日 0-2 垫底，已站在淘汰边缘</li>
@@ -93,13 +198,25 @@ tr.cn td { background:rgba(229,72,77,0.08); }
 <ul>
 <li>中国队 <strong>VG</strong> 对阵 Liquid，是检验阵容强度的硬仗</li>
 <li><strong>XG</strong> 遭遇 Spirit，胜负将直接影响晋级节奏</li>
-</ul></div></div>
+</ul></div></section>
 
-<div class="card">
-<h2>🇨🇳 中国选手状态</h2>
-<div class="prow"><span class="cntag">[TR]</span><span class="pname">niu</span><span class="pval">KDA 2.3</span><span class="psub">3局 · 20/21/28</span></div><div class="prow"><span class="cntag">[TR]</span><span class="pname">planet</span><span class="pval">KDA 2.1</span><span class="psub">3局 · 4/24/47</span></div><div class="prow"><span class="cntag">[TR]</span><span class="pname">zzq</span><span class="pval">KDA 1.1</span><span class="psub">3局 · 6/33/31</span></div>
+<div class="grid">
+<section class="card">
+<h2 class="card-title"><span class="title-bar"></span>⚔️ 场均击杀 TOP3</h2>
+<div class="prow"><span class="p-rank">1</span><span class="pname">Satanic</span><span class="pval">15.7<span class="punit"> K/局</span></span><span class="psub">3局 · KDA 13.0</span></div><div class="prow"><span class="p-rank">2</span><span class="pname">Pure</span><span class="pval">13.0<span class="punit"> K/局</span></span><span class="psub">2局 · KDA 12.2</span></div><div class="prow"><span class="p-rank">3</span><span class="pname">Malr1ne</span><span class="pval">9.7<span class="punit"> K/局</span></span><span class="psub">3局 · KDA 6.4</span></div>
+</section>
+<section class="card">
+<h2 class="card-title"><span class="title-bar"></span>🛡️ KDA TOP3</h2>
+<div class="prow"><span class="p-rank">1</span><span class="pname">Kiritych~</span><span class="pval">34.0</span><span class="psub">2局</span></div><div class="prow"><span class="p-rank">2</span><span class="pname">bzm</span><span class="pval">22.7</span><span class="psub">2局</span></div><div class="prow"><span class="p-rank">3</span><span class="pname">Ari</span><span class="pval">21.3</span><span class="psub">2局</span></div>
+</section>
 </div>
 
-<div class="footer">TI2026 上海 · 小组赛 8/13-8/16 · 淘汰赛 8/17-8/23</div>
+<section class="card">
+<h2 class="card-title"><span class="title-bar"></span>🇨🇳 中国选手状态</h2>
+<div class="prow"><span class="cntag team-tag">[TR]</span><span class="pname">niu</span><span class="pval">2.3</span><span class="psub">3局 · 20/21/28</span></div><div class="prow"><span class="cntag team-tag">[TR]</span><span class="pname">planet</span><span class="pval">2.1</span><span class="psub">3局 · 4/24/47</span></div><div class="prow"><span class="cntag team-tag">[TR]</span><span class="pname">zzq</span><span class="pval">1.1</span><span class="psub">3局 · 6/33/31</span></div>
+</section>
+
+<div class="footer">TI2026 · 上海 · 小组赛 8/13-8/16 · 淘汰赛 8/17-8/23</div>
+</div>
 </body>
 </html>
