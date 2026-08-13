@@ -1398,5 +1398,709 @@
       }
     }
   },
-  "analysis": "### 出线形势\n- **Iron Wing、BoomBoys** 首日 2-0 领跑，再取一胜基本锁定前 3 直通名额\n- **Nigma、OG** 首日 0-2 垫底，已站在淘汰边缘\n- **XG / VG / TR** 三支中国战队首轮未取大分，明日是关键抢分局\n\n### 今日看点\n- 中国队 **VG** 对阵 Liquid，是检验阵容强度的硬仗\n- **XG** 遭遇 Spirit，胜负将直接影响晋级节奏"
+  "analysis": "### 出线形势\n- **Iron Wing、BoomBoys** 首日 2-0 领跑，再取一胜基本锁定前 3 直通名额\n- **Nigma、OG** 首日 0-2 垫底，已站在淘汰边缘\n- **XG / VG / TR** 三支中国战队首轮未取大分，明日是关键抢分局\n\n### 今日看点\n- 中国队 **VG** 对阵 Liquid，是检验阵容强度的硬仗\n- **XG** 遭遇 Spirit，胜负将直接影响晋级节奏",
+  "hero_stats": [
+    {
+      "hero_id": 85,
+      "name": "Undying",
+      "short": "undying",
+      "pick": 8,
+      "ban": 6,
+      "win": 7,
+      "winrate": 87.5
+    },
+    {
+      "hero_id": 112,
+      "name": "Winter Wyvern",
+      "short": "winter_wyvern",
+      "pick": 8,
+      "ban": 4,
+      "win": 3,
+      "winrate": 37.5
+    },
+    {
+      "hero_id": 83,
+      "name": "Treant Protector",
+      "short": "treant",
+      "pick": 0,
+      "ban": 19,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 90,
+      "name": "Keeper of the Light",
+      "short": "keeper_of_the_light",
+      "pick": 3,
+      "ban": 14,
+      "win": 2,
+      "winrate": 66.7
+    },
+    {
+      "hero_id": 25,
+      "name": "Lina",
+      "short": "lina",
+      "pick": 7,
+      "ban": 10,
+      "win": 5,
+      "winrate": 71.4
+    },
+    {
+      "hero_id": 74,
+      "name": "Invoker",
+      "short": "invoker",
+      "pick": 2,
+      "ban": 11,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 155,
+      "name": "Largo",
+      "short": "largo",
+      "pick": 2,
+      "ban": 11,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 123,
+      "name": "Hoodwink",
+      "short": "hoodwink",
+      "pick": 8,
+      "ban": 7,
+      "win": 3,
+      "winrate": 37.5
+    },
+    {
+      "hero_id": 3,
+      "name": "Bane",
+      "short": "bane",
+      "pick": 2,
+      "ban": 8,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 11,
+      "name": "Shadow Fiend",
+      "short": "nevermore",
+      "pick": 2,
+      "ban": 8,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 9,
+      "name": "Mirana",
+      "short": "mirana",
+      "pick": 7,
+      "ban": 4,
+      "win": 2,
+      "winrate": 28.6
+    },
+    {
+      "hero_id": 36,
+      "name": "Necrophos",
+      "short": "necrolyte",
+      "pick": 5,
+      "ban": 5,
+      "win": 2,
+      "winrate": 40.0
+    },
+    {
+      "hero_id": 131,
+      "name": "Ringmaster",
+      "short": "ringmaster",
+      "pick": 2,
+      "ban": 0,
+      "win": 2,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 91,
+      "name": "Io",
+      "short": "wisp",
+      "pick": 3,
+      "ban": 4,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 100,
+      "name": "Tusk",
+      "short": "tusk",
+      "pick": 4,
+      "ban": 1,
+      "win": 2,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 145,
+      "name": "Kez",
+      "short": "kez",
+      "pick": 4,
+      "ban": 2,
+      "win": 3,
+      "winrate": 75.0
+    },
+    {
+      "hero_id": 28,
+      "name": "Slardar",
+      "short": "slardar",
+      "pick": 4,
+      "ban": 4,
+      "win": 2,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 7,
+      "name": "Earthshaker",
+      "short": "earthshaker",
+      "pick": 2,
+      "ban": 1,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 108,
+      "name": "Underlord",
+      "short": "abyssal_underlord",
+      "pick": 4,
+      "ban": 5,
+      "win": 3,
+      "winrate": 75.0
+    },
+    {
+      "hero_id": 69,
+      "name": "Doom",
+      "short": "doom_bringer",
+      "pick": 1,
+      "ban": 7,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 106,
+      "name": "Ember Spirit",
+      "short": "ember_spirit",
+      "pick": 4,
+      "ban": 10,
+      "win": 2,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 2,
+      "name": "Axe",
+      "short": "axe",
+      "pick": 2,
+      "ban": 7,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 96,
+      "name": "Centaur Warrunner",
+      "short": "centaur",
+      "pick": 5,
+      "ban": 10,
+      "win": 3,
+      "winrate": 60.0
+    },
+    {
+      "hero_id": 128,
+      "name": "Snapfire",
+      "short": "snapfire",
+      "pick": 4,
+      "ban": 0,
+      "win": 4,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 55,
+      "name": "Dark Seer",
+      "short": "dark_seer",
+      "pick": 4,
+      "ban": 7,
+      "win": 1,
+      "winrate": 25.0
+    },
+    {
+      "hero_id": 6,
+      "name": "Drow Ranger",
+      "short": "drow_ranger",
+      "pick": 3,
+      "ban": 0,
+      "win": 3,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 12,
+      "name": "Phantom Lancer",
+      "short": "phantom_lancer",
+      "pick": 2,
+      "ban": 1,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 98,
+      "name": "Timbersaw",
+      "short": "shredder",
+      "pick": 2,
+      "ban": 3,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 86,
+      "name": "Rubick",
+      "short": "rubick",
+      "pick": 3,
+      "ban": 1,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 119,
+      "name": "Dark Willow",
+      "short": "dark_willow",
+      "pick": 7,
+      "ban": 1,
+      "win": 4,
+      "winrate": 57.1
+    },
+    {
+      "hero_id": 129,
+      "name": "Mars",
+      "short": "mars",
+      "pick": 1,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 103,
+      "name": "Elder Titan",
+      "short": "elder_titan",
+      "pick": 1,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 110,
+      "name": "Phoenix",
+      "short": "phoenix",
+      "pick": 1,
+      "ban": 1,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 51,
+      "name": "Clockwerk",
+      "short": "rattletrap",
+      "pick": 7,
+      "ban": 2,
+      "win": 4,
+      "winrate": 57.1
+    },
+    {
+      "hero_id": 135,
+      "name": "Dawnbreaker",
+      "short": "dawnbreaker",
+      "pick": 1,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 33,
+      "name": "Enigma",
+      "short": "enigma",
+      "pick": 1,
+      "ban": 5,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 13,
+      "name": "Puck",
+      "short": "puck",
+      "pick": 1,
+      "ban": 9,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 80,
+      "name": "Lone Druid",
+      "short": "lone_druid",
+      "pick": 3,
+      "ban": 8,
+      "win": 2,
+      "winrate": 66.7
+    },
+    {
+      "hero_id": 53,
+      "name": "Nature's Prophet",
+      "short": "furion",
+      "pick": 1,
+      "ban": 6,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 67,
+      "name": "Spectre",
+      "short": "spectre",
+      "pick": 2,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 62,
+      "name": "Bounty Hunter",
+      "short": "bounty_hunter",
+      "pick": 3,
+      "ban": 1,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 18,
+      "name": "Sven",
+      "short": "sven",
+      "pick": 2,
+      "ban": 5,
+      "win": 2,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 49,
+      "name": "Dragon Knight",
+      "short": "dragon_knight",
+      "pick": 1,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 21,
+      "name": "Windranger",
+      "short": "windrunner",
+      "pick": 7,
+      "ban": 3,
+      "win": 4,
+      "winrate": 57.1
+    },
+    {
+      "hero_id": 107,
+      "name": "Earth Spirit",
+      "short": "earth_spirit",
+      "pick": 6,
+      "ban": 9,
+      "win": 3,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 120,
+      "name": "Pangolier",
+      "short": "pangolier",
+      "pick": 2,
+      "ban": 2,
+      "win": 2,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 19,
+      "name": "Tiny",
+      "short": "tiny",
+      "pick": 4,
+      "ban": 7,
+      "win": 3,
+      "winrate": 75.0
+    },
+    {
+      "hero_id": 126,
+      "name": "Void Spirit",
+      "short": "void_spirit",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 38,
+      "name": "Beastmaster",
+      "short": "beastmaster",
+      "pick": 1,
+      "ban": 1,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 64,
+      "name": "Jakiro",
+      "short": "jakiro",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 54,
+      "name": "Lifestealer",
+      "short": "life_stealer",
+      "pick": 1,
+      "ban": 5,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 78,
+      "name": "Brewmaster",
+      "short": "brewmaster",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 79,
+      "name": "Shadow Demon",
+      "short": "shadow_demon",
+      "pick": 3,
+      "ban": 1,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 71,
+      "name": "Spirit Breaker",
+      "short": "spirit_breaker",
+      "pick": 2,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 17,
+      "name": "Storm Spirit",
+      "short": "storm_spirit",
+      "pick": 2,
+      "ban": 1,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 34,
+      "name": "Tinker",
+      "short": "tinker",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 60,
+      "name": "Night Stalker",
+      "short": "night_stalker",
+      "pick": 1,
+      "ban": 1,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 93,
+      "name": "Slark",
+      "short": "slark",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 23,
+      "name": "Kunkka",
+      "short": "kunkka",
+      "pick": 0,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 73,
+      "name": "Alchemist",
+      "short": "alchemist",
+      "pick": 2,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 20,
+      "name": "Vengeful Spirit",
+      "short": "vengefulspirit",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 47,
+      "name": "Viper",
+      "short": "viper",
+      "pick": 1,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 59,
+      "name": "Huskar",
+      "short": "huskar",
+      "pick": 2,
+      "ban": 3,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 16,
+      "name": "Sand King",
+      "short": "sand_king",
+      "pick": 1,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 72,
+      "name": "Gyrocopter",
+      "short": "gyrocopter",
+      "pick": 1,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 58,
+      "name": "Enchantress",
+      "short": "enchantress",
+      "pick": 0,
+      "ban": 4,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 5,
+      "name": "Crystal Maiden",
+      "short": "crystal_maiden",
+      "pick": 2,
+      "ban": 0,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 29,
+      "name": "Tidehunter",
+      "short": "tidehunter",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 65,
+      "name": "Batrider",
+      "short": "batrider",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 138,
+      "name": "Muerta",
+      "short": "muerta",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 46,
+      "name": "Templar Assassin",
+      "short": "templar_assassin",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 77,
+      "name": "Lycan",
+      "short": "lycan",
+      "pick": 2,
+      "ban": 0,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 27,
+      "name": "Shadow Shaman",
+      "short": "shadow_shaman",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 76,
+      "name": "Outworld Destroyer",
+      "short": "obsidian_destroyer",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 45,
+      "name": "Pugna",
+      "short": "pugna",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 104,
+      "name": "Legion Commander",
+      "short": "legion_commander",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 10,
+      "name": "Morphling",
+      "short": "morphling",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 68,
+      "name": "Ancient Apparition",
+      "short": "ancient_apparition",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
+    }
+  ]
 }
