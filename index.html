@@ -9,200 +9,240 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg0:#070a12; --bg1:#0c111c; --card:#121a2a; --card2:#162034;
-  --border:#1f2a40; --border2:#2c3a58;
-  --text:#e9edf5; --dim:#8b95a8; --dim2:#5b6578;
-  --gold:#e8b34b; --gold2:#d4a53c; --gold3:#f5d489;
-  --red:#ff4d4f; --green:#34d399; --blue:#4da3ff;
+  --bg0:#0a0d1a; --bg1:#0f1426;
+  --card:rgba(22,30,54,0.55); --card2:rgba(30,40,72,0.65);
+  --glass-border:rgba(255,255,255,0.08);
+  --glass-high:rgba(255,255,255,0.10);
+  --text:#eef1fa; --dim:#a8b2c8; --dim2:#6d7899;
+  --gold:#f5c04a; --gold2:#d4a53c; --gold3:#ffe9a8;
+  --cyan:#38e0d0; --red:#ff4d5e; --green:#3ddc97; --blue:#5aa9ff;
+  --glow-gold:rgba(245,192,74,0.45); --glow-cyan:rgba(56,224,208,0.35);
 }
 * { box-sizing:border-box; margin:0; padding:0; }
-body { background:var(--bg0); color:var(--text);
+html { scrollbar-color:#2c3a5c #0a0d1a; }
+body {
+  color:var(--text);
   font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
-  line-height:1.55; min-height:100vh; }
+  line-height:1.55; min-height:100vh;
+  background:
+    radial-gradient(1100px 700px at 82% -10%, rgba(56,224,208,0.14), transparent 60%),
+    radial-gradient(900px 600px at -8% 12%, rgba(245,192,74,0.12), transparent 55%),
+    radial-gradient(1000px 800px at 50% 115%, rgba(255,77,94,0.10), transparent 60%),
+    linear-gradient(180deg,#0b0f20 0%,#0d1226 45%,#090c18 100%);
+  background-attachment:fixed;
+}
+body::before {
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size:46px 46px;
+  mask-image:radial-gradient(ellipse 100% 70% at 50% 0%, #000 25%, transparent 100%);
+}
 
 /* ===== HERO ===== */
-.hero { position:relative; overflow:hidden; min-height:400px; display:flex; align-items:flex-end;
-  border-bottom:1px solid var(--border2); }
-.hero-bg { position:absolute; inset:0; background:url('bg.jpg') center/cover no-repeat; filter:saturate(1.05); }
+.hero { position:relative; overflow:hidden; min-height:420px; display:flex; align-items:flex-end;
+  border-bottom:1px solid var(--glass-border); }
+.hero-bg { position:absolute; inset:0; background:url('bg.jpg') center/cover no-repeat;
+  filter:saturate(1.08) contrast(1.05); }
 .hero-overlay { position:absolute; inset:0;
-  background:linear-gradient(180deg, rgba(7,10,18,0.5) 0%, rgba(7,10,18,0.3) 40%, rgba(7,10,18,0.94) 100%),
-             linear-gradient(90deg, rgba(7,10,18,0.88) 0%, rgba(7,10,18,0.35) 55%, rgba(7,10,18,0.05) 100%); }
-.hero-content { position:relative; z-index:2; width:100%; max-width:1800px; margin:0 auto; padding:48px 40px 30px; }
-.hero-eyebrow { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:4px;
-  text-transform:uppercase; color:var(--gold); margin-bottom:12px; }
+  background:linear-gradient(180deg, rgba(10,13,26,0.55) 0%, rgba(10,13,26,0.35) 40%, rgba(10,13,26,0.96) 100%),
+             linear-gradient(90deg, rgba(10,13,26,0.90) 0%, rgba(10,13,26,0.42) 55%, rgba(10,13,26,0.08) 100%); }
+.hero-content { position:relative; z-index:2; width:100%; max-width:1800px; margin:0 auto; padding:52px 40px 34px; }
+.hero-eyebrow { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:5px;
+  text-transform:uppercase; color:var(--cyan); margin-bottom:12px;
+  text-shadow:0 0 14px var(--glow-cyan); }
 .hero-title { font-family:'Barlow Condensed',-apple-system,'PingFang SC',sans-serif;
-  font-size:78px; font-weight:800; line-height:0.98; letter-spacing:1px;
-  background:linear-gradient(115deg,#fff8e6 0%,#ffe9a8 18%,var(--gold3) 40%,var(--gold) 60%,#e09a2b 85%,var(--gold3) 100%);
-  background-size:200% 100%; -webkit-background-clip:text; background-clip:text;
-  -webkit-text-fill-color:transparent; text-transform:uppercase; animation:shine 5s ease-in-out infinite; }
+  font-size:82px; font-weight:800; line-height:0.98; letter-spacing:1px;
+  background:linear-gradient(115deg,#fff6df 0%,#ffeaa6 20%,var(--gold) 45%,#e09a2b 70%,var(--gold3) 100%);
+  background-size:220% 100%; -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; text-transform:uppercase; animation:shine 5s ease-in-out infinite;
+  filter:drop-shadow(0 0 22px rgba(245,192,74,0.25)); }
 @keyframes shine { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
-.hero-title .cn { font-size:44px; -webkit-text-fill-color:var(--text); letter-spacing:3px; }
-.hero-sub { display:flex; gap:16px; flex-wrap:wrap; margin-top:16px; color:var(--dim); font-size:13px; }
+.hero-title .cn { font-size:46px; -webkit-text-fill-color:var(--text); letter-spacing:4px;
+  filter:none; text-shadow:0 2px 18px rgba(0,0,0,0.6); }
+.hero-sub { display:flex; gap:16px; flex-wrap:wrap; margin-top:18px; color:var(--dim); font-size:13px; }
 .hero-sub .dot { color:var(--dim2); }
 
 /* ===== 统计带 ===== */
-.statbar { width:100%; max-width:1800px; margin:0 auto; padding:0 40px; }
-.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--border);
-  border:1px solid var(--border); border-radius:0 0 12px 12px; overflow:hidden; }
+.statbar { position:relative; z-index:1; width:100%; max-width:1800px; margin:-1px auto 0; padding:0 40px; }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
 @media (max-width:760px) { .stats { grid-template-columns:repeat(2,1fr); } }
-.stat { background:var(--card); padding:20px 26px; }
-.stat-num { font-family:'Barlow Condensed',sans-serif; font-size:36px; font-weight:800; color:var(--gold); line-height:1; }
-.stat-label { color:var(--dim2); font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:6px; }
+.stat { position:relative; padding:22px 24px; border-radius:12px;
+  background:linear-gradient(160deg,var(--card2),var(--card));
+  border:1px solid var(--glass-border);
+  box-shadow:inset 0 1px 0 var(--glass-high), 0 10px 30px -18px rgba(0,0,0,0.8);
+  backdrop-filter:blur(12px); overflow:hidden; }
+.stat::before { content:""; position:absolute; top:0; left:0; right:0; height:2px;
+  background:linear-gradient(90deg,var(--gold),var(--cyan),transparent); opacity:0.8; }
+.stat-num { font-family:'Barlow Condensed',sans-serif; font-size:40px; font-weight:800;
+  color:var(--gold); line-height:1; text-shadow:0 0 18px var(--glow-gold); }
+.stat-label { color:var(--dim2); font-size:11px; letter-spacing:2px; text-transform:uppercase; margin-top:7px; }
 
 /* ===== 主内容 ===== */
-.wrap { max-width:1800px; margin:0 auto; padding:26px 40px 52px;
-  display:grid; grid-template-columns:minmax(0,1fr) 380px; gap:24px; align-items:start; }
+.wrap { position:relative; z-index:1; max-width:1800px; margin:0 auto; padding:26px 40px 56px;
+  display:grid; grid-template-columns:minmax(0,1fr) 400px; gap:22px; align-items:start; }
 @media (max-width:1100px) { .wrap { grid-template-columns:1fr; } }
-.main-col, .side-col { display:flex; flex-direction:column; gap:24px; min-width:0; }
+.main-col, .side-col { display:flex; flex-direction:column; gap:22px; min-width:0; }
 
 /* ===== 领跑横幅 ===== */
 .leaders { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
 @media (max-width:760px) { .leaders { grid-template-columns:1fr; } }
-.leader-card { display:flex; align-items:center; gap:14px; padding:18px 16px;
-  background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid var(--border);
-  border-radius:10px; position:relative; overflow:hidden; }
+.leader-card { display:flex; align-items:center; gap:16px; padding:20px 18px;
+  background:linear-gradient(160deg,var(--card2),var(--card));
+  border:1px solid var(--glass-border); border-radius:12px; position:relative; overflow:hidden;
+  box-shadow:inset 0 1px 0 var(--glass-high), 0 12px 32px -20px rgba(0,0,0,0.8);
+  backdrop-filter:blur(12px); }
 .leader-card::after { content:""; position:absolute; top:0; left:0; right:0; height:2px;
-  background:linear-gradient(90deg,var(--gold),transparent); opacity:0.7; }
-.leader-medal { font-size:26px; }
-.leader-logo { width:44px; height:44px; }
-.leader-card .logo-ph { width:44px; height:44px; font-size:18px; }
-.leader-name { font-weight:700; font-size:16px; }
-.leader-rec { font-family:'JetBrains Mono',monospace; color:var(--gold); font-size:14px; margin-top:2px; }
+  background:linear-gradient(90deg,var(--gold),transparent); opacity:0.85; }
+.leader-medal { font-size:30px; filter:drop-shadow(0 0 12px var(--glow-gold)); }
+.leader-logo { width:56px; height:56px;
+  filter:drop-shadow(0 0 14px var(--glow-gold)) drop-shadow(0 4px 8px rgba(0,0,0,0.7)); }
+.leader-card .logo-ph { width:56px; height:56px; font-size:22px; }
+.leader-name { font-weight:700; font-size:17px; }
+.leader-rec { font-family:'JetBrains Mono',monospace; color:var(--gold); font-size:14px; margin-top:3px; }
 
-/* ===== CARD ===== */
-.card { position:relative; background:linear-gradient(180deg,var(--card2) 0%,var(--card) 100%);
-  border:1px solid var(--border); border-radius:10px; padding:20px 22px; overflow:hidden; }
-.card::before { content:""; position:absolute; top:0; left:0; width:3px; height:100%;
-  background:linear-gradient(180deg,var(--gold),transparent 70%); }
-.card-title { font-family:'Barlow Condensed',-apple-system,sans-serif; font-size:20px; font-weight:700;
-  letter-spacing:0.5px; color:var(--gold); margin-bottom:14px; display:flex; align-items:center; gap:10px; }
-.title-num { font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--dim2);
-  border:1px solid var(--border2); border-radius:4px; padding:2px 7px; }
+/* ===== CARD (玻璃拟态) ===== */
+.card { position:relative;
+  background:linear-gradient(165deg,var(--card2) 0%,var(--card) 100%);
+  border:1px solid var(--glass-border); border-radius:14px; padding:22px 24px;
+  box-shadow:inset 0 1px 0 var(--glass-high), 0 16px 40px -24px rgba(0,0,0,0.85);
+  backdrop-filter:blur(14px); overflow:hidden; }
+.card::before { content:""; position:absolute; top:0; left:0; width:4px; height:100%;
+  background:linear-gradient(180deg,var(--gold),var(--cyan) 60%,transparent); opacity:0.7; }
+.card-title { font-family:'Barlow Condensed',-apple-system,sans-serif; font-size:21px; font-weight:700;
+  letter-spacing:0.5px; color:var(--gold); margin-bottom:16px; display:flex; align-items:center; gap:10px;
+  text-shadow:0 0 14px var(--glow-gold); }
+.title-num { font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--cyan);
+  border:1px solid rgba(56,224,208,0.35); border-radius:4px; padding:2px 7px; background:rgba(56,224,208,0.06); }
 
 /* ===== 图例 ===== */
-.legend { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:12px; font-size:12px; color:var(--dim); }
-.lg-win { color:var(--green); }
-.lg-lose { color:var(--red); }
-.lg-tie { color:var(--gold); }
-.lg-cn { color:var(--red); }
+.legend { display:flex; gap:18px; flex-wrap:wrap; margin-bottom:14px; font-size:12px; color:var(--dim); }
+.lg-win { color:var(--green); } .lg-lose { color:var(--red); } .lg-tie { color:var(--gold); } .lg-cn { color:var(--red); }
 
 /* ===== Swiss 横向对阵表 ===== */
 .table-scroll { overflow-x:auto; margin:0 -6px; padding:0 6px; }
 table.swiss { width:100%; border-collapse:separate; border-spacing:0; min-width:720px; }
-table.swiss th { text-align:left; padding:8px 8px; color:var(--dim2); font-size:11px; font-weight:500;
-  letter-spacing:1px; text-transform:uppercase; border-bottom:1px solid var(--border2); white-space:nowrap; }
+table.swiss th { text-align:left; padding:9px 8px; color:var(--dim2); font-size:11px; font-weight:500;
+  letter-spacing:1px; text-transform:uppercase; border-bottom:1px solid rgba(255,255,255,0.10); white-space:nowrap; }
 table.swiss th.th-round { text-align:center; }
-table.swiss td { padding:7px 8px; border-bottom:1px solid var(--border); font-size:14px; }
+table.swiss td { padding:8px 8px; border-bottom:1px solid rgba(255,255,255,0.05); font-size:14px; }
 table.swiss tr:last-child td { border-bottom:none; }
-tr.cn-row td { background:rgba(255,77,79,0.06); }
+tr.cn-row td { background:rgba(255,77,94,0.07); }
 tr.cn-row td:first-child { box-shadow:inset 3px 0 0 var(--red); }
-tr:hover td { background:rgba(255,255,255,0.025); }
-.td-rank { width:44px; text-align:center; }
-.rank-badge { display:inline-flex; width:26px; height:26px; align-items:center; justify-content:center;
-  border-radius:6px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px; }
-.rank-gold { background:linear-gradient(135deg,#f5d489,#d4a53c); color:#3a2800; box-shadow:0 0 12px rgba(232,179,75,0.45); }
-.rank-silver { background:linear-gradient(135deg,#dfe6f2,#9aa7bd); color:#2a3342; }
-.rank-bronze { background:linear-gradient(135deg,#e8b587,#c07a3a); color:#3a2008; }
-.rank-num { display:inline-flex; width:26px; height:26px; align-items:center; justify-content:center;
+tr:hover td { background:rgba(255,255,255,0.035); }
+.td-rank { width:46px; text-align:center; }
+.rank-badge { display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center;
+  border-radius:7px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px; }
+.rank-gold { background:linear-gradient(135deg,#ffe9a8,#e0a52e); color:#3a2800;
+  box-shadow:0 0 16px var(--glow-gold), inset 0 1px 0 rgba(255,255,255,0.6); }
+.rank-silver { background:linear-gradient(135deg,#e6ecf7,#8a9ab5); color:#25304a;
+  box-shadow:0 0 10px rgba(180,195,220,0.35); }
+.rank-bronze { background:linear-gradient(135deg,#f0c195,#c07a3a); color:#3a2008;
+  box-shadow:0 0 10px rgba(220,150,80,0.35); }
+.rank-num { display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center;
   color:var(--dim); font-family:'JetBrains Mono',monospace; font-size:13px; }
-.td-team { display:flex; align-items:center; gap:9px; white-space:nowrap; }
-.logo { width:26px; height:26px; object-fit:contain; filter:drop-shadow(0 1px 2px rgba(0,0,0,0.5)); }
-.logo-ph { display:inline-flex; width:26px; height:26px; align-items:center; justify-content:center;
-  border-radius:50%; font-size:12px; font-weight:700; flex:none; color:#fff; }
-.tname { font-weight:500; }
-.cn-flag { font-size:12px; }
+.td-team { display:flex; align-items:center; gap:11px; white-space:nowrap; }
+.logo { width:34px; height:34px; object-fit:contain;
+  filter:drop-shadow(0 0 10px rgba(245,192,74,0.35)) drop-shadow(0 0 3px rgba(255,255,255,0.35)) drop-shadow(0 3px 6px rgba(0,0,0,0.7)); }
+.logo-ph { display:inline-flex; width:34px; height:34px; align-items:center; justify-content:center;
+  border-radius:50%; font-size:14px; font-weight:700; flex:none; color:#fff;
+  box-shadow:0 0 12px rgba(255,255,255,0.2), inset 0 0 8px rgba(255,255,255,0.15); }
+.tname { font-weight:600; }
+.cn-flag { font-size:13px; }
 .td-score { font-family:'JetBrains Mono',monospace; font-variant-numeric:tabular-nums; font-weight:700; font-size:14px; white-space:nowrap; }
 .td-score .dash { color:var(--dim2); margin:0 2px; }
 .td-score.dim { color:var(--dim2); font-weight:500; }
 
 .td-round { text-align:center; padding:4px 5px !important; }
 .rc { display:inline-flex; flex-direction:column; align-items:center; justify-content:center;
-  min-width:64px; padding:5px 8px; border-radius:6px; border:1px solid var(--border); }
-.rc-opp { font-size:12px; color:var(--dim); white-space:nowrap; max-width:90px; overflow:hidden; text-overflow:ellipsis; }
+  min-width:66px; padding:6px 9px; border-radius:7px; border:1px solid rgba(255,255,255,0.10); }
+.rc-opp { font-size:12px; color:var(--dim); white-space:nowrap; max-width:92px; overflow:hidden; text-overflow:ellipsis; }
 .rc-score { font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; }
-.rc-win { background:rgba(52,211,153,0.12); border-color:rgba(52,211,153,0.4); }
+.rc-win { background:rgba(61,220,151,0.12); border-color:rgba(61,220,151,0.4); box-shadow:0 0 12px rgba(61,220,151,0.12); }
 .rc-win .rc-score { color:var(--green); }
-.rc-lose { background:rgba(255,77,79,0.10); border-color:rgba(255,77,79,0.35); }
+.rc-lose { background:rgba(255,77,94,0.10); border-color:rgba(255,77,94,0.35); }
 .rc-lose .rc-score { color:var(--red); }
-.rc-tie { background:rgba(232,179,75,0.10); border-color:rgba(232,179,75,0.35); }
+.rc-tie { background:rgba(245,192,74,0.10); border-color:rgba(245,192,74,0.35); }
 .rc-tie .rc-score { color:var(--gold); }
-.rc-pending { border-style:dashed; }
+.rc-pending { border-style:dashed; border-color:rgba(255,255,255,0.15); }
 .rc-pending .rc-score { color:var(--gold); }
 .rc-empty { color:var(--dim2); }
 
 /* ===== 对阵卡片 ===== */
 .match-card { display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:16px;
-  padding:14px 12px; border-bottom:1px solid var(--border); }
+  padding:16px 12px; border-bottom:1px solid rgba(255,255,255,0.06); }
 .match-card:last-child { border-bottom:none; }
-.match-card.is-done { opacity:0.8; }
-.mc-side { display:flex; align-items:center; gap:10px; }
+.match-card.is-done { opacity:0.85; }
+.mc-side { display:flex; align-items:center; gap:12px; }
 .mc-side.right { justify-content:flex-end; flex-direction:row-reverse; }
-.mc-logo { width:34px; height:34px; }
-.mc-side .logo-ph { width:34px; height:34px; font-size:15px; }
-.mc-team { font-weight:600; font-size:15px; }
-.mc-mid { text-align:center; min-width:70px; }
-.mc-time { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--dim2); margin-bottom:2px; }
-.mc-vs { font-family:'Barlow Condensed',sans-serif; font-size:20px; font-weight:800; color:var(--dim); }
-.mc-score { font-family:'JetBrains Mono',monospace; font-size:20px; font-weight:700; color:var(--gold);
-  text-shadow:0 0 14px rgba(232,179,75,0.4); }
+.mc-logo { width:42px; height:42px; }
+.mc-side .logo-ph { width:42px; height:42px; font-size:17px; }
+.mc-team { font-weight:600; font-size:16px; }
+.mc-mid { text-align:center; min-width:76px; }
+.mc-time { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--dim2); margin-bottom:3px; }
+.mc-vs { font-family:'Barlow Condensed',sans-serif; font-size:22px; font-weight:800;
+  color:var(--cyan); text-shadow:0 0 12px var(--glow-cyan); }
+.mc-score { font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:700; color:var(--gold);
+  text-shadow:0 0 16px var(--glow-gold); }
 .mc-score .dash { color:var(--dim2); }
 
 /* ===== 昨日 match-row ===== */
-.match-row { display:flex; align-items:center; gap:12px; padding:9px 2px; border-bottom:1px solid var(--border); }
+.match-row { display:flex; align-items:center; gap:12px; padding:10px 2px; border-bottom:1px solid rgba(255,255,255,0.06); }
 .match-row:last-child { border-bottom:none; }
-.match-score { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:16px; color:var(--gold);
-  min-width:40px; text-shadow:0 0 14px rgba(232,179,75,0.35); }
+.match-score { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:17px; color:var(--gold);
+  min-width:42px; text-shadow:0 0 14px var(--glow-gold); }
 .match-teams { font-size:14px; flex:1; }
 .match-teams .vs { color:var(--dim2); font-size:12px; margin:0 4px; }
 .match-win { color:var(--green); font-size:13px; font-weight:600; }
 
 /* ===== 选手榜 ===== */
-.prow { display:flex; align-items:center; gap:9px; padding:8px 2px; border-bottom:1px solid var(--border); font-size:14px; }
+.prow { display:flex; align-items:center; gap:10px; padding:9px 2px; border-bottom:1px solid rgba(255,255,255,0.06); font-size:14px; }
 .prow:last-child { border-bottom:none; }
 .p-rank { font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--gold); font-weight:700; width:16px; }
-.pname { font-weight:600; display:inline-flex; align-items:center; gap:6px; }
-.pname .logo, .pname .logo-ph { width:20px; height:20px; }
+.pname { font-weight:600; display:inline-flex; align-items:center; gap:7px; }
+.pname .logo, .pname .logo-ph { width:24px; height:24px; }
 .pteam { color:var(--dim2); font-size:12px; margin-left:2px; }
 .pval { font-family:'JetBrains Mono',monospace; color:var(--gold); font-weight:700; margin-left:auto;
-  text-shadow:0 0 12px rgba(232,179,75,0.3); }
+  text-shadow:0 0 12px var(--glow-gold); }
 .punit { font-size:11px; color:var(--dim); }
 .cntag { color:var(--red); font-size:11px; font-weight:700; }
-.team-tag { display:inline-block; background:rgba(255,77,79,0.15); border:1px solid rgba(255,77,79,0.35);
+.team-tag { display:inline-block; background:rgba(255,77,94,0.15); border:1px solid rgba(255,77,94,0.4);
   border-radius:4px; padding:0 5px; margin-right:2px; }
 
 /* ===== 中国选手指标卡 ===== */
-.pcard { padding:12px 2px; border-bottom:1px solid var(--border); }
+.pcard { padding:14px 2px; border-bottom:1px solid rgba(255,255,255,0.06); }
 .pcard:last-child { border-bottom:none; }
-.pcard-head { display:flex; align-items:center; gap:8px; }
-.pcard-head .logo, .pcard-head .logo-ph { width:22px; height:22px; }
-.pcard-name { font-weight:700; font-size:15px; }
-.pcard-kda { font-family:'JetBrains Mono',monospace; color:var(--gold); font-weight:700; font-size:15px;
-  margin-left:auto; text-shadow:0 0 12px rgba(232,179,75,0.3); }
-.pcard-meta { color:var(--dim2); font-size:11px; margin:3px 0 8px; font-family:'JetBrains Mono',monospace; }
+.pcard-head { display:flex; align-items:center; gap:9px; }
+.pcard-head .logo, .pcard-head .logo-ph { width:28px; height:28px; }
+.pcard-name { font-weight:700; font-size:16px; }
+.pcard-kda { font-family:'JetBrains Mono',monospace; color:var(--gold); font-weight:700; font-size:16px;
+  margin-left:auto; text-shadow:0 0 14px var(--glow-gold); }
+.pcard-meta { color:var(--dim2); font-size:11px; margin:4px 0 9px; font-family:'JetBrains Mono',monospace; }
 .pcard-stats { display:grid; grid-template-columns:repeat(5,1fr); gap:8px; }
-.ps { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:6px;
-  padding:7px 4px; text-align:center; }
+.ps { background:rgba(255,255,255,0.035); border:1px solid var(--glass-border); border-radius:7px;
+  padding:8px 4px; text-align:center; }
 .ps-num { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:14px; color:var(--text); }
-.ps-lbl { font-size:10px; color:var(--dim2); margin-top:2px; letter-spacing:0.5px; }
+.ps-lbl { font-size:10px; color:var(--dim2); margin-top:3px; letter-spacing:0.5px; }
 
 /* ===== ANALYSIS ===== */
-.card-analysis { border-color:var(--gold2); }
-.card-analysis::before { background:linear-gradient(180deg,var(--gold),var(--red) 100%); }
+.card-analysis { border-color:rgba(245,192,74,0.35); }
+.card-analysis::before { background:linear-gradient(180deg,var(--gold),var(--red)); }
 .analysis-body { font-size:14px; }
-.analysis-body h3 { font-family:'Barlow Condensed',sans-serif; color:var(--text); font-size:16px;
-  font-weight:700; margin:14px 0 7px; padding-left:8px; border-left:2px solid var(--red); }
+.analysis-body h3 { font-family:'Barlow Condensed',sans-serif; color:var(--text); font-size:17px;
+  font-weight:700; margin:14px 0 7px; padding-left:9px; border-left:2px solid var(--red); }
 .analysis-body h3:first-child { margin-top:0; }
 .analysis-body p { margin:6px 0; }
 .analysis-body ul { padding-left:20px; }
 .analysis-body li { margin:5px 0; }
 .analysis-body strong { color:var(--gold3); }
-.analysis-body code { font-family:'JetBrains Mono',monospace; background:rgba(255,255,255,0.06);
+.analysis-body code { font-family:'JetBrains Mono',monospace; background:rgba(255,255,255,0.07);
   padding:1px 5px; border-radius:4px; font-size:12px; }
 
 /* ===== MISC ===== */
 .muted { color:var(--dim2); font-size:13px; padding:4px 0; }
 .dim2 { color:var(--dim2); }
-.footer { text-align:center; color:var(--dim2); font-size:11px; margin-top:26px;
+.footer { position:relative; z-index:1; text-align:center; color:var(--dim2); font-size:11px; margin-top:8px;
   font-family:'JetBrains Mono',monospace; letter-spacing:1px; }
 </style>
 </head>
@@ -402,10 +442,9 @@ function renderAnalysis(d){
   document.getElementById('analysisBody').innerHTML=mdToHtml(d.analysis);
 }
 function renderPlayerTop(d){
-  // 从 standings 构建 team -> logo_file 映射
   const logoMap={};
   for(const s of (d.standings||[])) logoMap[s.team]=s.logo_file;
-  const teamLogo=t=>logoMap[(t||"").trim()]||logoMap[(t||"").trim()+" "]; // 兼容尾空格
+  const teamLogo=t=>logoMap[(t||"").trim()]||logoMap[(t||"").trim()+" "];
   const ps=Object.values(d.player_stats||{});
   const multi=ps.filter(s=>s.games>=2);
   const kill=multi.slice().sort((a,b)=>b.kills/b.games-a.kills/a.games).slice(0,3);
