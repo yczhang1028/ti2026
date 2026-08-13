@@ -1,0 +1,1402 @@
+{
+  "now": "2026-08-13 14:30",
+  "standings": [
+    {
+      "rank": 1,
+      "team": "Iron Wing",
+      "match": "1-0",
+      "game": "2-0",
+      "logo": "/commons/images/thumb/3/3c/Iron_Wing_allmode.png/58px-Iron_Wing_allmode.png",
+      "logo_file": "Iron_Wing.png"
+    },
+    {
+      "rank": 1,
+      "team": "BoomBoys",
+      "match": "1-0",
+      "game": "2-0",
+      "logo": "/commons/images/thumb/0/05/BoomBoys_allmode.png/78px-BoomBoys_allmode.png",
+      "logo_file": "BoomBoys.png"
+    },
+    {
+      "rank": 3,
+      "team": "Team Falcons",
+      "match": "0-0",
+      "game": "1-1",
+      "logo": "/commons/images/thumb/8/83/Team_Falcons_2022_allmode.png/41px-Team_Falcons_2022_allmode.png",
+      "logo_file": "Team_Falcons.png"
+    },
+    {
+      "rank": 3,
+      "team": "LGD Gaming",
+      "match": "0-0",
+      "game": "1-1",
+      "logo": "/commons/images/thumb/2/2f/LGD_Gaming_Dec_2019_allmode.png/50px-LGD_Gaming_Dec_2019_allmode.png",
+      "logo_file": "LGD_Gaming.png"
+    },
+    {
+      "rank": 3,
+      "team": "TEAM VISION",
+      "match": "0-0",
+      "game": "1-0",
+      "logo": "/commons/images/thumb/5/55/TEAM_VISION_allmode.png/52px-TEAM_VISION_allmode.png",
+      "logo_file": "TEAM_VISION.png"
+    },
+    {
+      "rank": 3,
+      "team": "Team Resilience",
+      "match": "0-0",
+      "game": "0-1",
+      "logo": "/commons/images/thumb/b/bd/Team_Resilience_%28DOTA2%29_lightmode.png/79px-Team_Resilience_%28DOTA2%29_lightmode.png",
+      "logo_file": "Team_Resilience.png"
+    },
+    {
+      "rank": 3,
+      "team": "Team Spirit",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/6/66/Team_Spirit_2022_lightmode.png/43px-Team_Spirit_2022_lightmode.png",
+      "logo_file": "Team_Spirit.png"
+    },
+    {
+      "rank": 3,
+      "team": "Xtreme Gaming",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/7/72/Xtreme_Gaming_%28China%29_allmode.png/50px-Xtreme_Gaming_%28China%29_allmode.png",
+      "logo_file": "Xtreme_Gaming.png"
+    },
+    {
+      "rank": 3,
+      "team": "Team Liquid",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/0/01/Team_Liquid_2024_lightmode.png/44px-Team_Liquid_2024_lightmode.png",
+      "logo_file": "Team_Liquid.png"
+    },
+    {
+      "rank": 3,
+      "team": "Vici Gaming",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/c/ce/VICI_Gaming_allmode.png/49px-VICI_Gaming_allmode.png",
+      "logo_file": "Vici_Gaming.png"
+    },
+    {
+      "rank": 3,
+      "team": "Aurora Gaming",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/1/1c/Aurora_Gaming_2025_allmode.png/50px-Aurora_Gaming_2025_allmode.png",
+      "logo_file": "Aurora_Gaming.png"
+    },
+    {
+      "rank": 3,
+      "team": "GamerLegion",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/2/21/GamerLegion_2026_allmode.png/49px-GamerLegion_2026_allmode.png",
+      "logo_file": "GamerLegion.png"
+    },
+    {
+      "rank": 3,
+      "team": "Team Yandex",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/9/9c/Team_Yandex_2026_lightmode.png/56px-Team_Yandex_2026_lightmode.png",
+      "logo_file": "Team_Yandex.png"
+    },
+    {
+      "rank": 3,
+      "team": "HULIGANI",
+      "match": "0-0",
+      "game": "0-0",
+      "logo": "/commons/images/thumb/8/81/HULIGANI_allmode.png/100px-HULIGANI_allmode.png",
+      "logo_file": "HULIGANI.png"
+    },
+    {
+      "rank": 15,
+      "team": "Nigma Galaxy",
+      "match": "0-1",
+      "game": "0-2",
+      "logo": "/commons/images/thumb/6/67/Nigma_Galaxy_allmode.png/50px-Nigma_Galaxy_allmode.png",
+      "logo_file": "Nigma_Galaxy_.png"
+    },
+    {
+      "rank": 15,
+      "team": "OG",
+      "match": "0-1",
+      "game": "0-2",
+      "logo": "/commons/images/thumb/7/7b/OG_2026_allmode.png/36px-OG_2026_allmode.png",
+      "logo_file": "OG.png"
+    }
+  ],
+  "yest_done": [],
+  "today": [
+    {
+      "round": "Round 1",
+      "t1": "Team Falcons",
+      "t2": "LGD Gaming",
+      "date_raw": "August 13, 2026 - 11:00 {{Abbr/CST}}",
+      "t1_score": 1,
+      "t2_score": 1,
+      "finished": true,
+      "logo1": "Team_Falcons.png",
+      "logo2": "LGD_Gaming.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "Nigma Galaxy",
+      "t2": "Iron Wing",
+      "date_raw": "August 13, 2026 - 11:00 {{Abbr/CST}}",
+      "t1_score": 0,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "Nigma_Galaxy_.png",
+      "logo2": "Iron_Wing.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "BoomBoys",
+      "t2": "OG",
+      "date_raw": "August 13, 2026 - 11:30 {{Abbr/CST}}",
+      "t1_score": 1,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "BoomBoys.png",
+      "logo2": "OG.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "TEAM VISION",
+      "t2": "Team Resilience",
+      "date_raw": "August 13, 2026 - 11:30 {{Abbr/CST}}",
+      "t1_score": 1,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "TEAM_VISION.png",
+      "logo2": "Team_Resilience.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "Team Spirit",
+      "t2": "Xtreme Gaming",
+      "date_raw": "August 13, 2026 - 14:30 {{Abbr/CST}}",
+      "t1_score": 0,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "Team_Spirit.png",
+      "logo2": "Xtreme_Gaming.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "Team Liquid",
+      "t2": "Vici Gaming",
+      "date_raw": "August 13, 2026 - 14:00 {{Abbr/CST}}",
+      "t1_score": 0,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "Team_Liquid.png",
+      "logo2": "Vici_Gaming.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "Aurora",
+      "t2": "GamerLegion",
+      "date_raw": "August 13, 2026 - 14:00 {{Abbr/CST}}",
+      "t1_score": 0,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "Aurora_Gaming.png",
+      "logo2": "GamerLegion.png"
+    },
+    {
+      "round": "Round 1",
+      "t1": "Team Yandex",
+      "t2": "HULIGANI",
+      "date_raw": "August 13, 2026 - 14:00 {{Abbr/CST}}",
+      "t1_score": 0,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "Team_Yandex.png",
+      "logo2": "HULIGANI.png"
+    }
+  ],
+  "player_stats": {
+    "医者watson`": {
+      "name": "医者watson`",
+      "kills": 15,
+      "deaths": 1,
+      "assists": 11,
+      "games": 2,
+      "team": "Team Yandex",
+      "gpm": 1711,
+      "xpm": 1734,
+      "lh": 1031,
+      "hero_dmg": 54437,
+      "wins": 2
+    },
+    "chira_junior": {
+      "name": "CHIRA_JUNIOR",
+      "kills": 23,
+      "deaths": 2,
+      "assists": 19,
+      "games": 2,
+      "team": "Team Yandex",
+      "gpm": 1096,
+      "xpm": 1326,
+      "lh": 443,
+      "hero_dmg": 83645,
+      "wins": 2
+    },
+    "dm": {
+      "name": "DM",
+      "kills": 8,
+      "deaths": 5,
+      "assists": 32,
+      "games": 2,
+      "team": "Team Yandex",
+      "gpm": 1246,
+      "xpm": 1287,
+      "lh": 613,
+      "hero_dmg": 64530,
+      "wins": 2
+    },
+    "maladych": {
+      "name": "Maladych",
+      "kills": 5,
+      "deaths": 11,
+      "assists": 27,
+      "games": 2,
+      "team": "Team Yandex",
+      "gpm": 722,
+      "xpm": 997,
+      "lh": 177,
+      "hero_dmg": 22887,
+      "wins": 2
+    },
+    "saksa": {
+      "name": "Saksa",
+      "kills": 5,
+      "deaths": 9,
+      "assists": 32,
+      "games": 2,
+      "team": "Team Yandex",
+      "gpm": 810,
+      "xpm": 1026,
+      "lh": 143,
+      "hero_dmg": 22378,
+      "wins": 2
+    },
+    "mirage`雨": {
+      "name": "Mirage`雨",
+      "kills": 8,
+      "deaths": 9,
+      "assists": 15,
+      "games": 2,
+      "team": "HULIGANI",
+      "gpm": 944,
+      "xpm": 1028,
+      "lh": 554,
+      "hero_dmg": 77916,
+      "wins": 0
+    },
+    "sayuw": {
+      "name": "sayuw",
+      "kills": 4,
+      "deaths": 18,
+      "assists": 11,
+      "games": 2,
+      "team": "HULIGANI",
+      "gpm": 474,
+      "xpm": 531,
+      "lh": 90,
+      "hero_dmg": 22978,
+      "wins": 0
+    },
+    "respect": {
+      "name": "RESPECT",
+      "kills": 2,
+      "deaths": 13,
+      "assists": 18,
+      "games": 2,
+      "team": "HULIGANI",
+      "gpm": 512,
+      "xpm": 752,
+      "lh": 172,
+      "hero_dmg": 29473,
+      "wins": 0
+    },
+    "ssnovv1": {
+      "name": "ssnovv1",
+      "kills": 9,
+      "deaths": 7,
+      "assists": 8,
+      "games": 2,
+      "team": "HULIGANI",
+      "gpm": 1351,
+      "xpm": 1400,
+      "lh": 969,
+      "hero_dmg": 56029,
+      "wins": 0
+    },
+    "corrupted": {
+      "name": "Corrupted",
+      "kills": 3,
+      "deaths": 10,
+      "assists": 11,
+      "games": 2,
+      "team": "HULIGANI",
+      "gpm": 978,
+      "xpm": 1226,
+      "lh": 688,
+      "hero_dmg": 43301,
+      "wins": 0
+    },
+    "mira": {
+      "name": "Mira",
+      "kills": 6,
+      "deaths": 15,
+      "assists": 38,
+      "games": 2,
+      "team": "Aurora Gaming",
+      "gpm": 760,
+      "xpm": 1333,
+      "lh": 249,
+      "hero_dmg": 35908,
+      "wins": 2
+    },
+    "mikoto": {
+      "name": "Mikoto",
+      "kills": 24,
+      "deaths": 4,
+      "assists": 26,
+      "games": 2,
+      "team": "Aurora Gaming",
+      "gpm": 1468,
+      "xpm": 1848,
+      "lh": 1229,
+      "hero_dmg": 109842,
+      "wins": 2
+    },
+    "ws`": {
+      "name": "Ws`",
+      "kills": 17,
+      "deaths": 11,
+      "assists": 23,
+      "games": 2,
+      "team": "Aurora Gaming",
+      "gpm": 1418,
+      "xpm": 1670,
+      "lh": 1134,
+      "hero_dmg": 87674,
+      "wins": 2
+    },
+    "kaori": {
+      "name": "kaori",
+      "kills": 6,
+      "deaths": 14,
+      "assists": 33,
+      "games": 2,
+      "team": "Aurora Gaming",
+      "gpm": 742,
+      "xpm": 1242,
+      "lh": 188,
+      "hero_dmg": 45858,
+      "wins": 2
+    },
+    "nightfall": {
+      "name": "Nightfall",
+      "kills": 17,
+      "deaths": 8,
+      "assists": 27,
+      "games": 2,
+      "team": "Aurora Gaming",
+      "gpm": 1433,
+      "xpm": 1761,
+      "lh": 1197,
+      "hero_dmg": 74795,
+      "wins": 2
+    },
+    "ghost": {
+      "name": "Ghost",
+      "kills": 12,
+      "deaths": 12,
+      "assists": 15,
+      "games": 2,
+      "team": "GamerLegion",
+      "gpm": 1345,
+      "xpm": 1711,
+      "lh": 1328,
+      "hero_dmg": 97850,
+      "wins": 0
+    },
+    "speeed": {
+      "name": "Speeed",
+      "kills": 12,
+      "deaths": 20,
+      "assists": 28,
+      "games": 2,
+      "team": "GamerLegion",
+      "gpm": 715,
+      "xpm": 957,
+      "lh": 344,
+      "hero_dmg": 49016,
+      "wins": 0
+    },
+    "rcy": {
+      "name": "RCY",
+      "kills": 15,
+      "deaths": 10,
+      "assists": 26,
+      "games": 2,
+      "team": "GamerLegion",
+      "gpm": 1186,
+      "xpm": 1451,
+      "lh": 933,
+      "hero_dmg": 117569,
+      "wins": 0
+    },
+    "fayde": {
+      "name": "Fayde",
+      "kills": 7,
+      "deaths": 11,
+      "assists": 23,
+      "games": 2,
+      "team": "GamerLegion",
+      "gpm": 1126,
+      "xpm": 1447,
+      "lh": 984,
+      "hero_dmg": 77666,
+      "wins": 0
+    },
+    "bignum": {
+      "name": "Bignum",
+      "kills": 6,
+      "deaths": 18,
+      "assists": 23,
+      "games": 2,
+      "team": "GamerLegion",
+      "gpm": 679,
+      "xpm": 925,
+      "lh": 181,
+      "hero_dmg": 30545,
+      "wins": 0
+    },
+    "shiro": {
+      "name": "shiro",
+      "kills": 14,
+      "deaths": 5,
+      "assists": 7,
+      "games": 2,
+      "team": "Vici Gaming",
+      "gpm": 1338,
+      "xpm": 1410,
+      "lh": 1210,
+      "hero_dmg": 46847,
+      "wins": 0
+    },
+    "xm": {
+      "name": "Xm",
+      "kills": 4,
+      "deaths": 14,
+      "assists": 19,
+      "games": 2,
+      "team": "Vici Gaming",
+      "gpm": 1011,
+      "xpm": 1360,
+      "lh": 792,
+      "hero_dmg": 64224,
+      "wins": 0
+    },
+    "bach": {
+      "name": "Bach",
+      "kills": 7,
+      "deaths": 10,
+      "assists": 10,
+      "games": 2,
+      "team": "Vici Gaming",
+      "gpm": 975,
+      "xpm": 1113,
+      "lh": 662,
+      "hero_dmg": 60079,
+      "wins": 0
+    },
+    "xinq": {
+      "name": "XinQ",
+      "kills": 2,
+      "deaths": 13,
+      "assists": 18,
+      "games": 2,
+      "team": "Vici Gaming",
+      "gpm": 597,
+      "xpm": 798,
+      "lh": 316,
+      "hero_dmg": 24766,
+      "wins": 0
+    },
+    "y`": {
+      "name": "y`",
+      "kills": 4,
+      "deaths": 22,
+      "assists": 12,
+      "games": 2,
+      "team": "Vici Gaming",
+      "gpm": 549,
+      "xpm": 787,
+      "lh": 81,
+      "hero_dmg": 22573,
+      "wins": 0
+    },
+    "tofu": {
+      "name": "tOfu",
+      "kills": 5,
+      "deaths": 7,
+      "assists": 31,
+      "games": 2,
+      "team": "Team Liquid",
+      "gpm": 665,
+      "xpm": 1085,
+      "lh": 127,
+      "hero_dmg": 44894,
+      "wins": 2
+    },
+    "ace ♠": {
+      "name": "Ace ♠",
+      "kills": 11,
+      "deaths": 7,
+      "assists": 32,
+      "games": 2,
+      "team": "Team Liquid",
+      "gpm": 1305,
+      "xpm": 1808,
+      "lh": 968,
+      "hero_dmg": 71242,
+      "wins": 2
+    },
+    "nisha": {
+      "name": "Nisha",
+      "kills": 17,
+      "deaths": 5,
+      "assists": 27,
+      "games": 2,
+      "team": "Team Liquid",
+      "gpm": 1337,
+      "xpm": 1717,
+      "lh": 1001,
+      "hero_dmg": 79952,
+      "wins": 2
+    },
+    "boxi": {
+      "name": "Boxi",
+      "kills": 6,
+      "deaths": 8,
+      "assists": 43,
+      "games": 2,
+      "team": "Team Liquid",
+      "gpm": 718,
+      "xpm": 1132,
+      "lh": 110,
+      "hero_dmg": 36292,
+      "wins": 2
+    },
+    "m1cke": {
+      "name": "m1CKe",
+      "kills": 24,
+      "deaths": 4,
+      "assists": 17,
+      "games": 2,
+      "team": "Team Liquid",
+      "gpm": 1632,
+      "xpm": 2044,
+      "lh": 1229,
+      "hero_dmg": 72361,
+      "wins": 2
+    },
+    "rue": {
+      "name": "rue",
+      "kills": 6,
+      "deaths": 9,
+      "assists": 29,
+      "games": 1,
+      "team": "Team Spirit",
+      "gpm": 377,
+      "xpm": 575,
+      "lh": 65,
+      "hero_dmg": 10914,
+      "wins": 1
+    },
+    "yatoro": {
+      "name": "Yatoro",
+      "kills": 6,
+      "deaths": 4,
+      "assists": 16,
+      "games": 1,
+      "team": "Team Spirit",
+      "gpm": 843,
+      "xpm": 1073,
+      "lh": 706,
+      "hero_dmg": 33089,
+      "wins": 1
+    },
+    "larl": {
+      "name": "Larl",
+      "kills": 22,
+      "deaths": 1,
+      "assists": 17,
+      "games": 1,
+      "team": "Team Spirit",
+      "gpm": 705,
+      "xpm": 1082,
+      "lh": 460,
+      "hero_dmg": 49492,
+      "wins": 1
+    },
+    "not_me": {
+      "name": "not_me",
+      "kills": 9,
+      "deaths": 7,
+      "assists": 27,
+      "games": 1,
+      "team": "Team Spirit",
+      "gpm": 386,
+      "xpm": 638,
+      "lh": 68,
+      "hero_dmg": 23112,
+      "wins": 1
+    },
+    "collapse": {
+      "name": "Collapse",
+      "kills": 5,
+      "deaths": 5,
+      "assists": 28,
+      "games": 1,
+      "team": "Team Spirit",
+      "gpm": 521,
+      "xpm": 894,
+      "lh": 321,
+      "hero_dmg": 19002,
+      "wins": 1
+    },
+    "ame": {
+      "name": "Ame",
+      "kills": 7,
+      "deaths": 9,
+      "assists": 11,
+      "games": 1,
+      "team": "Xtreme Gaming",
+      "gpm": 619,
+      "xpm": 814,
+      "lh": 464,
+      "hero_dmg": 50915,
+      "wins": 0
+    },
+    "nothingtosay": {
+      "name": "NothingToSay",
+      "kills": 7,
+      "deaths": 7,
+      "assists": 11,
+      "games": 1,
+      "team": "Xtreme Gaming",
+      "gpm": 653,
+      "xpm": 870,
+      "lh": 523,
+      "hero_dmg": 28527,
+      "wins": 0
+    },
+    "xxs": {
+      "name": "Xxs",
+      "kills": 7,
+      "deaths": 8,
+      "assists": 13,
+      "games": 1,
+      "team": "Xtreme Gaming",
+      "gpm": 543,
+      "xpm": 520,
+      "lh": 394,
+      "hero_dmg": 33291,
+      "wins": 0
+    },
+    "fy": {
+      "name": "fy",
+      "kills": 1,
+      "deaths": 12,
+      "assists": 19,
+      "games": 1,
+      "team": "Xtreme Gaming",
+      "gpm": 302,
+      "xpm": 550,
+      "lh": 83,
+      "hero_dmg": 10665,
+      "wins": 0
+    },
+    "xnova": {
+      "name": "xNova",
+      "kills": 3,
+      "deaths": 12,
+      "assists": 9,
+      "games": 1,
+      "team": "Xtreme Gaming",
+      "gpm": 287,
+      "xpm": 499,
+      "lh": 50,
+      "hero_dmg": 10293,
+      "wins": 0
+    },
+    "satanic": {
+      "name": "Satanic",
+      "kills": 47,
+      "deaths": 6,
+      "assists": 31,
+      "games": 3,
+      "team": "TEAM VISION",
+      "gpm": 2560,
+      "xpm": 3271,
+      "lh": 1688,
+      "hero_dmg": 110858,
+      "wins": 2
+    },
+    "noticed": {
+      "name": "Noticed",
+      "kills": 16,
+      "deaths": 7,
+      "assists": 57,
+      "games": 3,
+      "team": "TEAM VISION",
+      "gpm": 2003,
+      "xpm": 2491,
+      "lh": 1250,
+      "hero_dmg": 55381,
+      "wins": 2
+    },
+    "no[o]ne-": {
+      "name": "No[o]ne-",
+      "kills": 20,
+      "deaths": 15,
+      "assists": 46,
+      "games": 3,
+      "team": "TEAM VISION",
+      "gpm": 1772,
+      "xpm": 2363,
+      "lh": 1058,
+      "hero_dmg": 69619,
+      "wins": 2
+    },
+    "9class": {
+      "name": "9Class",
+      "kills": 19,
+      "deaths": 22,
+      "assists": 52,
+      "games": 3,
+      "team": "TEAM VISION",
+      "gpm": 1121,
+      "xpm": 1709,
+      "lh": 276,
+      "hero_dmg": 61262,
+      "wins": 2
+    },
+    "dukalis": {
+      "name": "Dukalis",
+      "kills": 13,
+      "deaths": 21,
+      "assists": 62,
+      "games": 3,
+      "team": "TEAM VISION",
+      "gpm": 1114,
+      "xpm": 1778,
+      "lh": 193,
+      "hero_dmg": 40740,
+      "wins": 2
+    },
+    "erika": {
+      "name": "erika",
+      "kills": 22,
+      "deaths": 23,
+      "assists": 22,
+      "games": 3,
+      "team": "Team Resilience",
+      "gpm": 1979,
+      "xpm": 2361,
+      "lh": 1346,
+      "hero_dmg": 100727,
+      "wins": 1
+    },
+    "echo": {
+      "name": "echo",
+      "kills": 19,
+      "deaths": 18,
+      "assists": 35,
+      "games": 3,
+      "team": "Team Resilience",
+      "gpm": 1591,
+      "xpm": 2110,
+      "lh": 801,
+      "hero_dmg": 103268,
+      "wins": 1
+    },
+    "niu": {
+      "name": "niu",
+      "kills": 20,
+      "deaths": 21,
+      "assists": 28,
+      "games": 3,
+      "team": "Team Resilience",
+      "gpm": 1596,
+      "xpm": 2070,
+      "lh": 837,
+      "hero_dmg": 73648,
+      "wins": 1
+    },
+    "planet": {
+      "name": "planet",
+      "kills": 4,
+      "deaths": 24,
+      "assists": 47,
+      "games": 3,
+      "team": "Team Resilience",
+      "gpm": 1025,
+      "xpm": 1480,
+      "lh": 252,
+      "hero_dmg": 40049,
+      "wins": 1
+    },
+    "zzq": {
+      "name": "zzq",
+      "kills": 6,
+      "deaths": 33,
+      "assists": 31,
+      "games": 3,
+      "team": "Team Resilience",
+      "gpm": 947,
+      "xpm": 1436,
+      "lh": 220,
+      "hero_dmg": 43405,
+      "wins": 1
+    },
+    "sneyking": {
+      "name": "Sneyking",
+      "kills": 13,
+      "deaths": 12,
+      "assists": 47,
+      "games": 3,
+      "team": "Team Falcons",
+      "gpm": 1221,
+      "xpm": 1760,
+      "lh": 337,
+      "hero_dmg": 46221,
+      "wins": 2
+    },
+    "skiter": {
+      "name": "skiter",
+      "kills": 20,
+      "deaths": 12,
+      "assists": 25,
+      "games": 3,
+      "team": "Team Falcons",
+      "gpm": 2092,
+      "xpm": 2596,
+      "lh": 1249,
+      "hero_dmg": 59610,
+      "wins": 2
+    },
+    "malr1ne": {
+      "name": "Malr1ne",
+      "kills": 29,
+      "deaths": 8,
+      "assists": 22,
+      "games": 3,
+      "team": "Team Falcons",
+      "gpm": 2016,
+      "xpm": 2502,
+      "lh": 1138,
+      "hero_dmg": 71471,
+      "wins": 2
+    },
+    "ammar_the_f": {
+      "name": "AMMAR_THE_F",
+      "kills": 19,
+      "deaths": 16,
+      "assists": 26,
+      "games": 3,
+      "team": "Team Falcons",
+      "gpm": 1965,
+      "xpm": 2642,
+      "lh": 1202,
+      "hero_dmg": 67945,
+      "wins": 2
+    },
+    "cr1t-": {
+      "name": "Cr1t-",
+      "kills": 7,
+      "deaths": 18,
+      "assists": 51,
+      "games": 3,
+      "team": "Team Falcons",
+      "gpm": 1020,
+      "xpm": 1578,
+      "lh": 164,
+      "hero_dmg": 40901,
+      "wins": 2
+    },
+    "yuma": {
+      "name": "Yuma",
+      "kills": 27,
+      "deaths": 12,
+      "assists": 19,
+      "games": 3,
+      "team": "LGD Gaming",
+      "gpm": 2026,
+      "xpm": 2588,
+      "lh": 1339,
+      "hero_dmg": 65774,
+      "wins": 1
+    },
+    "topson": {
+      "name": "Topson",
+      "kills": 11,
+      "deaths": 13,
+      "assists": 30,
+      "games": 3,
+      "team": "LGD Gaming",
+      "gpm": 1630,
+      "xpm": 2209,
+      "lh": 1051,
+      "hero_dmg": 63937,
+      "wins": 1
+    },
+    "wisper": {
+      "name": "Wisper",
+      "kills": 12,
+      "deaths": 17,
+      "assists": 28,
+      "games": 3,
+      "team": "LGD Gaming",
+      "gpm": 1980,
+      "xpm": 2399,
+      "lh": 1295,
+      "hero_dmg": 67292,
+      "wins": 1
+    },
+    "thiolicor": {
+      "name": "Thiolicor",
+      "kills": 9,
+      "deaths": 26,
+      "assists": 31,
+      "games": 3,
+      "team": "LGD Gaming",
+      "gpm": 926,
+      "xpm": 1216,
+      "lh": 157,
+      "hero_dmg": 26683,
+      "wins": 1
+    },
+    "kingjungles": {
+      "name": "KingJungles",
+      "kills": 7,
+      "deaths": 21,
+      "assists": 35,
+      "games": 3,
+      "team": "LGD Gaming",
+      "gpm": 938,
+      "xpm": 1236,
+      "lh": 159,
+      "hero_dmg": 37206,
+      "wins": 1
+    },
+    "yopaj-": {
+      "name": "Yopaj-",
+      "kills": 8,
+      "deaths": 7,
+      "assists": 7,
+      "games": 2,
+      "team": "OG",
+      "gpm": 1033,
+      "xpm": 1282,
+      "lh": 738,
+      "hero_dmg": 41474,
+      "wins": 0
+    },
+    "tims": {
+      "name": "TIMS",
+      "kills": 2,
+      "deaths": 12,
+      "assists": 11,
+      "games": 2,
+      "team": "OG",
+      "gpm": 550,
+      "xpm": 641,
+      "lh": 147,
+      "hero_dmg": 27108,
+      "wins": 0
+    },
+    "raven": {
+      "name": "Raven",
+      "kills": 0,
+      "deaths": 11,
+      "assists": 12,
+      "games": 2,
+      "team": "OG",
+      "gpm": 923,
+      "xpm": 843,
+      "lh": 616,
+      "hero_dmg": 38507,
+      "wins": 0
+    },
+    "skem": {
+      "name": "skem",
+      "kills": 2,
+      "deaths": 14,
+      "assists": 10,
+      "games": 2,
+      "team": "OG",
+      "gpm": 588,
+      "xpm": 726,
+      "lh": 166,
+      "hero_dmg": 22295,
+      "wins": 0
+    },
+    "natsumi": {
+      "name": "Natsumi",
+      "kills": 8,
+      "deaths": 7,
+      "assists": 5,
+      "games": 2,
+      "team": "OG",
+      "gpm": 1284,
+      "xpm": 1537,
+      "lh": 992,
+      "hero_dmg": 49313,
+      "wins": 0
+    },
+    "kiritych~": {
+      "name": "Kiritych~",
+      "kills": 15,
+      "deaths": 1,
+      "assists": 19,
+      "games": 2,
+      "team": "BoomBoys",
+      "gpm": 1713,
+      "xpm": 1762,
+      "lh": 1228,
+      "hero_dmg": 40456,
+      "wins": 2
+    },
+    "gpk~": {
+      "name": "gpk~",
+      "kills": 17,
+      "deaths": 3,
+      "assists": 14,
+      "games": 2,
+      "team": "BoomBoys",
+      "gpm": 1419,
+      "xpm": 1739,
+      "lh": 906,
+      "hero_dmg": 71429,
+      "wins": 2
+    },
+    "kataomi`": {
+      "name": "Kataomi`",
+      "kills": 4,
+      "deaths": 7,
+      "assists": 25,
+      "games": 2,
+      "team": "BoomBoys",
+      "gpm": 668,
+      "xpm": 867,
+      "lh": 99,
+      "hero_dmg": 12887,
+      "wins": 2
+    },
+    "miero": {
+      "name": "MieRo",
+      "kills": 9,
+      "deaths": 4,
+      "assists": 21,
+      "games": 2,
+      "team": "BoomBoys",
+      "gpm": 1248,
+      "xpm": 1520,
+      "lh": 730,
+      "hero_dmg": 34728,
+      "wins": 2
+    },
+    "save-": {
+      "name": "Save-",
+      "kills": 6,
+      "deaths": 5,
+      "assists": 28,
+      "games": 2,
+      "team": "BoomBoys",
+      "gpm": 698,
+      "xpm": 1046,
+      "lh": 136,
+      "hero_dmg": 25068,
+      "wins": 2
+    },
+    "sumail-": {
+      "name": "SumaiL-",
+      "kills": 8,
+      "deaths": 10,
+      "assists": 10,
+      "games": 2,
+      "team": "Nigma Galaxy ",
+      "gpm": 1363,
+      "xpm": 1581,
+      "lh": 1066,
+      "hero_dmg": 78667,
+      "wins": 0
+    },
+    "omar": {
+      "name": "OmaR",
+      "kills": 3,
+      "deaths": 27,
+      "assists": 14,
+      "games": 2,
+      "team": "Nigma Galaxy ",
+      "gpm": 529,
+      "xpm": 722,
+      "lh": 128,
+      "hero_dmg": 21331,
+      "wins": 0
+    },
+    "davai": {
+      "name": "Davai",
+      "kills": 4,
+      "deaths": 20,
+      "assists": 9,
+      "games": 2,
+      "team": "Nigma Galaxy ",
+      "gpm": 882,
+      "xpm": 1035,
+      "lh": 567,
+      "hero_dmg": 24183,
+      "wins": 0
+    },
+    "gh": {
+      "name": "GH",
+      "kills": 1,
+      "deaths": 17,
+      "assists": 18,
+      "games": 2,
+      "team": "Nigma Galaxy ",
+      "gpm": 491,
+      "xpm": 758,
+      "lh": 65,
+      "hero_dmg": 18731,
+      "wins": 0
+    },
+    "lorenof": {
+      "name": "lorenof",
+      "kills": 8,
+      "deaths": 12,
+      "assists": 8,
+      "games": 2,
+      "team": "Nigma Galaxy ",
+      "gpm": 1080,
+      "xpm": 1358,
+      "lh": 794,
+      "hero_dmg": 59669,
+      "wins": 0
+    },
+    "33": {
+      "name": "33",
+      "kills": 16,
+      "deaths": 3,
+      "assists": 41,
+      "games": 2,
+      "team": "Iron Wing",
+      "gpm": 1409,
+      "xpm": 1621,
+      "lh": 815,
+      "hero_dmg": 39192,
+      "wins": 2
+    },
+    "ari": {
+      "name": "Ari",
+      "kills": 16,
+      "deaths": 3,
+      "assists": 48,
+      "games": 2,
+      "team": "Iron Wing",
+      "gpm": 790,
+      "xpm": 1349,
+      "lh": 208,
+      "hero_dmg": 38394,
+      "wins": 2
+    },
+    "whitemon": {
+      "name": "Whitemon",
+      "kills": 10,
+      "deaths": 11,
+      "assists": 54,
+      "games": 2,
+      "team": "Iron Wing",
+      "gpm": 750,
+      "xpm": 1005,
+      "lh": 86,
+      "hero_dmg": 34742,
+      "wins": 2
+    },
+    "bzm": {
+      "name": "bzm",
+      "kills": 18,
+      "deaths": 3,
+      "assists": 50,
+      "games": 2,
+      "team": "Iron Wing",
+      "gpm": 1218,
+      "xpm": 1683,
+      "lh": 545,
+      "hero_dmg": 70272,
+      "wins": 2
+    },
+    "pure": {
+      "name": "Pure",
+      "kills": 26,
+      "deaths": 5,
+      "assists": 35,
+      "games": 2,
+      "team": "Iron Wing",
+      "gpm": 1597,
+      "xpm": 2104,
+      "lh": 972,
+      "hero_dmg": 82997,
+      "wins": 2
+    }
+  },
+  "cross": {
+    "rounds": [
+      "Round 1"
+    ],
+    "table": {
+      "Iron Wing": {
+        "Round 1": {
+          "opp": "Nigma Galaxy",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        }
+      },
+      "BoomBoys": {
+        "Round 1": {
+          "opp": "OG",
+          "my": 1,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Falcons": {
+        "Round 1": {
+          "opp": "LGD Gaming",
+          "my": 1,
+          "op": 1,
+          "fin": true
+        }
+      },
+      "LGD Gaming": {
+        "Round 1": {
+          "opp": "Team Falcons",
+          "my": 1,
+          "op": 1,
+          "fin": true
+        }
+      },
+      "TEAM VISION": {
+        "Round 1": {
+          "opp": "Team Resilience",
+          "my": 1,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Resilience": {
+        "Round 1": {
+          "opp": "TEAM VISION",
+          "my": 0,
+          "op": 1,
+          "fin": false
+        }
+      },
+      "Team Spirit": {
+        "Round 1": {
+          "opp": "Xtreme Gaming",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Xtreme Gaming": {
+        "Round 1": {
+          "opp": "Team Spirit",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Liquid": {
+        "Round 1": {
+          "opp": "Vici Gaming",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Vici Gaming": {
+        "Round 1": {
+          "opp": "Team Liquid",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Aurora Gaming": {
+        "Round 1": {
+          "opp": "GamerLegion",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "GamerLegion": {
+        "Round 1": {
+          "opp": "Aurora Gaming",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Yandex": {
+        "Round 1": {
+          "opp": "HULIGANI",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "HULIGANI": {
+        "Round 1": {
+          "opp": "Team Yandex",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Nigma Galaxy": {
+        "Round 1": {
+          "opp": "Iron Wing",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        }
+      },
+      "OG": {
+        "Round 1": {
+          "opp": "BoomBoys",
+          "my": 0,
+          "op": 1,
+          "fin": false
+        }
+      }
+    }
+  },
+  "analysis": "### 出线形势\n- **Iron Wing、BoomBoys** 首日 2-0 领跑，再取一胜基本锁定前 3 直通名额\n- **Nigma、OG** 首日 0-2 垫底，已站在淘汰边缘\n- **XG / VG / TR** 三支中国战队首轮未取大分，明日是关键抢分局\n\n### 今日看点\n- 中国队 **VG** 对阵 Liquid，是检验阵容强度的硬仗\n- **XG** 遭遇 Spirit，胜负将直接影响晋级节奏"
+}

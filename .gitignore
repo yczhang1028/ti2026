@@ -1,0 +1,4 @@
+# TI2026 站点 gitignore
+data/
+*.log
+__pycache__/
