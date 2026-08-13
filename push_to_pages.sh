@@ -24,11 +24,17 @@ echo "✓ pages 已配置"
 # 3. 推送
 cd "$HOME/hermes_share/ti2026"
 if [ ! -d .git ]; then
-  git init -q
+  git init -q -b main
   git remote add origin "https://x-access-token:${TOKEN}@github.com/$OWNER/$REPO.git"
+else
+  git remote set-url origin "https://x-access-token:${TOKEN}@github.com/$OWNER/$REPO.git"
+  # 若当前分支不是 main, 改名
+  CUR=$(git branch --show-current)
+  if [ "$CUR" != "main" ] && [ -n "$CUR" ]; then
+    git branch -m main 2>/dev/null || true
+  fi
 fi
-git remote set-url origin "https://x-access-token:${TOKEN}@github.com/$OWNER/$REPO.git"
 git add -A
-git commit -m "update $(date +%Y-%m-%d)" -q || true
-git push -u origin main 2>&1 | tail -3
+git -c user.name="yczhang1028" -c user.email="yczhang1028@users.noreply.github.com" commit -m "update $(date +%Y-%m-%d)" -q || true
+git push -u origin main 2>&1 | tail -5
 echo "✓ 已推送: https://$OWNER.github.io/$REPO/"
