@@ -750,5 +750,140 @@
       "games": 2,
       "team": "Iron Wing"
     }
+  },
+  "cross": {
+    "rounds": [
+      "Round 1"
+    ],
+    "table": {
+      "Iron Wing": {
+        "Round 1": {
+          "opp": "Nigma Galaxy",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        }
+      },
+      "BoomBoys": {
+        "Round 1": {
+          "opp": "OG",
+          "my": 1,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Falcons": {
+        "Round 1": {
+          "opp": "LGD Gaming",
+          "my": 1,
+          "op": 1,
+          "fin": true
+        }
+      },
+      "LGD Gaming": {
+        "Round 1": {
+          "opp": "Team Falcons",
+          "my": 1,
+          "op": 1,
+          "fin": true
+        }
+      },
+      "TEAM VISION": {
+        "Round 1": {
+          "opp": "Team Resilience",
+          "my": 1,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Resilience": {
+        "Round 1": {
+          "opp": "TEAM VISION",
+          "my": 0,
+          "op": 1,
+          "fin": false
+        }
+      },
+      "Team Spirit": {
+        "Round 1": {
+          "opp": "Xtreme Gaming",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Xtreme Gaming": {
+        "Round 1": {
+          "opp": "Team Spirit",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Liquid": {
+        "Round 1": {
+          "opp": "Vici Gaming",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Vici Gaming": {
+        "Round 1": {
+          "opp": "Team Liquid",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Aurora Gaming": {
+        "Round 1": {
+          "opp": "GamerLegion",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "GamerLegion": {
+        "Round 1": {
+          "opp": "Aurora Gaming",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Team Yandex": {
+        "Round 1": {
+          "opp": "HULIGANI",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "HULIGANI": {
+        "Round 1": {
+          "opp": "Team Yandex",
+          "my": 0,
+          "op": 0,
+          "fin": false
+        }
+      },
+      "Nigma Galaxy": {
+        "Round 1": {
+          "opp": "Iron Wing",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        }
+      },
+      "OG": {
+        "Round 1": {
+          "opp": "BoomBoys",
+          "my": 0,
+          "op": 1,
+          "fin": false
+        }
+      }
+    }
   }
 }
