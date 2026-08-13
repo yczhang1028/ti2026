@@ -160,7 +160,9 @@ tr:hover td { background:rgba(255,255,255,0.025); }
 .prow { display:flex; align-items:center; gap:9px; padding:8px 2px; border-bottom:1px solid var(--border); font-size:14px; }
 .prow:last-child { border-bottom:none; }
 .p-rank { font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--gold); font-weight:700; width:16px; }
-.pname { font-weight:600; }
+.pname { font-weight:600; display:inline-flex; align-items:center; gap:6px; }
+.pname .logo, .pname .logo-ph { width:20px; height:20px; }
+.pteam { color:var(--dim2); font-size:12px; margin-left:2px; }
 .pval { font-family:'JetBrains Mono',monospace; color:var(--gold); font-weight:700; margin-left:auto;
   text-shadow:0 0 12px rgba(232,179,75,0.3); }
 .punit { font-size:11px; color:var(--dim); }
@@ -172,6 +174,7 @@ tr:hover td { background:rgba(255,255,255,0.025); }
 .pcard { padding:12px 2px; border-bottom:1px solid var(--border); }
 .pcard:last-child { border-bottom:none; }
 .pcard-head { display:flex; align-items:center; gap:8px; }
+.pcard-head .logo, .pcard-head .logo-ph { width:22px; height:22px; }
 .pcard-name { font-weight:700; font-size:15px; }
 .pcard-kda { font-family:'JetBrains Mono',monospace; color:var(--gold); font-weight:700; font-size:15px;
   margin-left:auto; text-shadow:0 0 12px rgba(232,179,75,0.3); }
@@ -399,25 +402,33 @@ function renderAnalysis(d){
   document.getElementById('analysisBody').innerHTML=mdToHtml(d.analysis);
 }
 function renderPlayerTop(d){
+  // 从 standings 构建 team -> logo_file 映射
+  const logoMap={};
+  for(const s of (d.standings||[])) logoMap[s.team]=s.logo_file;
+  const teamLogo=t=>logoMap[(t||"").trim()]||logoMap[(t||"").trim()+" "]; // 兼容尾空格
   const ps=Object.values(d.player_stats||{});
   const multi=ps.filter(s=>s.games>=2);
-  const kill=multi.sort((a,b)=>b.kills/b.games-a.kills/a.games).slice(0,3);
-  const kdaT=multi.sort((a,b)=>kda(b)-kda(a)).slice(0,3);
-  document.getElementById('killTop').innerHTML = kill.map((s,i)=>`
-    <div class="prow"><span class="p-rank">${i+1}</span><span class="pname">${s.name}${playerIsCN(s.name)?` <span class="cntag">🇨🇳${playerTeam(s.name)}</span>`:""}</span>
-    <span class="pval">${(s.kills/s.games).toFixed(1)}<span class="punit">K</span></span></div>`).join("");
-  document.getElementById('kdaTop').innerHTML = kdaT.map((s,i)=>`
-    <div class="prow"><span class="p-rank">${i+1}</span><span class="pname">${s.name}${playerIsCN(s.name)?` <span class="cntag">🇨🇳${playerTeam(s.name)}</span>`:""}</span>
-    <span class="pval">${kda(s).toFixed(1)}</span></div>`).join("");
+  const kill=multi.slice().sort((a,b)=>b.kills/b.games-a.kills/a.games).slice(0,3);
+  const kdaT=multi.slice().sort((a,b)=>kda(b)-kda(a)).slice(0,3);
+  const row=(s,i,val,unit)=>`<div class="prow"><span class="p-rank">${i+1}</span>
+    <span class="pname">${teamLogo(s.team)?logoHTML(s.team.trim(),"",teamLogo(s.team)):logoHTML(s.team.trim(),"")}${s.name}</span>
+    <span class="pteam">${cn(s.team.trim())||s.team.trim()}</span>${playerIsCN(s.name)?` <span class="cntag">🇨🇳</span>`:""}
+    <span class="pval">${val}<span class="punit">${unit}</span></span></div>`;
+  document.getElementById('killTop').innerHTML = kill.map((s,i)=>row(s,i,(s.kills/s.games).toFixed(1),"K")).join("");
+  document.getElementById('kdaTop').innerHTML = kdaT.map((s,i)=>row(s,i,kda(s).toFixed(1),"")).join("");
 }
 function renderCNPlayers(d){
+  const logoMap={};
+  for(const s of (d.standings||[])) logoMap[s.team]=s.logo_file;
+  const teamLogo=t=>logoMap[(t||"").trim()]||logoMap[(t||"").trim()+" "];
   const ps=Object.values(d.player_stats||{}).filter(s=>playerIsCN(s.name));
   if(!ps.length){ document.getElementById('cnPlayers').innerHTML='<div class="muted">暂无中国选手比赛数据</div>'; return; }
   document.getElementById('cnPlayers').innerHTML = ps.sort((a,b)=>kda(b)-kda(a)).map(s=>{
     const team=playerTeam(s.name); const g=s.games;
     const av=(x)=>g?(x/g):0;
+    const lf=teamLogo(s.team);
     return `<div class="pcard">
-      <div class="pcard-head"><span class="cntag team-tag">[${team}]</span><span class="pcard-name">${s.name}</span>
+      <div class="pcard-head"><span class="cntag team-tag">[${team}]</span>${lf?logoHTML(s.team.trim(),"",lf):logoHTML(s.team.trim(),"")}<span class="pcard-name">${s.name}</span>
       <span class="pcard-kda">KDA ${kda(s).toFixed(1)}</span></div>
       <div class="pcard-meta">${g}局 · ${s.kills}/${s.deaths}/${s.assists} · 胜率 ${(av(s.wins)*100).toFixed(0)}%</div>
       <div class="pcard-stats">
