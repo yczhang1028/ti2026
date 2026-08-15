@@ -1,1332 +1,1366 @@
 {
-  "now": "2026-08-14 00:58",
+  "now": "2026-08-16 01:04",
   "standings": [
     {
       "rank": 1,
-      "team": "BoomBoys",
-      "match": "2-0",
-      "game": "4-1",
-      "logo": "",
-      "logo_file": "BoomBoys.png"
-    },
-    {
-      "rank": 2,
       "team": "TEAM VISION",
-      "match": "2-0",
-      "game": "4-2",
+      "match": "4-0",
+      "game": "8-2",
       "logo": "",
       "logo_file": "TEAM_VISION.png"
     },
     {
-      "rank": 3,
-      "team": "Aurora Gaming",
-      "match": "1-0",
-      "game": "2-0",
-      "logo": "",
-      "logo_file": "Aurora_Gaming.png"
-    },
-    {
-      "rank": 4,
-      "team": "Team Liquid",
-      "match": "1-0",
-      "game": "2-0",
-      "logo": "",
-      "logo_file": "Team_Liquid.png"
-    },
-    {
-      "rank": 5,
-      "team": "Team Spirit",
-      "match": "1-0",
-      "game": "2-0",
-      "logo": "",
-      "logo_file": "Team_Spirit.png"
-    },
-    {
-      "rank": 6,
-      "team": "Team Yandex",
-      "match": "1-0",
-      "game": "2-0",
-      "logo": "",
-      "logo_file": "Team_Yandex.png"
-    },
-    {
-      "rank": 7,
-      "team": "Iron Wing",
-      "match": "1-1",
-      "game": "3-2",
-      "logo": "",
-      "logo_file": "Iron_Wing.png"
-    },
-    {
-      "rank": 8,
-      "team": "LGD Gaming",
-      "match": "1-1",
-      "game": "3-3",
-      "logo": "",
-      "logo_file": "LGD_Gaming.png"
-    },
-    {
-      "rank": 9,
+      "rank": 2,
       "team": "Nigma Galaxy",
-      "match": "1-1",
-      "game": "2-2",
+      "match": "4-1",
+      "game": "8-2",
       "logo": "",
       "logo_file": "Nigma_Galaxy_.png"
     },
     {
-      "rank": 10,
+      "rank": 3,
+      "team": "Team Liquid",
+      "match": "4-1",
+      "game": "9-5",
+      "logo": "",
+      "logo_file": "Team_Liquid.png"
+    },
+    {
+      "rank": 4,
+      "team": "Aurora Gaming",
+      "match": "3-2",
+      "game": "7-5",
+      "logo": "",
+      "logo_file": "Aurora_Gaming.png"
+    },
+    {
+      "rank": 5,
+      "team": "Iron Wing",
+      "match": "3-2",
+      "game": "8-6",
+      "logo": "",
+      "logo_file": "Iron_Wing.png"
+    },
+    {
+      "rank": 6,
+      "team": "Team Spirit",
+      "match": "3-2",
+      "game": "6-5",
+      "logo": "",
+      "logo_file": "Team_Spirit.png"
+    },
+    {
+      "rank": 7,
+      "team": "LGD Gaming",
+      "match": "3-2",
+      "game": "7-6",
+      "logo": "",
+      "logo_file": "LGD_Gaming.png"
+    },
+    {
+      "rank": 8,
       "team": "Team Falcons",
-      "match": "1-1",
-      "game": "3-3",
+      "match": "3-2",
+      "game": "8-7",
       "logo": "",
       "logo_file": "Team_Falcons.png"
     },
     {
+      "rank": 9,
+      "team": "Team Resilience",
+      "match": "2-3",
+      "game": "7-6",
+      "logo": "",
+      "logo_file": "Team_Resilience.png"
+    },
+    {
+      "rank": 10,
+      "team": "Team Yandex",
+      "match": "2-3",
+      "game": "7-7",
+      "logo": "",
+      "logo_file": "Team_Yandex.png"
+    },
+    {
       "rank": 11,
       "team": "GamerLegion",
-      "match": "0-1",
-      "game": "0-2",
+      "match": "2-3",
+      "game": "6-6",
       "logo": "",
       "logo_file": "GamerLegion.png"
     },
     {
       "rank": 12,
-      "team": "HULIGANI",
-      "match": "0-1",
-      "game": "0-2",
+      "team": "BoomBoys",
+      "match": "2-3",
+      "game": "5-7",
       "logo": "",
-      "logo_file": "HULIGANI.png"
+      "logo_file": "BoomBoys.png"
     },
     {
       "rank": 13,
       "team": "Vici Gaming",
-      "match": "0-1",
-      "game": "0-2",
+      "match": "2-3",
+      "game": "4-8",
       "logo": "",
       "logo_file": "Vici_Gaming.png"
     },
     {
       "rank": 14,
       "team": "Xtreme Gaming",
-      "match": "0-1",
-      "game": "0-2",
+      "match": "1-4",
+      "game": "3-8",
       "logo": "",
       "logo_file": "Xtreme_Gaming.png"
     },
     {
       "rank": 15,
-      "team": "Team Resilience",
-      "match": "0-2",
-      "game": "2-4",
+      "team": "OG",
+      "match": "1-4",
+      "game": "2-9",
       "logo": "",
-      "logo_file": "Team_Resilience.png"
+      "logo_file": "OG.png"
     },
     {
       "rank": 16,
-      "team": "OG",
-      "match": "0-2",
-      "game": "0-4",
+      "team": "HULIGANI",
+      "match": "0-4",
+      "game": "2-8",
       "logo": "",
-      "logo_file": "OG.png"
+      "logo_file": "HULIGANI.png"
     }
   ],
   "yest_done": [
     {
-      "round": "Round 1",
-      "t1": "Team Falcons",
-      "t2": "LGD Gaming",
-      "date_raw": "August 13, 2026 - 11:03",
-      "t1_score": 2,
-      "t2_score": 1,
-      "finished": true,
-      "logo1": "Team_Falcons.png",
-      "logo2": "LGD_Gaming.png"
-    },
-    {
-      "round": "Round 1",
-      "t1": "Nigma Galaxy",
-      "t2": "Iron Wing",
-      "date_raw": "August 13, 2026 - 11:18",
-      "t1_score": 0,
-      "t2_score": 2,
-      "finished": true,
-      "logo1": "Nigma_Galaxy_.png",
-      "logo2": "Iron_Wing.png"
-    },
-    {
-      "round": "Round 1",
-      "t1": "Team Resilience",
-      "t2": "TEAM VISION",
-      "date_raw": "August 13, 2026 - 11:33",
+      "round": "Round 4",
+      "t1": "HULIGANI",
+      "t2": "OG",
+      "date_raw": "August 15, 2026 - 10:00",
       "t1_score": 1,
       "t2_score": 2,
       "finished": true,
-      "logo1": "Team_Resilience.png",
-      "logo2": "TEAM_VISION.png"
-    },
-    {
-      "round": "Round 1",
-      "t1": "BoomBoys",
-      "t2": "OG",
-      "date_raw": "August 13, 2026 - 11:38",
-      "t1_score": 2,
-      "t2_score": 0,
-      "finished": true,
-      "logo1": "BoomBoys.png",
+      "logo1": "HULIGANI.png",
       "logo2": "OG.png"
     },
     {
-      "round": "Round 1",
-      "t1": "Team Liquid",
-      "t2": "Vici Gaming",
-      "date_raw": "August 13, 2026 - 13:57",
-      "t1_score": 2,
-      "t2_score": 0,
-      "finished": true,
-      "logo1": "Team_Liquid.png",
-      "logo2": "Vici_Gaming.png"
-    },
-    {
-      "round": "Round 1",
+      "round": "Round 4",
       "t1": "GamerLegion",
-      "t2": "Aurora Gaming",
-      "date_raw": "August 13, 2026 - 14:09",
-      "t1_score": 0,
+      "t2": "Team Falcons",
+      "date_raw": "August 15, 2026 - 10:00",
+      "t1_score": 1,
       "t2_score": 2,
       "finished": true,
       "logo1": "GamerLegion.png",
-      "logo2": "Aurora_Gaming.png"
+      "logo2": "Team_Falcons.png"
     },
     {
-      "round": "Round 1",
-      "t1": "Team Yandex",
-      "t2": "HULIGANI",
-      "date_raw": "August 13, 2026 - 15:18",
-      "t1_score": 2,
-      "t2_score": 0,
-      "finished": true,
-      "logo1": "Team_Yandex.png",
-      "logo2": "HULIGANI.png"
-    },
-    {
-      "round": "Round 1",
-      "t1": "Team Spirit",
+      "round": "Round 4",
+      "t1": "LGD Gaming",
       "t2": "Xtreme Gaming",
-      "date_raw": "August 13, 2026 - 15:18",
-      "t1_score": 2,
-      "t2_score": 0,
-      "finished": true,
-      "logo1": "Team_Spirit.png",
-      "logo2": "Xtreme_Gaming.png"
-    },
-    {
-      "round": "Round 2",
-      "t1": "BoomBoys",
-      "t2": "Iron Wing",
-      "date_raw": "August 13, 2026 - 16:43",
+      "date_raw": "August 15, 2026 - 10:01",
       "t1_score": 2,
       "t2_score": 1,
       "finished": true,
-      "logo1": "BoomBoys.png",
-      "logo2": "Iron_Wing.png"
+      "logo1": "LGD_Gaming.png",
+      "logo2": "Xtreme_Gaming.png"
     },
     {
-      "round": "Round 2",
+      "round": "Round 4",
       "t1": "Team Resilience",
-      "t2": "LGD Gaming",
-      "date_raw": "August 13, 2026 - 17:17",
+      "t2": "Team Yandex",
+      "date_raw": "August 15, 2026 - 10:02",
       "t1_score": 1,
       "t2_score": 2,
       "finished": true,
       "logo1": "Team_Resilience.png",
+      "logo2": "Team_Yandex.png"
+    },
+    {
+      "round": "Round 4",
+      "t1": "Vici Gaming",
+      "t2": "Nigma Galaxy",
+      "date_raw": "August 15, 2026 - 13:26",
+      "t1_score": 0,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "Vici_Gaming.png",
+      "logo2": "Nigma_Galaxy_.png"
+    },
+    {
+      "round": "Round 4",
+      "t1": "Team Liquid",
+      "t2": "Iron Wing",
+      "date_raw": "August 15, 2026 - 14:02",
+      "t1_score": 2,
+      "t2_score": 1,
+      "finished": true,
+      "logo1": "Team_Liquid.png",
+      "logo2": "Iron_Wing.png"
+    },
+    {
+      "round": "Round 4",
+      "t1": "BoomBoys",
+      "t2": "Aurora Gaming",
+      "date_raw": "August 15, 2026 - 14:09",
+      "t1_score": 0,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "BoomBoys.png",
+      "logo2": "Aurora_Gaming.png"
+    },
+    {
+      "round": "Round 4",
+      "t1": "Team Spirit",
+      "t2": "TEAM VISION",
+      "date_raw": "August 15, 2026 - 14:19",
+      "t1_score": 0,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "Team_Spirit.png",
+      "logo2": "TEAM_VISION.png"
+    },
+    {
+      "round": "Round 5",
+      "t1": "Team Resilience",
+      "t2": "Xtreme Gaming",
+      "date_raw": "August 15, 2026 - 17:33",
+      "t1_score": 2,
+      "t2_score": 0,
+      "finished": true,
+      "logo1": "Team_Resilience.png",
+      "logo2": "Xtreme_Gaming.png"
+    },
+    {
+      "round": "Round 5",
+      "t1": "GamerLegion",
+      "t2": "OG",
+      "date_raw": "August 15, 2026 - 17:34",
+      "t1_score": 2,
+      "t2_score": 0,
+      "finished": true,
+      "logo1": "GamerLegion.png",
+      "logo2": "OG.png"
+    },
+    {
+      "round": "Round 5",
+      "t1": "Vici Gaming",
+      "t2": "LGD Gaming",
+      "date_raw": "August 15, 2026 - 17:41",
+      "t1_score": 0,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "Vici_Gaming.png",
       "logo2": "LGD_Gaming.png"
     },
     {
-      "round": "Round 2",
+      "round": "Round 5",
+      "t1": "Team Falcons",
+      "t2": "BoomBoys",
+      "date_raw": "August 15, 2026 - 18:41",
+      "t1_score": 2,
+      "t2_score": 1,
+      "finished": true,
+      "logo1": "Team_Falcons.png",
+      "logo2": "BoomBoys.png"
+    },
+    {
+      "round": "Round 5",
+      "t1": "Team Yandex",
+      "t2": "Iron Wing",
+      "date_raw": "August 15, 2026 - 19:44",
+      "t1_score": 1,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "Team_Yandex.png",
+      "logo2": "Iron_Wing.png"
+    },
+    {
+      "round": "Round 5",
+      "t1": "Aurora Gaming",
+      "t2": "Team Liquid",
+      "date_raw": "August 15, 2026 - 19:52",
+      "t1_score": 1,
+      "t2_score": 2,
+      "finished": true,
+      "logo1": "Aurora_Gaming.png",
+      "logo2": "Team_Liquid.png"
+    },
+    {
+      "round": "Round 5",
       "t1": "Nigma Galaxy",
-      "t2": "OG",
-      "date_raw": "August 13, 2026 - 17:32",
+      "t2": "Team Spirit",
+      "date_raw": "August 15, 2026 - 20:56",
       "t1_score": 2,
       "t2_score": 0,
       "finished": true,
       "logo1": "Nigma_Galaxy_.png",
-      "logo2": "OG.png"
-    },
-    {
-      "round": "Round 2",
-      "t1": "Team Falcons",
-      "t2": "TEAM VISION",
-      "date_raw": "August 13, 2026 - 18:06",
-      "t1_score": 1,
-      "t2_score": 2,
-      "finished": true,
-      "logo1": "Team_Falcons.png",
-      "logo2": "TEAM_VISION.png"
+      "logo2": "Team_Spirit.png"
     }
   ],
-  "today": [],
+  "today": [
+    {
+      "round": "Round 5",
+      "t1": "TEAM VISION",
+      "t2": "HULIGANI",
+      "date_raw": "August 16, 2026",
+      "t1_score": 0,
+      "t2_score": 0,
+      "finished": false,
+      "logo1": "TEAM_VISION.png",
+      "logo2": "HULIGANI.png"
+    }
+  ],
   "player_stats": {
-    "satanic": {
-      "name": "Satanic",
-      "kills": 105,
-      "deaths": 15,
-      "assists": 61,
-      "games": 6,
-      "team": "TEAM VISION",
-      "gpm": 5553,
-      "xpm": 5987,
-      "lh": 4720,
-      "hero_dmg": 344113,
-      "wins": 4
+    "rue": {
+      "name": "rue",
+      "kills": 30,
+      "deaths": 103,
+      "assists": 169,
+      "games": 11,
+      "team": "Team Spirit",
+      "gpm": 3579,
+      "xpm": 5409,
+      "lh": 602,
+      "hero_dmg": 156809,
+      "wins": 6
     },
-    "noticed": {
-      "name": "Noticed",
-      "kills": 24,
-      "deaths": 19,
-      "assists": 133,
-      "games": 6,
-      "team": "TEAM VISION",
-      "gpm": 3792,
-      "xpm": 4932,
-      "lh": 2770,
-      "hero_dmg": 135624,
-      "wins": 4
+    "yatoro": {
+      "name": "Yatoro",
+      "kills": 109,
+      "deaths": 41,
+      "assists": 113,
+      "games": 11,
+      "team": "Team Spirit",
+      "gpm": 9539,
+      "xpm": 10313,
+      "lh": 8244,
+      "hero_dmg": 479781,
+      "wins": 6
     },
-    "no[o]ne-": {
-      "name": "No[o]ne-",
-      "kills": 52,
-      "deaths": 32,
-      "assists": 103,
-      "games": 6,
-      "team": "TEAM VISION",
-      "gpm": 3715,
-      "xpm": 5193,
-      "lh": 2688,
-      "hero_dmg": 245599,
-      "wins": 4
+    "larl": {
+      "name": "Larl",
+      "kills": 90,
+      "deaths": 60,
+      "assists": 148,
+      "games": 11,
+      "team": "Team Spirit",
+      "gpm": 6566,
+      "xpm": 8794,
+      "lh": 4698,
+      "hero_dmg": 366516,
+      "wins": 6
     },
-    "9class": {
-      "name": "9Class",
-      "kills": 38,
-      "deaths": 47,
+    "not_me": {
+      "name": "not_me",
+      "kills": 39,
+      "deaths": 96,
+      "assists": 167,
+      "games": 11,
+      "team": "Team Spirit",
+      "gpm": 3695,
+      "xpm": 5765,
+      "lh": 1077,
+      "hero_dmg": 177329,
+      "wins": 6
+    },
+    "collapse": {
+      "name": "Collapse",
+      "kills": 60,
+      "deaths": 50,
+      "assists": 152,
+      "games": 11,
+      "team": "Team Spirit",
+      "gpm": 6455,
+      "xpm": 8964,
+      "lh": 4219,
+      "hero_dmg": 238285,
+      "wins": 6
+    },
+    "sumail-": {
+      "name": "SumaiL-",
+      "kills": 100,
+      "deaths": 49,
+      "assists": 114,
+      "games": 10,
+      "team": "Nigma Galaxy",
+      "gpm": 7851,
+      "xpm": 9246,
+      "lh": 6774,
+      "hero_dmg": 495564,
+      "wins": 8
+    },
+    "omar": {
+      "name": "OmaR",
+      "kills": 21,
+      "deaths": 106,
+      "assists": 204,
+      "games": 10,
+      "team": "Nigma Galaxy",
+      "gpm": 3427,
+      "xpm": 5381,
+      "lh": 727,
+      "hero_dmg": 174204,
+      "wins": 8
+    },
+    "davai": {
+      "name": "Davai",
+      "kills": 60,
+      "deaths": 57,
+      "assists": 157,
+      "games": 10,
+      "team": "Nigma Galaxy",
+      "gpm": 6370,
+      "xpm": 7909,
+      "lh": 4781,
+      "hero_dmg": 302232,
+      "wins": 8
+    },
+    "gh": {
+      "name": "GH",
+      "kills": 11,
+      "deaths": 60,
+      "assists": 183,
+      "games": 10,
+      "team": "Nigma Galaxy",
+      "gpm": 3528,
+      "xpm": 5756,
+      "lh": 1216,
+      "hero_dmg": 184211,
+      "wins": 8
+    },
+    "lorenof": {
+      "name": "lorenof",
+      "kills": 117,
+      "deaths": 37,
       "assists": 121,
-      "games": 6,
-      "team": "TEAM VISION",
-      "gpm": 2381,
-      "xpm": 3745,
-      "lh": 784,
-      "hero_dmg": 130938,
-      "wins": 4
+      "games": 10,
+      "team": "Nigma Galaxy",
+      "gpm": 7703,
+      "xpm": 9982,
+      "lh": 6274,
+      "hero_dmg": 557234,
+      "wins": 8
     },
-    "dukalis": {
-      "name": "Dukalis",
-      "kills": 22,
+    "医者watson`": {
+      "name": "医者watson`",
+      "kills": 96,
+      "deaths": 34,
+      "assists": 91,
+      "games": 14,
+      "team": "Team Yandex",
+      "gpm": 10522,
+      "xpm": 11502,
+      "lh": 7568,
+      "hero_dmg": 388196,
+      "wins": 7
+    },
+    "chira_junior": {
+      "name": "CHIRA_JUNIOR",
+      "kills": 95,
+      "deaths": 59,
+      "assists": 124,
+      "games": 14,
+      "team": "Team Yandex",
+      "gpm": 7799,
+      "xpm": 9968,
+      "lh": 4517,
+      "hero_dmg": 424070,
+      "wins": 7
+    },
+    "dm": {
+      "name": "DM",
+      "kills": 57,
+      "deaths": 60,
+      "assists": 133,
+      "games": 14,
+      "team": "Team Yandex",
+      "gpm": 8263,
+      "xpm": 9717,
+      "lh": 4709,
+      "hero_dmg": 271739,
+      "wins": 7
+    },
+    "maladych": {
+      "name": "Maladych",
+      "kills": 35,
+      "deaths": 121,
+      "assists": 164,
+      "games": 14,
+      "team": "Team Yandex",
+      "gpm": 4171,
+      "xpm": 6644,
+      "lh": 768,
+      "hero_dmg": 182658,
+      "wins": 7
+    },
+    "saksa": {
+      "name": "Saksa",
+      "kills": 39,
+      "deaths": 93,
+      "assists": 187,
+      "games": 14,
+      "team": "Team Yandex",
+      "gpm": 5068,
+      "xpm": 7111,
+      "lh": 1437,
+      "hero_dmg": 219807,
+      "wins": 7
+    },
+    "33": {
+      "name": "33",
+      "kills": 85,
+      "deaths": 63,
+      "assists": 200,
+      "games": 14,
+      "team": "Iron Wing",
+      "gpm": 8648,
+      "xpm": 11037,
+      "lh": 5925,
+      "hero_dmg": 347272,
+      "wins": 8
+    },
+    "ari": {
+      "name": "Ari",
+      "kills": 66,
+      "deaths": 82,
+      "assists": 217,
+      "games": 14,
+      "team": "Iron Wing",
+      "gpm": 4714,
+      "xpm": 7736,
+      "lh": 1560,
+      "hero_dmg": 252724,
+      "wins": 8
+    },
+    "whitemon": {
+      "name": "Whitemon",
+      "kills": 49,
+      "deaths": 95,
+      "assists": 244,
+      "games": 14,
+      "team": "Iron Wing",
+      "gpm": 4576,
+      "xpm": 6597,
+      "lh": 615,
+      "hero_dmg": 246533,
+      "wins": 8
+    },
+    "bzm": {
+      "name": "bzm",
+      "kills": 97,
+      "deaths": 62,
+      "assists": 214,
+      "games": 14,
+      "team": "Iron Wing",
+      "gpm": 9054,
+      "xpm": 11642,
+      "lh": 6212,
+      "hero_dmg": 536773,
+      "wins": 8
+    },
+    "pure": {
+      "name": "Pure",
+      "kills": 126,
+      "deaths": 64,
+      "assists": 155,
+      "games": 14,
+      "team": "Iron Wing",
+      "gpm": 10735,
+      "xpm": 12815,
+      "lh": 8422,
+      "hero_dmg": 441601,
+      "wins": 8
+    },
+    "nightfall": {
+      "name": "Nightfall",
+      "kills": 90,
+      "deaths": 34,
+      "assists": 132,
+      "games": 12,
+      "team": "Aurora Gaming",
+      "gpm": 8281,
+      "xpm": 9706,
+      "lh": 5428,
+      "hero_dmg": 332900,
+      "wins": 7
+    },
+    "mikoto": {
+      "name": "Mikoto",
+      "kills": 91,
+      "deaths": 43,
+      "assists": 151,
+      "games": 12,
+      "team": "Aurora Gaming",
+      "gpm": 7498,
+      "xpm": 9596,
+      "lh": 4398,
+      "hero_dmg": 376067,
+      "wins": 7
+    },
+    "ws`": {
+      "name": "Ws`",
+      "kills": 86,
       "deaths": 46,
-      "assists": 137,
-      "games": 6,
-      "team": "TEAM VISION",
-      "gpm": 2257,
-      "xpm": 3704,
-      "lh": 519,
-      "hero_dmg": 131150,
-      "wins": 4
+      "assists": 125,
+      "games": 12,
+      "team": "Aurora Gaming",
+      "gpm": 7926,
+      "xpm": 9269,
+      "lh": 4671,
+      "hero_dmg": 308766,
+      "wins": 7
+    },
+    "mira": {
+      "name": "Mira",
+      "kills": 45,
+      "deaths": 78,
+      "assists": 187,
+      "games": 12,
+      "team": "Aurora Gaming",
+      "gpm": 4029,
+      "xpm": 5949,
+      "lh": 970,
+      "hero_dmg": 163421,
+      "wins": 7
+    },
+    "kaori": {
+      "name": "kaori",
+      "kills": 28,
+      "deaths": 68,
+      "assists": 167,
+      "games": 12,
+      "team": "Aurora Gaming",
+      "gpm": 3891,
+      "xpm": 5661,
+      "lh": 710,
+      "hero_dmg": 176789,
+      "wins": 7
+    },
+    "tofu": {
+      "name": "tOfu",
+      "kills": 67,
+      "deaths": 86,
+      "assists": 212,
+      "games": 14,
+      "team": "Team Liquid",
+      "gpm": 4857,
+      "xpm": 6821,
+      "lh": 1197,
+      "hero_dmg": 235533,
+      "wins": 9
+    },
+    "ace ♠": {
+      "name": "Ace ♠",
+      "kills": 76,
+      "deaths": 54,
+      "assists": 187,
+      "games": 14,
+      "team": "Team Liquid",
+      "gpm": 8067,
+      "xpm": 10888,
+      "lh": 5303,
+      "hero_dmg": 290192,
+      "wins": 9
+    },
+    "nisha": {
+      "name": "Nisha",
+      "kills": 127,
+      "deaths": 49,
+      "assists": 186,
+      "games": 14,
+      "team": "Team Liquid",
+      "gpm": 8672,
+      "xpm": 11368,
+      "lh": 5252,
+      "hero_dmg": 480485,
+      "wins": 9
+    },
+    "boxi": {
+      "name": "Boxi",
+      "kills": 48,
+      "deaths": 81,
+      "assists": 231,
+      "games": 14,
+      "team": "Team Liquid",
+      "gpm": 4809,
+      "xpm": 6510,
+      "lh": 1139,
+      "hero_dmg": 189907,
+      "wins": 9
+    },
+    "m1cke": {
+      "name": "m1CKe",
+      "kills": 103,
+      "deaths": 46,
+      "assists": 136,
+      "games": 14,
+      "team": "Team Liquid",
+      "gpm": 10386,
+      "xpm": 12287,
+      "lh": 7527,
+      "hero_dmg": 410079,
+      "wins": 9
     },
     "sneyking": {
       "name": "Sneyking",
-      "kills": 20,
-      "deaths": 46,
-      "assists": 97,
-      "games": 6,
+      "kills": 33,
+      "deaths": 119,
+      "assists": 216,
+      "games": 15,
       "team": "Team Falcons",
-      "gpm": 2295,
-      "xpm": 3419,
-      "lh": 904,
-      "hero_dmg": 89849,
-      "wins": 3
+      "gpm": 5892,
+      "xpm": 8337,
+      "lh": 2682,
+      "hero_dmg": 218421,
+      "wins": 8
     },
     "skiter": {
       "name": "skiter",
-      "kills": 40,
-      "deaths": 33,
-      "assists": 66,
-      "games": 6,
+      "kills": 100,
+      "deaths": 68,
+      "assists": 127,
+      "games": 15,
       "team": "Team Falcons",
-      "gpm": 4186,
-      "xpm": 4895,
-      "lh": 3179,
-      "hero_dmg": 232575,
-      "wins": 3
+      "gpm": 10455,
+      "xpm": 12173,
+      "lh": 7923,
+      "hero_dmg": 489623,
+      "wins": 8
     },
     "malr1ne": {
       "name": "Malr1ne",
-      "kills": 60,
-      "deaths": 26,
-      "assists": 50,
-      "games": 6,
+      "kills": 134,
+      "deaths": 62,
+      "assists": 133,
+      "games": 15,
       "team": "Team Falcons",
-      "gpm": 3972,
-      "xpm": 4976,
-      "lh": 2959,
-      "hero_dmg": 259858,
-      "wins": 3
+      "gpm": 9720,
+      "xpm": 12282,
+      "lh": 6931,
+      "hero_dmg": 600293,
+      "wins": 8
     },
     "ammar_the_f": {
       "name": "AMMAR_THE_F",
-      "kills": 40,
-      "deaths": 41,
-      "assists": 65,
-      "games": 6,
+      "kills": 91,
+      "deaths": 91,
+      "assists": 147,
+      "games": 15,
       "team": "Team Falcons",
-      "gpm": 4088,
-      "xpm": 5476,
-      "lh": 3471,
-      "hero_dmg": 207153,
-      "wins": 3
+      "gpm": 10217,
+      "xpm": 13362,
+      "lh": 8120,
+      "hero_dmg": 471063,
+      "wins": 8
     },
     "cr1t-": {
       "name": "Cr1t-",
-      "kills": 16,
-      "deaths": 49,
-      "assists": 93,
-      "games": 6,
+      "kills": 38,
+      "deaths": 118,
+      "assists": 211,
+      "games": 15,
       "team": "Team Falcons",
-      "gpm": 2060,
-      "xpm": 3203,
-      "lh": 557,
-      "hero_dmg": 98898,
-      "wins": 3
+      "gpm": 4903,
+      "xpm": 7675,
+      "lh": 1154,
+      "hero_dmg": 228984,
+      "wins": 8
+    },
+    "kiritych~": {
+      "name": "Kiritych~",
+      "kills": 81,
+      "deaths": 40,
+      "assists": 99,
+      "games": 12,
+      "team": "BoomBoys",
+      "gpm": 8870,
+      "xpm": 9797,
+      "lh": 6995,
+      "hero_dmg": 374156,
+      "wins": 5
+    },
+    "gpk~": {
+      "name": "gpk~",
+      "kills": 84,
+      "deaths": 39,
+      "assists": 112,
+      "games": 12,
+      "team": "BoomBoys",
+      "gpm": 7339,
+      "xpm": 9522,
+      "lh": 5474,
+      "hero_dmg": 399064,
+      "wins": 5
+    },
+    "miero": {
+      "name": "MieRo",
+      "kills": 58,
+      "deaths": 51,
+      "assists": 139,
+      "games": 12,
+      "team": "BoomBoys",
+      "gpm": 6789,
+      "xpm": 7862,
+      "lh": 4483,
+      "hero_dmg": 256393,
+      "wins": 5
+    },
+    "save-": {
+      "name": "Save-",
+      "kills": 39,
+      "deaths": 63,
+      "assists": 164,
+      "games": 12,
+      "team": "BoomBoys",
+      "gpm": 4080,
+      "xpm": 5828,
+      "lh": 1159,
+      "hero_dmg": 198749,
+      "wins": 5
+    },
+    "kataomi`": {
+      "name": "Kataomi`",
+      "kills": 24,
+      "deaths": 82,
+      "assists": 146,
+      "games": 12,
+      "team": "BoomBoys",
+      "gpm": 3645,
+      "xpm": 5488,
+      "lh": 719,
+      "hero_dmg": 155265,
+      "wins": 5
     },
     "yuma": {
       "name": "Yuma",
-      "kills": 73,
-      "deaths": 30,
-      "assists": 65,
-      "games": 6,
+      "kills": 134,
+      "deaths": 53,
+      "assists": 139,
+      "games": 13,
       "team": "LGD Gaming",
-      "gpm": 4636,
-      "xpm": 5866,
-      "lh": 4149,
-      "hero_dmg": 268001,
-      "wins": 3
+      "gpm": 9920,
+      "xpm": 12334,
+      "lh": 8725,
+      "hero_dmg": 557848,
+      "wins": 7
     },
     "topson": {
       "name": "Topson",
-      "kills": 43,
-      "deaths": 32,
-      "assists": 110,
-      "games": 6,
+      "kills": 94,
+      "deaths": 63,
+      "assists": 200,
+      "games": 13,
       "team": "LGD Gaming",
-      "gpm": 3660,
-      "xpm": 5186,
-      "lh": 2938,
-      "hero_dmg": 321632,
-      "wins": 3
+      "gpm": 8386,
+      "xpm": 11251,
+      "lh": 6691,
+      "hero_dmg": 606076,
+      "wins": 7
     },
     "wisper": {
       "name": "Wisper",
-      "kills": 45,
-      "deaths": 39,
-      "assists": 89,
-      "games": 6,
+      "kills": 100,
+      "deaths": 64,
+      "assists": 172,
+      "games": 13,
       "team": "LGD Gaming",
-      "gpm": 4477,
-      "xpm": 5669,
-      "lh": 4025,
-      "hero_dmg": 226263,
-      "wins": 3
+      "gpm": 9564,
+      "xpm": 12207,
+      "lh": 8408,
+      "hero_dmg": 420512,
+      "wins": 7
     },
     "thiolicor": {
       "name": "Thiolicor",
-      "kills": 22,
-      "deaths": 69,
-      "assists": 124,
-      "games": 6,
+      "kills": 34,
+      "deaths": 122,
+      "assists": 242,
+      "games": 13,
       "team": "LGD Gaming",
-      "gpm": 2171,
-      "xpm": 3442,
-      "lh": 707,
-      "hero_dmg": 117555,
-      "wins": 3
+      "gpm": 4595,
+      "xpm": 7063,
+      "lh": 1602,
+      "hero_dmg": 229654,
+      "wins": 7
     },
     "kingjungles": {
       "name": "KingJungles",
-      "kills": 17,
-      "deaths": 44,
-      "assists": 109,
-      "games": 6,
+      "kills": 38,
+      "deaths": 81,
+      "assists": 222,
+      "games": 13,
       "team": "LGD Gaming",
-      "gpm": 1970,
-      "xpm": 3267,
-      "lh": 463,
-      "hero_dmg": 92665,
+      "gpm": 4291,
+      "xpm": 7004,
+      "lh": 975,
+      "hero_dmg": 198575,
+      "wins": 7
+    },
+    "shiro": {
+      "name": "shiro",
+      "kills": 90,
+      "deaths": 47,
+      "assists": 84,
+      "games": 12,
+      "team": "Vici Gaming",
+      "gpm": 8780,
+      "xpm": 9874,
+      "lh": 7708,
+      "hero_dmg": 380986,
+      "wins": 4
+    },
+    "xm": {
+      "name": "Xm",
+      "kills": 57,
+      "deaths": 56,
+      "assists": 121,
+      "games": 12,
+      "team": "Vici Gaming",
+      "gpm": 7241,
+      "xpm": 9500,
+      "lh": 5865,
+      "hero_dmg": 360628,
+      "wins": 4
+    },
+    "bach": {
+      "name": "Bach",
+      "kills": 37,
+      "deaths": 56,
+      "assists": 123,
+      "games": 12,
+      "team": "Vici Gaming",
+      "gpm": 6647,
+      "xpm": 7421,
+      "lh": 4872,
+      "hero_dmg": 312708,
+      "wins": 4
+    },
+    "xinq": {
+      "name": "XinQ",
+      "kills": 29,
+      "deaths": 73,
+      "assists": 136,
+      "games": 12,
+      "team": "Vici Gaming",
+      "gpm": 3984,
+      "xpm": 5887,
+      "lh": 1543,
+      "hero_dmg": 178703,
+      "wins": 4
+    },
+    "y`": {
+      "name": "y`",
+      "kills": 30,
+      "deaths": 101,
+      "assists": 149,
+      "games": 12,
+      "team": "Vici Gaming",
+      "gpm": 3814,
+      "xpm": 5926,
+      "lh": 753,
+      "hero_dmg": 138915,
+      "wins": 4
+    },
+    "ame": {
+      "name": "Ame",
+      "kills": 51,
+      "deaths": 44,
+      "assists": 62,
+      "games": 11,
+      "team": "Xtreme Gaming",
+      "gpm": 7288,
+      "xpm": 8684,
+      "lh": 5814,
+      "hero_dmg": 351962,
+      "wins": 3
+    },
+    "nothingtosay": {
+      "name": "NothingToSay",
+      "kills": 61,
+      "deaths": 46,
+      "assists": 84,
+      "games": 11,
+      "team": "Xtreme Gaming",
+      "gpm": 5891,
+      "xpm": 7819,
+      "lh": 3888,
+      "hero_dmg": 299236,
+      "wins": 3
+    },
+    "xxs": {
+      "name": "Xxs",
+      "kills": 50,
+      "deaths": 43,
+      "assists": 85,
+      "games": 11,
+      "team": "Xtreme Gaming",
+      "gpm": 6449,
+      "xpm": 8240,
+      "lh": 4890,
+      "hero_dmg": 240207,
+      "wins": 3
+    },
+    "fy": {
+      "name": "fy",
+      "kills": 22,
+      "deaths": 86,
+      "assists": 127,
+      "games": 11,
+      "team": "Xtreme Gaming",
+      "gpm": 3273,
+      "xpm": 4505,
+      "lh": 951,
+      "hero_dmg": 155300,
+      "wins": 3
+    },
+    "xnova": {
+      "name": "xNova",
+      "kills": 17,
+      "deaths": 74,
+      "assists": 97,
+      "games": 11,
+      "team": "Xtreme Gaming",
+      "gpm": 3139,
+      "xpm": 4079,
+      "lh": 583,
+      "hero_dmg": 121672,
       "wins": 3
     },
     "erika": {
       "name": "erika",
-      "kills": 56,
-      "deaths": 47,
-      "assists": 67,
-      "games": 6,
+      "kills": 117,
+      "deaths": 71,
+      "assists": 131,
+      "games": 13,
       "team": "Team Resilience",
-      "gpm": 4411,
-      "xpm": 5300,
-      "lh": 4315,
-      "hero_dmg": 320733,
-      "wins": 2
+      "gpm": 9346,
+      "xpm": 11171,
+      "lh": 7530,
+      "hero_dmg": 536334,
+      "wins": 7
     },
     "echo": {
       "name": "echo",
-      "kills": 52,
-      "deaths": 40,
-      "assists": 89,
-      "games": 6,
+      "kills": 97,
+      "deaths": 60,
+      "assists": 200,
+      "games": 13,
       "team": "Team Resilience",
-      "gpm": 3522,
-      "xpm": 4749,
-      "lh": 2923,
-      "hero_dmg": 267280,
-      "wins": 2
+      "gpm": 7534,
+      "xpm": 10059,
+      "lh": 5069,
+      "hero_dmg": 489280,
+      "wins": 7
     },
     "niu": {
       "name": "niu",
-      "kills": 41,
-      "deaths": 46,
-      "assists": 80,
-      "games": 6,
+      "kills": 81,
+      "deaths": 75,
+      "assists": 183,
+      "games": 13,
       "team": "Team Resilience",
-      "gpm": 3330,
-      "xpm": 4480,
-      "lh": 2560,
-      "hero_dmg": 192039,
-      "wins": 2
+      "gpm": 7157,
+      "xpm": 9482,
+      "lh": 4632,
+      "hero_dmg": 348830,
+      "wins": 7
     },
     "planet": {
       "name": "planet",
-      "kills": 23,
-      "deaths": 43,
-      "assists": 111,
-      "games": 6,
+      "kills": 57,
+      "deaths": 79,
+      "assists": 236,
+      "games": 13,
       "team": "Team Resilience",
-      "gpm": 2450,
-      "xpm": 3574,
-      "lh": 1345,
-      "hero_dmg": 157581,
-      "wins": 2
+      "gpm": 5154,
+      "xpm": 7649,
+      "lh": 2340,
+      "hero_dmg": 291629,
+      "wins": 7
     },
     "zzq": {
       "name": "zzq",
-      "kills": 23,
-      "deaths": 80,
-      "assists": 92,
-      "games": 6,
+      "kills": 46,
+      "deaths": 121,
+      "assists": 199,
+      "games": 13,
       "team": "Team Resilience",
-      "gpm": 2096,
-      "xpm": 3150,
-      "lh": 708,
-      "hero_dmg": 82893,
-      "wins": 2
-    },
-    "kiritych~": {
-      "name": "Kiritych~",
-      "kills": 36,
-      "deaths": 14,
-      "assists": 52,
-      "games": 5,
-      "team": "BoomBoys",
-      "gpm": 4204,
-      "xpm": 4491,
-      "lh": 3516,
-      "hero_dmg": 161649,
-      "wins": 4
-    },
-    "gpk~": {
-      "name": "gpk~",
-      "kills": 42,
-      "deaths": 16,
-      "assists": 40,
-      "games": 5,
-      "team": "BoomBoys",
-      "gpm": 3414,
-      "xpm": 4420,
-      "lh": 2659,
-      "hero_dmg": 212058,
-      "wins": 4
-    },
-    "miero": {
-      "name": "MieRo",
-      "kills": 31,
-      "deaths": 22,
-      "assists": 61,
-      "games": 5,
-      "team": "BoomBoys",
-      "gpm": 2799,
-      "xpm": 3568,
-      "lh": 1793,
-      "hero_dmg": 97270,
-      "wins": 4
-    },
-    "save-": {
-      "name": "Save-",
-      "kills": 14,
-      "deaths": 28,
-      "assists": 77,
-      "games": 5,
-      "team": "BoomBoys",
-      "gpm": 1689,
-      "xpm": 2574,
-      "lh": 446,
-      "hero_dmg": 94380,
-      "wins": 4
-    },
-    "kataomi`": {
-      "name": "Kataomi`",
-      "kills": 9,
-      "deaths": 31,
-      "assists": 70,
-      "games": 5,
-      "team": "BoomBoys",
-      "gpm": 1597,
-      "xpm": 2428,
-      "lh": 266,
-      "hero_dmg": 64489,
-      "wins": 4
-    },
-    "33": {
-      "name": "33",
-      "kills": 37,
-      "deaths": 18,
-      "assists": 78,
-      "games": 5,
-      "team": "Iron Wing",
-      "gpm": 3457,
-      "xpm": 4174,
-      "lh": 2397,
-      "hero_dmg": 108776,
-      "wins": 3
-    },
-    "ari": {
-      "name": "Ari",
-      "kills": 28,
-      "deaths": 26,
-      "assists": 93,
-      "games": 5,
-      "team": "Iron Wing",
-      "gpm": 1813,
-      "xpm": 3139,
-      "lh": 744,
-      "hero_dmg": 99987,
-      "wins": 3
-    },
-    "whitemon": {
-      "name": "Whitemon",
-      "kills": 21,
-      "deaths": 31,
-      "assists": 102,
-      "games": 5,
-      "team": "Iron Wing",
-      "gpm": 1688,
-      "xpm": 2502,
-      "lh": 188,
-      "hero_dmg": 83172,
-      "wins": 3
-    },
-    "bzm": {
-      "name": "bzm",
-      "kills": 37,
-      "deaths": 16,
-      "assists": 99,
-      "games": 5,
-      "team": "Iron Wing",
-      "gpm": 3291,
-      "xpm": 4409,
-      "lh": 2258,
-      "hero_dmg": 180319,
-      "wins": 3
-    },
-    "pure": {
-      "name": "Pure",
-      "kills": 54,
-      "deaths": 18,
-      "assists": 68,
-      "games": 5,
-      "team": "Iron Wing",
-      "gpm": 4153,
-      "xpm": 5152,
-      "lh": 3202,
-      "hero_dmg": 174640,
-      "wins": 3
+      "gpm": 4455,
+      "xpm": 6648,
+      "lh": 1183,
+      "hero_dmg": 177475,
+      "wins": 7
     },
     "yopaj-": {
       "name": "Yopaj-",
-      "kills": 21,
-      "deaths": 18,
-      "assists": 28,
-      "games": 4,
+      "kills": 64,
+      "deaths": 47,
+      "assists": 86,
+      "games": 11,
       "team": "OG",
-      "gpm": 2201,
-      "xpm": 2776,
-      "lh": 1889,
-      "hero_dmg": 111214,
-      "wins": 0
+      "gpm": 5937,
+      "xpm": 7447,
+      "lh": 4261,
+      "hero_dmg": 326464,
+      "wins": 2
     },
     "tims": {
       "name": "TIMS",
-      "kills": 8,
-      "deaths": 25,
-      "assists": 45,
-      "games": 4,
+      "kills": 29,
+      "deaths": 64,
+      "assists": 138,
+      "games": 11,
       "team": "OG",
-      "gpm": 1270,
-      "xpm": 1759,
-      "lh": 472,
-      "hero_dmg": 61374,
-      "wins": 0
-    },
-    "natsumi": {
-      "name": "Natsumi",
-      "kills": 23,
-      "deaths": 18,
-      "assists": 24,
-      "games": 4,
-      "team": "OG",
-      "gpm": 2902,
-      "xpm": 3333,
-      "lh": 2885,
-      "hero_dmg": 189518,
-      "wins": 0
-    },
-    "raven": {
-      "name": "Raven",
-      "kills": 13,
-      "deaths": 23,
-      "assists": 43,
-      "games": 4,
-      "team": "OG",
-      "gpm": 1985,
-      "xpm": 2267,
-      "lh": 1504,
-      "hero_dmg": 85830,
-      "wins": 0
+      "gpm": 3638,
+      "xpm": 5145,
+      "lh": 1273,
+      "hero_dmg": 171084,
+      "wins": 2
     },
     "skem": {
       "name": "skem",
-      "kills": 8,
-      "deaths": 32,
-      "assists": 43,
-      "games": 4,
+      "kills": 36,
+      "deaths": 74,
+      "assists": 119,
+      "games": 11,
       "team": "OG",
-      "gpm": 1349,
-      "xpm": 1863,
-      "lh": 605,
-      "hero_dmg": 55440,
-      "wins": 0
-    },
-    "sumail-": {
-      "name": "SumaiL-",
-      "kills": 26,
-      "deaths": 20,
-      "assists": 26,
-      "games": 4,
-      "team": "Nigma Galaxy",
-      "gpm": 2945,
-      "xpm": 3507,
-      "lh": 2746,
-      "hero_dmg": 159699,
+      "gpm": 3682,
+      "xpm": 5238,
+      "lh": 1173,
+      "hero_dmg": 149093,
       "wins": 2
     },
-    "omar": {
-      "name": "OmaR",
-      "kills": 9,
-      "deaths": 48,
-      "assists": 52,
-      "games": 4,
-      "team": "Nigma Galaxy",
-      "gpm": 1317,
-      "xpm": 1955,
-      "lh": 325,
-      "hero_dmg": 61184,
+    "raven": {
+      "name": "Raven",
+      "kills": 42,
+      "deaths": 62,
+      "assists": 116,
+      "games": 11,
+      "team": "OG",
+      "gpm": 5507,
+      "xpm": 6343,
+      "lh": 3766,
+      "hero_dmg": 224963,
       "wins": 2
     },
-    "davai": {
-      "name": "Davai",
-      "kills": 9,
-      "deaths": 28,
-      "assists": 49,
-      "games": 4,
-      "team": "Nigma Galaxy",
-      "gpm": 2199,
-      "xpm": 2539,
-      "lh": 1712,
-      "hero_dmg": 85635,
-      "wins": 2
-    },
-    "gh": {
-      "name": "GH",
-      "kills": 6,
-      "deaths": 26,
-      "assists": 58,
-      "games": 4,
-      "team": "Nigma Galaxy",
-      "gpm": 1411,
-      "xpm": 2202,
-      "lh": 639,
-      "hero_dmg": 71199,
-      "wins": 2
-    },
-    "lorenof": {
-      "name": "lorenof",
-      "kills": 39,
-      "deaths": 18,
-      "assists": 25,
-      "games": 4,
-      "team": "Nigma Galaxy",
-      "gpm": 2704,
-      "xpm": 3393,
-      "lh": 2316,
-      "hero_dmg": 191638,
-      "wins": 2
-    },
-    "ame": {
-      "name": "Ame",
-      "kills": 11,
-      "deaths": 12,
-      "assists": 18,
-      "games": 2,
-      "team": "Xtreme Gaming",
-      "gpm": 1378,
-      "xpm": 1631,
-      "lh": 1184,
-      "hero_dmg": 83030,
-      "wins": 0
-    },
-    "nothingtosay": {
-      "name": "NothingToSay",
-      "kills": 19,
-      "deaths": 9,
-      "assists": 19,
-      "games": 2,
-      "team": "Xtreme Gaming",
-      "gpm": 1230,
-      "xpm": 1718,
-      "lh": 908,
-      "hero_dmg": 72901,
-      "wins": 0
-    },
-    "xxs": {
-      "name": "Xxs",
-      "kills": 14,
-      "deaths": 13,
-      "assists": 22,
-      "games": 2,
-      "team": "Xtreme Gaming",
-      "gpm": 1153,
-      "xpm": 1429,
-      "lh": 909,
-      "hero_dmg": 55391,
-      "wins": 0
-    },
-    "fy": {
-      "name": "fy",
-      "kills": 2,
-      "deaths": 21,
-      "assists": 30,
-      "games": 2,
-      "team": "Xtreme Gaming",
-      "gpm": 549,
-      "xpm": 913,
-      "lh": 135,
-      "hero_dmg": 28854,
-      "wins": 0
-    },
-    "xnova": {
-      "name": "xNova",
-      "kills": 5,
-      "deaths": 18,
-      "assists": 17,
-      "games": 2,
-      "team": "Xtreme Gaming",
-      "gpm": 573,
-      "xpm": 856,
-      "lh": 128,
-      "hero_dmg": 25644,
-      "wins": 0
-    },
-    "rue": {
-      "name": "rue",
-      "kills": 9,
-      "deaths": 21,
-      "assists": 43,
-      "games": 2,
-      "team": "Team Spirit",
-      "gpm": 684,
-      "xpm": 1093,
-      "lh": 84,
-      "hero_dmg": 25553,
-      "wins": 2
-    },
-    "yatoro": {
-      "name": "Yatoro",
-      "kills": 13,
-      "deaths": 5,
-      "assists": 29,
-      "games": 2,
-      "team": "Team Spirit",
-      "gpm": 1693,
-      "xpm": 2055,
-      "lh": 1381,
-      "hero_dmg": 67586,
-      "wins": 2
-    },
-    "larl": {
-      "name": "Larl",
-      "kills": 26,
-      "deaths": 5,
-      "assists": 30,
-      "games": 2,
-      "team": "Team Spirit",
-      "gpm": 1309,
-      "xpm": 2019,
-      "lh": 887,
-      "hero_dmg": 81272,
-      "wins": 2
-    },
-    "not_me": {
-      "name": "not_me",
-      "kills": 15,
-      "deaths": 14,
-      "assists": 37,
-      "games": 2,
-      "team": "Team Spirit",
-      "gpm": 779,
-      "xpm": 1132,
-      "lh": 173,
-      "hero_dmg": 36080,
-      "wins": 2
-    },
-    "collapse": {
-      "name": "Collapse",
-      "kills": 10,
-      "deaths": 8,
-      "assists": 42,
-      "games": 2,
-      "team": "Team Spirit",
-      "gpm": 1227,
-      "xpm": 2039,
-      "lh": 814,
-      "hero_dmg": 50288,
-      "wins": 2
-    },
-    "医者watson`": {
-      "name": "医者watson`",
-      "kills": 15,
-      "deaths": 1,
-      "assists": 11,
-      "games": 2,
-      "team": "Team Yandex",
-      "gpm": 1711,
-      "xpm": 1734,
-      "lh": 1031,
-      "hero_dmg": 54437,
-      "wins": 2
-    },
-    "chira_junior": {
-      "name": "CHIRA_JUNIOR",
-      "kills": 23,
-      "deaths": 2,
-      "assists": 19,
-      "games": 2,
-      "team": "Team Yandex",
-      "gpm": 1096,
-      "xpm": 1326,
-      "lh": 443,
-      "hero_dmg": 83645,
-      "wins": 2
-    },
-    "dm": {
-      "name": "DM",
-      "kills": 8,
-      "deaths": 5,
-      "assists": 32,
-      "games": 2,
-      "team": "Team Yandex",
-      "gpm": 1246,
-      "xpm": 1287,
-      "lh": 613,
-      "hero_dmg": 64530,
-      "wins": 2
-    },
-    "maladych": {
-      "name": "Maladych",
-      "kills": 5,
-      "deaths": 11,
-      "assists": 27,
-      "games": 2,
-      "team": "Team Yandex",
-      "gpm": 722,
-      "xpm": 997,
-      "lh": 177,
-      "hero_dmg": 22887,
-      "wins": 2
-    },
-    "saksa": {
-      "name": "Saksa",
-      "kills": 5,
-      "deaths": 9,
-      "assists": 32,
-      "games": 2,
-      "team": "Team Yandex",
-      "gpm": 810,
-      "xpm": 1026,
-      "lh": 143,
-      "hero_dmg": 22378,
-      "wins": 2
-    },
-    "mirage`雨": {
-      "name": "Mirage`雨",
-      "kills": 8,
-      "deaths": 9,
-      "assists": 15,
-      "games": 2,
-      "team": "HULIGANI",
-      "gpm": 944,
-      "xpm": 1028,
-      "lh": 554,
-      "hero_dmg": 77916,
-      "wins": 0
-    },
-    "sayuw": {
-      "name": "sayuw",
-      "kills": 4,
-      "deaths": 18,
-      "assists": 11,
-      "games": 2,
-      "team": "HULIGANI",
-      "gpm": 474,
-      "xpm": 531,
-      "lh": 90,
-      "hero_dmg": 22978,
-      "wins": 0
-    },
-    "respect": {
-      "name": "RESPECT",
-      "kills": 2,
-      "deaths": 13,
-      "assists": 18,
-      "games": 2,
-      "team": "HULIGANI",
-      "gpm": 512,
-      "xpm": 752,
-      "lh": 172,
-      "hero_dmg": 29473,
-      "wins": 0
-    },
-    "ssnovv1": {
-      "name": "ssnovv1",
-      "kills": 9,
-      "deaths": 7,
-      "assists": 8,
-      "games": 2,
-      "team": "HULIGANI",
-      "gpm": 1351,
-      "xpm": 1400,
-      "lh": 969,
-      "hero_dmg": 56029,
-      "wins": 0
-    },
-    "corrupted": {
-      "name": "Corrupted",
-      "kills": 3,
-      "deaths": 10,
-      "assists": 11,
-      "games": 2,
-      "team": "HULIGANI",
-      "gpm": 978,
-      "xpm": 1226,
-      "lh": 688,
-      "hero_dmg": 43301,
-      "wins": 0
-    },
-    "mira": {
-      "name": "Mira",
-      "kills": 6,
-      "deaths": 15,
-      "assists": 38,
-      "games": 2,
-      "team": "Aurora Gaming",
-      "gpm": 760,
-      "xpm": 1333,
-      "lh": 249,
-      "hero_dmg": 35908,
-      "wins": 2
-    },
-    "mikoto": {
-      "name": "Mikoto",
-      "kills": 24,
-      "deaths": 4,
-      "assists": 26,
-      "games": 2,
-      "team": "Aurora Gaming",
-      "gpm": 1468,
-      "xpm": 1848,
-      "lh": 1229,
-      "hero_dmg": 109842,
-      "wins": 2
-    },
-    "ws`": {
-      "name": "Ws`",
-      "kills": 17,
-      "deaths": 11,
-      "assists": 23,
-      "games": 2,
-      "team": "Aurora Gaming",
-      "gpm": 1418,
-      "xpm": 1670,
-      "lh": 1134,
-      "hero_dmg": 87674,
-      "wins": 2
-    },
-    "kaori": {
-      "name": "kaori",
-      "kills": 6,
-      "deaths": 14,
-      "assists": 33,
-      "games": 2,
-      "team": "Aurora Gaming",
-      "gpm": 742,
-      "xpm": 1242,
-      "lh": 188,
-      "hero_dmg": 45858,
-      "wins": 2
-    },
-    "nightfall": {
-      "name": "Nightfall",
-      "kills": 17,
-      "deaths": 8,
-      "assists": 27,
-      "games": 2,
-      "team": "Aurora Gaming",
-      "gpm": 1433,
-      "xpm": 1761,
-      "lh": 1197,
-      "hero_dmg": 74795,
+    "natsumi": {
+      "name": "Natsumi",
+      "kills": 62,
+      "deaths": 47,
+      "assists": 71,
+      "games": 11,
+      "team": "OG",
+      "gpm": 7246,
+      "xpm": 8454,
+      "lh": 6186,
+      "hero_dmg": 369188,
       "wins": 2
     },
     "ghost": {
       "name": "Ghost",
-      "kills": 12,
-      "deaths": 12,
-      "assists": 15,
-      "games": 2,
+      "kills": 85,
+      "deaths": 45,
+      "assists": 108,
+      "games": 12,
       "team": "GamerLegion",
-      "gpm": 1345,
-      "xpm": 1711,
-      "lh": 1328,
-      "hero_dmg": 97850,
-      "wins": 0
+      "gpm": 8583,
+      "xpm": 10525,
+      "lh": 6480,
+      "hero_dmg": 335096,
+      "wins": 6
     },
     "speeed": {
       "name": "Speeed",
-      "kills": 12,
-      "deaths": 20,
-      "assists": 28,
-      "games": 2,
+      "kills": 50,
+      "deaths": 61,
+      "assists": 175,
+      "games": 12,
       "team": "GamerLegion",
-      "gpm": 715,
-      "xpm": 957,
-      "lh": 344,
-      "hero_dmg": 49016,
-      "wins": 0
+      "gpm": 4290,
+      "xpm": 5970,
+      "lh": 1313,
+      "hero_dmg": 217707,
+      "wins": 6
     },
     "rcy": {
       "name": "RCY",
-      "kills": 15,
-      "deaths": 10,
-      "assists": 26,
-      "games": 2,
+      "kills": 95,
+      "deaths": 39,
+      "assists": 155,
+      "games": 12,
       "team": "GamerLegion",
-      "gpm": 1186,
-      "xpm": 1451,
-      "lh": 933,
-      "hero_dmg": 117569,
-      "wins": 0
-    },
-    "fayde": {
-      "name": "Fayde",
-      "kills": 7,
-      "deaths": 11,
-      "assists": 23,
-      "games": 2,
-      "team": "GamerLegion",
-      "gpm": 1126,
-      "xpm": 1447,
-      "lh": 984,
-      "hero_dmg": 77666,
-      "wins": 0
+      "gpm": 7575,
+      "xpm": 9348,
+      "lh": 5089,
+      "hero_dmg": 406617,
+      "wins": 6
     },
     "bignum": {
       "name": "Bignum",
-      "kills": 6,
-      "deaths": 18,
-      "assists": 23,
-      "games": 2,
+      "kills": 40,
+      "deaths": 77,
+      "assists": 165,
+      "games": 12,
       "team": "GamerLegion",
-      "gpm": 679,
-      "xpm": 925,
-      "lh": 181,
-      "hero_dmg": 30545,
-      "wins": 0
+      "gpm": 3819,
+      "xpm": 5354,
+      "lh": 672,
+      "hero_dmg": 157942,
+      "wins": 6
     },
-    "shiro": {
-      "name": "shiro",
-      "kills": 14,
-      "deaths": 5,
-      "assists": 7,
-      "games": 2,
-      "team": "Vici Gaming",
-      "gpm": 1338,
-      "xpm": 1410,
-      "lh": 1210,
-      "hero_dmg": 46847,
-      "wins": 0
+    "fayde": {
+      "name": "Fayde",
+      "kills": 57,
+      "deaths": 43,
+      "assists": 143,
+      "games": 12,
+      "team": "GamerLegion",
+      "gpm": 6981,
+      "xpm": 8941,
+      "lh": 5004,
+      "hero_dmg": 275903,
+      "wins": 6
     },
-    "xm": {
-      "name": "Xm",
-      "kills": 4,
-      "deaths": 14,
-      "assists": 19,
-      "games": 2,
-      "team": "Vici Gaming",
-      "gpm": 1011,
-      "xpm": 1360,
-      "lh": 792,
-      "hero_dmg": 64224,
-      "wins": 0
+    "satanic": {
+      "name": "Satanic",
+      "kills": 141,
+      "deaths": 16,
+      "assists": 105,
+      "games": 10,
+      "team": "TEAM VISION",
+      "gpm": 9379,
+      "xpm": 10485,
+      "lh": 7961,
+      "hero_dmg": 474279,
+      "wins": 8
     },
-    "bach": {
-      "name": "Bach",
-      "kills": 7,
-      "deaths": 10,
-      "assists": 10,
-      "games": 2,
-      "team": "Vici Gaming",
-      "gpm": 975,
-      "xpm": 1113,
-      "lh": 662,
-      "hero_dmg": 60079,
-      "wins": 0
+    "noticed": {
+      "name": "Noticed",
+      "kills": 39,
+      "deaths": 30,
+      "assists": 201,
+      "games": 10,
+      "team": "TEAM VISION",
+      "gpm": 6604,
+      "xpm": 8376,
+      "lh": 4884,
+      "hero_dmg": 209466,
+      "wins": 8
     },
-    "xinq": {
-      "name": "XinQ",
-      "kills": 2,
-      "deaths": 13,
-      "assists": 18,
-      "games": 2,
-      "team": "Vici Gaming",
-      "gpm": 597,
-      "xpm": 798,
-      "lh": 316,
-      "hero_dmg": 24766,
-      "wins": 0
+    "no[o]ne-": {
+      "name": "No[o]ne-",
+      "kills": 93,
+      "deaths": 42,
+      "assists": 149,
+      "games": 10,
+      "team": "TEAM VISION",
+      "gpm": 6371,
+      "xpm": 8912,
+      "lh": 4442,
+      "hero_dmg": 410882,
+      "wins": 8
     },
-    "y`": {
-      "name": "y`",
-      "kills": 4,
-      "deaths": 22,
-      "assists": 12,
-      "games": 2,
-      "team": "Vici Gaming",
-      "gpm": 549,
-      "xpm": 787,
-      "lh": 81,
-      "hero_dmg": 22573,
-      "wins": 0
+    "9class": {
+      "name": "9Class",
+      "kills": 53,
+      "deaths": 75,
+      "assists": 176,
+      "games": 10,
+      "team": "TEAM VISION",
+      "gpm": 3738,
+      "xpm": 5795,
+      "lh": 996,
+      "hero_dmg": 171955,
+      "wins": 8
     },
-    "tofu": {
-      "name": "tOfu",
-      "kills": 5,
-      "deaths": 7,
-      "assists": 31,
-      "games": 2,
-      "team": "Team Liquid",
-      "gpm": 665,
-      "xpm": 1085,
-      "lh": 127,
-      "hero_dmg": 44894,
+    "dukalis": {
+      "name": "Dukalis",
+      "kills": 31,
+      "deaths": 64,
+      "assists": 187,
+      "games": 10,
+      "team": "TEAM VISION",
+      "gpm": 3666,
+      "xpm": 5838,
+      "lh": 944,
+      "hero_dmg": 174437,
+      "wins": 8
+    },
+    "mirage`雨": {
+      "name": "Mirage`雨",
+      "kills": 48,
+      "deaths": 45,
+      "assists": 64,
+      "games": 10,
+      "team": "HULIGANI",
+      "gpm": 5630,
+      "xpm": 6799,
+      "lh": 4174,
+      "hero_dmg": 286435,
       "wins": 2
     },
-    "ace ♠": {
-      "name": "Ace ♠",
-      "kills": 11,
-      "deaths": 7,
-      "assists": 32,
-      "games": 2,
-      "team": "Team Liquid",
-      "gpm": 1305,
-      "xpm": 1808,
-      "lh": 968,
-      "hero_dmg": 71242,
+    "sayuw": {
+      "name": "sayuw",
+      "kills": 13,
+      "deaths": 75,
+      "assists": 88,
+      "games": 10,
+      "team": "HULIGANI",
+      "gpm": 2781,
+      "xpm": 3839,
+      "lh": 511,
+      "hero_dmg": 107537,
       "wins": 2
     },
-    "nisha": {
-      "name": "Nisha",
-      "kills": 17,
-      "deaths": 5,
-      "assists": 27,
-      "games": 2,
-      "team": "Team Liquid",
-      "gpm": 1337,
-      "xpm": 1717,
-      "lh": 1001,
-      "hero_dmg": 79952,
+    "ssnovv1": {
+      "name": "ssnovv1",
+      "kills": 47,
+      "deaths": 35,
+      "assists": 49,
+      "games": 10,
+      "team": "HULIGANI",
+      "gpm": 7414,
+      "xpm": 8026,
+      "lh": 6334,
+      "hero_dmg": 236632,
       "wins": 2
     },
-    "boxi": {
-      "name": "Boxi",
-      "kills": 6,
-      "deaths": 8,
-      "assists": 43,
-      "games": 2,
-      "team": "Team Liquid",
-      "gpm": 718,
-      "xpm": 1132,
-      "lh": 110,
-      "hero_dmg": 36292,
+    "respect": {
+      "name": "RESPECT",
+      "kills": 22,
+      "deaths": 76,
+      "assists": 87,
+      "games": 10,
+      "team": "HULIGANI",
+      "gpm": 2999,
+      "xpm": 4015,
+      "lh": 719,
+      "hero_dmg": 120904,
       "wins": 2
     },
-    "m1cke": {
-      "name": "m1CKe",
-      "kills": 24,
-      "deaths": 4,
-      "assists": 17,
-      "games": 2,
-      "team": "Team Liquid",
-      "gpm": 1632,
-      "xpm": 2044,
-      "lh": 1229,
-      "hero_dmg": 72361,
+    "corrupted": {
+      "name": "Corrupted",
+      "kills": 19,
+      "deaths": 53,
+      "assists": 83,
+      "games": 10,
+      "team": "HULIGANI",
+      "gpm": 5479,
+      "xpm": 6383,
+      "lh": 3977,
+      "hero_dmg": 177287,
       "wins": 2
     }
   },
   "cross": {
     "rounds": [
       "Round 1",
-      "Round 2"
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
     ],
     "table": {
-      "BoomBoys": {
-        "Round 1": {
-          "opp": "OG",
-          "my": 2,
-          "op": 0,
-          "fin": true
-        },
-        "Round 2": {
-          "opp": "Iron Wing",
-          "my": 2,
-          "op": 1,
-          "fin": true
-        }
-      },
       "TEAM VISION": {
         "Round 1": {
           "opp": "Team Resilience",
@@ -1339,6 +1373,83 @@
           "my": 2,
           "op": 1,
           "fin": true
+        },
+        "Round 3": {
+          "opp": "BoomBoys",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Team Spirit",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 5": null
+      },
+      "Nigma Galaxy": {
+        "Round 1": {
+          "opp": "Iron Wing",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "OG",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "LGD Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Vici Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Team Spirit",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        }
+      },
+      "Team Liquid": {
+        "Round 1": {
+          "opp": "Vici Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "Team Yandex",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Team Spirit",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Iron Wing",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Aurora Gaming",
+          "my": 2,
+          "op": 1,
+          "fin": true
         }
       },
       "Aurora Gaming": {
@@ -1348,34 +1459,30 @@
           "op": 0,
           "fin": true
         },
-        "Round 2": null
-      },
-      "Team Liquid": {
-        "Round 1": {
-          "opp": "Vici Gaming",
+        "Round 2": {
+          "opp": "Team Spirit",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Team Yandex",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "BoomBoys",
           "my": 2,
           "op": 0,
           "fin": true
         },
-        "Round 2": null
-      },
-      "Team Spirit": {
-        "Round 1": {
-          "opp": "Xtreme Gaming",
-          "my": 2,
-          "op": 0,
+        "Round 5": {
+          "opp": "Team Liquid",
+          "my": 1,
+          "op": 2,
           "fin": true
-        },
-        "Round 2": null
-      },
-      "Team Yandex": {
-        "Round 1": {
-          "opp": "HULIGANI",
-          "my": 2,
-          "op": 0,
-          "fin": true
-        },
-        "Round 2": null
+        }
       },
       "Iron Wing": {
         "Round 1": {
@@ -1387,6 +1494,56 @@
         "Round 2": {
           "opp": "BoomBoys",
           "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Team Falcons",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Team Liquid",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Team Yandex",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        }
+      },
+      "Team Spirit": {
+        "Round 1": {
+          "opp": "Xtreme Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "Aurora Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Team Liquid",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "TEAM VISION",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Nigma Galaxy",
+          "my": 0,
           "op": 2,
           "fin": true
         }
@@ -1403,17 +1560,21 @@
           "my": 2,
           "op": 1,
           "fin": true
-        }
-      },
-      "Nigma Galaxy": {
-        "Round 1": {
-          "opp": "Iron Wing",
+        },
+        "Round 3": {
+          "opp": "Nigma Galaxy",
           "my": 0,
           "op": 2,
           "fin": true
         },
-        "Round 2": {
-          "opp": "OG",
+        "Round 4": {
+          "opp": "Xtreme Gaming",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Vici Gaming",
           "my": 2,
           "op": 0,
           "fin": true
@@ -1431,43 +1592,25 @@
           "my": 1,
           "op": 2,
           "fin": true
+        },
+        "Round 3": {
+          "opp": "Iron Wing",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "GamerLegion",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "BoomBoys",
+          "my": 2,
+          "op": 1,
+          "fin": true
         }
-      },
-      "GamerLegion": {
-        "Round 1": {
-          "opp": "Aurora Gaming",
-          "my": 0,
-          "op": 2,
-          "fin": true
-        },
-        "Round 2": null
-      },
-      "HULIGANI": {
-        "Round 1": {
-          "opp": "Team Yandex",
-          "my": 0,
-          "op": 2,
-          "fin": true
-        },
-        "Round 2": null
-      },
-      "Vici Gaming": {
-        "Round 1": {
-          "opp": "Team Liquid",
-          "my": 0,
-          "op": 2,
-          "fin": true
-        },
-        "Round 2": null
-      },
-      "Xtreme Gaming": {
-        "Round 1": {
-          "opp": "Team Spirit",
-          "my": 0,
-          "op": 2,
-          "fin": true
-        },
-        "Round 2": null
       },
       "Team Resilience": {
         "Round 1": {
@@ -1479,6 +1622,184 @@
         "Round 2": {
           "opp": "LGD Gaming",
           "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "OG",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Team Yandex",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Xtreme Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        }
+      },
+      "Team Yandex": {
+        "Round 1": {
+          "opp": "HULIGANI",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "Team Liquid",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Aurora Gaming",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Team Resilience",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Iron Wing",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        }
+      },
+      "GamerLegion": {
+        "Round 1": {
+          "opp": "Aurora Gaming",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "Xtreme Gaming",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Vici Gaming",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Team Falcons",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "OG",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        }
+      },
+      "BoomBoys": {
+        "Round 1": {
+          "opp": "OG",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "Iron Wing",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "TEAM VISION",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Aurora Gaming",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Team Falcons",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        }
+      },
+      "Vici Gaming": {
+        "Round 1": {
+          "opp": "Team Liquid",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "HULIGANI",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "GamerLegion",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "Nigma Galaxy",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "LGD Gaming",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        }
+      },
+      "Xtreme Gaming": {
+        "Round 1": {
+          "opp": "Team Spirit",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "GamerLegion",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "HULIGANI",
+          "my": 2,
+          "op": 0,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "LGD Gaming",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "Team Resilience",
+          "my": 0,
           "op": 2,
           "fin": true
         }
@@ -1495,173 +1816,929 @@
           "my": 0,
           "op": 2,
           "fin": true
+        },
+        "Round 3": {
+          "opp": "Team Resilience",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "HULIGANI",
+          "my": 2,
+          "op": 1,
+          "fin": true
+        },
+        "Round 5": {
+          "opp": "GamerLegion",
+          "my": 0,
+          "op": 2,
+          "fin": true
         }
+      },
+      "HULIGANI": {
+        "Round 1": {
+          "opp": "Team Yandex",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 2": {
+          "opp": "Vici Gaming",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 3": {
+          "opp": "Xtreme Gaming",
+          "my": 0,
+          "op": 2,
+          "fin": true
+        },
+        "Round 4": {
+          "opp": "OG",
+          "my": 1,
+          "op": 2,
+          "fin": true
+        },
+        "Round 5": null
       }
     }
   },
-  "analysis": "### ⚠️ 数据说明\n\n本次抓取 Liquipedia 时遭遇限流（HTTP 429），**今日（8/14）赛程暂未获取到**。以下积分榜、昨日战报与选手数据均基于 **OpenDota 实时比赛数据重建**，比分真实可靠；今日具体对阵待 Liquipedia 恢复后补充。\n\n### 昨日战报（8/13）\n\n小组赛首日战罢：**首轮 8 场 Bo3 全部结束**，次轮已打完 4 场。\n\n**🇨🇳 中国三队开局受挫**：\n- **XG（Xtreme Gaming）0-2 Spirit** —— 首轮被 **0-2 零封**，小分挂零。\n- **VG（Vici Gaming）0-2 Liquid** —— 首轮同样被 **0-2 零封**。\n- **TR（Team Resilience）1-2 Vision、1-2 LGD** —— 两场都是 **1-2 惜败**，大分 0-2 落入垫底区。\n\n其余焦点：**BoomBoys** 首日 **2-0 OG、2-1 Iron Wing** 双线告捷，与 **Vision（2-1 TR、2-1 Falcons）** 同为开赛 **2-0 领跑**；**Falcons 2-1 LGD** 后 **1-2 Vision** 掉到 1-1；**Iron Wing 2-0 Nigma** 后 **1-2 BoomBoys** 也回到 1-1。\n\n### 出线形势\n\n**已基本锁定前 3 直通（2-0）**：\n- **BoomBoys**（小分 4-1）、**Vision**（4-2）领跑，再取一胜即稳进前 3 直接晋级淘汰赛。\n\n**1-0 待观察**：**Liquid、Aurora、Spirit、Yandex** 首胜到手，次轮剩余比赛取胜即可冲上 2-0。\n\n**1-1 观望区**：**Iron Wing、LGD、Nigma、Falcons** 一胜一负，出线仍需观望。\n\n**濒临淘汰**：\n- **OG** 0-2 且小分 **0-4** 全败，已站在悬崖边；\n- **TR** 0-2（小分 2-4），再输即 0-3 基本出局。\n\n**🇨🇳 中国队单独说明**：\n- **XG（0-1）**：被 Spirit 零封、小分劣势明显，**今日必须取胜止血**，否则 0-2 将陷入绝境。\n- **VG（0-1）**：被 Liquid 零封，同样**急需一胜**扭转小分被动。\n- **TR（0-2）**：两场 1-2 惜败，虽小分不差但**已无退路**，剩余 3 轮需全力争胜，才能守住前 13（附加赛）席位。\n\n### 今日对阵\n\n今日（8/14）赛程因 Liquipedia 限流暂未获取到。从已完赛数据可确定：**第 2 轮还剩 4 场待打** —— 1-0 组（Liquid/Aurora/Spirit/Yandex）两场、0-1 组（VG/GamerLegion/XG/HULIGANI）两场；**XG、VG 将在 0-1 组继续征战，TR 已进入第 3 轮**。具体对手与开赛时间待数据源恢复后更新。",
+  "analysis": "### ⚠️ 数据说明\n\n本次抓取 Liquipedia 时遭遇限流（HTTP 429，需人工验证码解锁，无法自动绕过）。以下积分榜、昨日战报与选手数据均基于 **OpenDota 全量比赛数据重建**（含 8/13-8/15 全部 39 场系列赛），比分真实可靠；仅今日收官战的具体开赛时间暂未获取到，已标注。\n\n### 今日对阵（8/16 收官日）\n\n小组赛进入最后一天，**仅剩第 5 轮最后一场**：\n\n- **TEAM VISION vs HULIGANI**（具体时间待官方确认）\n\n这是本届小组赛的\"首尾大战\"：**Vision 4-0 全胜领跑**，**HULIGANI 0-4 全败垫底**。两队是仅剩的尚未打完 5 轮的队伍，其余 14 队均已完赛。\n\n**关键点**：这场对决**不影响任何出线结果**——Vision 即便落败仍是 4-1，稳居前三直接晋级；HULIGANI 即便取胜也只是 1-4，依然落在 14-16 名的淘汰区。纯粹是荣誉之战 + 名次微调。\n\n**🇨🇳 中国三队（XG/VG/TR）今日均无比赛**，5 轮已全部打完，命运已定（见下方出线分析）。\n\n### 昨日战报（8/15）\n\n昨日共 **15 场系列赛**（第 4 轮 8 场 + 第 5 轮 7 场），冷门频出：\n\n**🇨🇳 中国战队昨日惨淡**：\n- **XG 0-2 日**：1-2 负 LGD、0-2 负 Resilience，两连败后以 1-4 出局。\n- **VG 0-2 日**：0-2 负 Nigma、0-2 负 LGD，两连败，靠此前攒下的两胜惊险压线。\n- **TR（Resilience）1-1 日**：1-2 负 Yandex、2-0 胜 XG，最终 2-3 稳住附加赛席位。\n\n其余焦点：**Vision 2-0 Spirit** 拿下榜首大战；**Liquid 2-1 Iron Wing、2-1 Aurora** 两连胜锁定前三；**Nigma 2-0 VG、2-0 Spirit** 状态火热冲进前三；**LGD 2-1 XG、2-0 VG** 双杀中国兄弟队；**Falcons 2-1 BoomBoys** 止住颓势。\n\n### 出线形势分析\n\n**已锁定前 3（直接晋级淘汰赛）**：\n- **TEAM VISION（4-0，小分 8-2）** —— 全胜领跑，Satanic 场均 14.1 击杀、KDA 15.4 一骑绝尘，是本届最大夺冠热门之一。\n- **Nigma Galaxy（4-1，8-2）** —— 首轮 0-2 负 Iron Wing 后豪取四连胜，先后 2-0 胜 VG、Spirit。\n- **Team Liquid（4-1，9-5）** —— 开局 2-0，第 3 轮 1-2 负 Spirit 后两连胜收官。\n\n**进入淘汰轮 / 附加赛（4-13 名，共 10 队）**：Aurora（3-2）、Iron Wing（3-2）、Spirit（3-2）、LGD（3-2）、Falcons（3-2）五支 3 胜队已无晋级/淘汰悬念，进附加赛只是排位问题；**Resilience、Yandex、GamerLegion、BoomBoys、VG** 五支 2 胜队同进附加赛。\n\n**濒临淘汰 / 已出局（14-16 名）**：\n- **Xtreme Gaming（1-4，3-8）第 14 —— 已淘汰** ❌\n- **OG（1-4，2-9）第 15 —— 已淘汰**\n- **HULIGANI（0-4，2-8）第 16 —— 已淘汰**\n\n**🇨🇳 中国队单独说明**：\n- **XG（Ame/Xxs/fy）—— 惨遭淘汰，本届最大冷门** ❌。XG 小组赛仅赢过垫底的 HULIGANI 一场，先后负于 Spirit、GamerLegion、LGD、Resilience，1-4 收场位列第 14，直接告别本届 TI。全队状态低迷，fy 场均 KDA 仅 1.7。\n- **VG（shiro/Xm/Bach/XinQ/y`）—— 压线晋级，命悬一线** ⚠️。2-3 名列第 13，正好卡进附加赛最后一个名额，但小分仅 4-8 是附加赛 10 队里最差，附加赛必须迅速找回状态，否则凶多吉少。核心 shiro（KDA 3.7）是队内唯一稳定输出点。\n- **TR / Team Resilience（Erika/Echo/niu/planet/zzq）—— 稳进附加赛** ✅。2-3 名列第 9，小分 7-6 相当健康。**Echo（KDA 5.0，200 助攻）与 Erika（117 击杀，KDA 3.5）** 双核火力在线，附加赛值得期待。",
   "hero_stats": [
+    {
+      "hero_id": 91,
+      "name": "Io",
+      "short": "wisp",
+      "pick": 8,
+      "ban": 15,
+      "win": 3,
+      "winrate": 37.5
+    },
     {
       "hero_id": 90,
       "name": "Keeper of the Light",
       "short": "keeper_of_the_light",
-      "pick": 3,
-      "ban": 24,
+      "pick": 16,
+      "ban": 66,
+      "win": 8,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 83,
+      "name": "Treant Protector",
+      "short": "treant",
+      "pick": 7,
+      "ban": 90,
+      "win": 6,
+      "winrate": 85.7
+    },
+    {
+      "hero_id": 107,
+      "name": "Earth Spirit",
+      "short": "earth_spirit",
+      "pick": 35,
+      "ban": 54,
+      "win": 23,
+      "winrate": 65.7
+    },
+    {
+      "hero_id": 112,
+      "name": "Winter Wyvern",
+      "short": "winter_wyvern",
+      "pick": 30,
+      "ban": 31,
+      "win": 16,
+      "winrate": 53.3
+    },
+    {
+      "hero_id": 3,
+      "name": "Bane",
+      "short": "bane",
+      "pick": 11,
+      "ban": 35,
+      "win": 5,
+      "winrate": 45.5
+    },
+    {
+      "hero_id": 85,
+      "name": "Undying",
+      "short": "undying",
+      "pick": 30,
+      "ban": 37,
+      "win": 15,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 123,
+      "name": "Hoodwink",
+      "short": "hoodwink",
+      "pick": 51,
+      "ban": 35,
+      "win": 22,
+      "winrate": 43.1
+    },
+    {
+      "hero_id": 106,
+      "name": "Ember Spirit",
+      "short": "ember_spirit",
+      "pick": 24,
+      "ban": 46,
+      "win": 14,
+      "winrate": 58.3
+    },
+    {
+      "hero_id": 9,
+      "name": "Mirana",
+      "short": "mirana",
+      "pick": 45,
+      "ban": 16,
+      "win": 22,
+      "winrate": 48.9
+    },
+    {
+      "hero_id": 21,
+      "name": "Windranger",
+      "short": "windrunner",
+      "pick": 24,
+      "ban": 15,
+      "win": 13,
+      "winrate": 54.2
+    },
+    {
+      "hero_id": 49,
+      "name": "Dragon Knight",
+      "short": "dragon_knight",
+      "pick": 4,
+      "ban": 3,
       "win": 2,
-      "winrate": 66.7
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 155,
+      "name": "Largo",
+      "short": "largo",
+      "pick": 13,
+      "ban": 53,
+      "win": 6,
+      "winrate": 46.2
+    },
+    {
+      "hero_id": 80,
+      "name": "Lone Druid",
+      "short": "lone_druid",
+      "pick": 12,
+      "ban": 48,
+      "win": 4,
+      "winrate": 33.3
     },
     {
       "hero_id": 119,
       "name": "Dark Willow",
       "short": "dark_willow",
-      "pick": 10,
-      "ban": 4,
-      "win": 6,
-      "winrate": 60.0
+      "pick": 30,
+      "ban": 13,
+      "win": 17,
+      "winrate": 56.7
     },
     {
-      "hero_id": 59,
-      "name": "Huskar",
-      "short": "huskar",
+      "hero_id": 50,
+      "name": "Dazzle",
+      "short": "dazzle",
       "pick": 3,
-      "ban": 5,
-      "win": 1,
+      "ban": 0,
+      "win": 3,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 51,
+      "name": "Clockwerk",
+      "short": "rattletrap",
+      "pick": 20,
+      "ban": 16,
+      "win": 11,
+      "winrate": 55.0
+    },
+    {
+      "hero_id": 2,
+      "name": "Axe",
+      "short": "axe",
+      "pick": 11,
+      "ban": 20,
+      "win": 3,
+      "winrate": 27.3
+    },
+    {
+      "hero_id": 36,
+      "name": "Necrophos",
+      "short": "necrolyte",
+      "pick": 20,
+      "ban": 22,
+      "win": 11,
+      "winrate": 55.0
+    },
+    {
+      "hero_id": 13,
+      "name": "Puck",
+      "short": "puck",
+      "pick": 12,
+      "ban": 45,
+      "win": 4,
       "winrate": 33.3
     },
     {
       "hero_id": 19,
       "name": "Tiny",
       "short": "tiny",
-      "pick": 5,
-      "ban": 12,
-      "win": 4,
-      "winrate": 80.0
+      "pick": 20,
+      "ban": 31,
+      "win": 10,
+      "winrate": 50.0
     },
     {
-      "hero_id": 80,
-      "name": "Lone Druid",
-      "short": "lone_druid",
-      "pick": 5,
-      "ban": 13,
-      "win": 3,
-      "winrate": 60.0
-    },
-    {
-      "hero_id": 51,
-      "name": "Clockwerk",
-      "short": "rattletrap",
+      "hero_id": 128,
+      "name": "Snapfire",
+      "short": "snapfire",
       "pick": 8,
-      "ban": 4,
-      "win": 5,
-      "winrate": 62.5
-    },
-    {
-      "hero_id": 58,
-      "name": "Enchantress",
-      "short": "enchantress",
-      "pick": 1,
-      "ban": 6,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 83,
-      "name": "Treant Protector",
-      "short": "treant",
-      "pick": 1,
-      "ban": 28,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 96,
-      "name": "Centaur Warrunner",
-      "short": "centaur",
-      "pick": 9,
-      "ban": 12,
-      "win": 5,
-      "winrate": 55.6
-    },
-    {
-      "hero_id": 25,
-      "name": "Lina",
-      "short": "lina",
-      "pick": 8,
-      "ban": 16,
+      "ban": 10,
       "win": 6,
       "winrate": 75.0
     },
     {
-      "hero_id": 123,
-      "name": "Hoodwink",
-      "short": "hoodwink",
-      "pick": 12,
-      "ban": 12,
-      "win": 6,
-      "winrate": 50.0
+      "hero_id": 74,
+      "name": "Invoker",
+      "short": "invoker",
+      "pick": 15,
+      "ban": 47,
+      "win": 8,
+      "winrate": 53.3
     },
     {
-      "hero_id": 47,
-      "name": "Viper",
-      "short": "viper",
-      "pick": 2,
-      "ban": 5,
-      "win": 0,
-      "winrate": 0.0
+      "hero_id": 53,
+      "name": "Nature's Prophet",
+      "short": "furion",
+      "pick": 13,
+      "ban": 32,
+      "win": 10,
+      "winrate": 76.9
     },
     {
       "hero_id": 11,
       "name": "Shadow Fiend",
       "short": "nevermore",
-      "pick": 4,
-      "ban": 11,
-      "win": 3,
-      "winrate": 75.0
+      "pick": 19,
+      "ban": 49,
+      "win": 11,
+      "winrate": 57.9
     },
     {
-      "hero_id": 107,
-      "name": "Earth Spirit",
-      "short": "earth_spirit",
-      "pick": 8,
-      "ban": 17,
+      "hero_id": 25,
+      "name": "Lina",
+      "short": "lina",
+      "pick": 29,
+      "ban": 56,
+      "win": 16,
+      "winrate": 55.2
+    },
+    {
+      "hero_id": 69,
+      "name": "Doom",
+      "short": "doom_bringer",
+      "pick": 16,
+      "ban": 27,
+      "win": 9,
+      "winrate": 56.2
+    },
+    {
+      "hero_id": 145,
+      "name": "Kez",
+      "short": "kez",
+      "pick": 20,
+      "ban": 16,
+      "win": 14,
+      "winrate": 70.0
+    },
+    {
+      "hero_id": 86,
+      "name": "Rubick",
+      "short": "rubick",
+      "pick": 16,
+      "ban": 7,
+      "win": 7,
+      "winrate": 43.8
+    },
+    {
+      "hero_id": 109,
+      "name": "Terrorblade",
+      "short": "terrorblade",
+      "pick": 4,
+      "ban": 5,
+      "win": 2,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 60,
+      "name": "Night Stalker",
+      "short": "night_stalker",
+      "pick": 3,
+      "ban": 5,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 12,
+      "name": "Phantom Lancer",
+      "short": "phantom_lancer",
+      "pick": 6,
+      "ban": 8,
+      "win": 2,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 77,
+      "name": "Lycan",
+      "short": "lycan",
+      "pick": 6,
+      "ban": 7,
       "win": 3,
-      "winrate": 37.5
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 17,
+      "name": "Storm Spirit",
+      "short": "storm_spirit",
+      "pick": 6,
+      "ban": 10,
+      "win": 3,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 79,
+      "name": "Shadow Demon",
+      "short": "shadow_demon",
+      "pick": 12,
+      "ban": 3,
+      "win": 6,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 54,
+      "name": "Lifestealer",
+      "short": "life_stealer",
+      "pick": 12,
+      "ban": 17,
+      "win": 5,
+      "winrate": 41.7
+    },
+    {
+      "hero_id": 108,
+      "name": "Underlord",
+      "short": "abyssal_underlord",
+      "pick": 14,
+      "ban": 25,
+      "win": 7,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 120,
+      "name": "Pangolier",
+      "short": "pangolier",
+      "pick": 18,
+      "ban": 8,
+      "win": 12,
+      "winrate": 66.7
+    },
+    {
+      "hero_id": 98,
+      "name": "Timbersaw",
+      "short": "shredder",
+      "pick": 14,
+      "ban": 19,
+      "win": 7,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 110,
+      "name": "Phoenix",
+      "short": "phoenix",
+      "pick": 4,
+      "ban": 4,
+      "win": 2,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 64,
+      "name": "Jakiro",
+      "short": "jakiro",
+      "pick": 10,
+      "ban": 1,
+      "win": 6,
+      "winrate": 60.0
+    },
+    {
+      "hero_id": 135,
+      "name": "Dawnbreaker",
+      "short": "dawnbreaker",
+      "pick": 9,
+      "ban": 5,
+      "win": 5,
+      "winrate": 55.6
+    },
+    {
+      "hero_id": 59,
+      "name": "Huskar",
+      "short": "huskar",
+      "pick": 5,
+      "ban": 18,
+      "win": 1,
+      "winrate": 20.0
+    },
+    {
+      "hero_id": 96,
+      "name": "Centaur Warrunner",
+      "short": "centaur",
+      "pick": 37,
+      "ban": 38,
+      "win": 19,
+      "winrate": 51.4
+    },
+    {
+      "hero_id": 58,
+      "name": "Enchantress",
+      "short": "enchantress",
+      "pick": 7,
+      "ban": 9,
+      "win": 3,
+      "winrate": 42.9
+    },
+    {
+      "hero_id": 38,
+      "name": "Beastmaster",
+      "short": "beastmaster",
+      "pick": 7,
+      "ban": 12,
+      "win": 3,
+      "winrate": 42.9
+    },
+    {
+      "hero_id": 26,
+      "name": "Lion",
+      "short": "lion",
+      "pick": 6,
+      "ban": 0,
+      "win": 4,
+      "winrate": 66.7
+    },
+    {
+      "hero_id": 47,
+      "name": "Viper",
+      "short": "viper",
+      "pick": 5,
+      "ban": 10,
+      "win": 1,
+      "winrate": 20.0
+    },
+    {
+      "hero_id": 73,
+      "name": "Alchemist",
+      "short": "alchemist",
+      "pick": 6,
+      "ban": 5,
+      "win": 2,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 18,
+      "name": "Sven",
+      "short": "sven",
+      "pick": 10,
+      "ban": 20,
+      "win": 4,
+      "winrate": 40.0
+    },
+    {
+      "hero_id": 46,
+      "name": "Templar Assassin",
+      "short": "templar_assassin",
+      "pick": 4,
+      "ban": 4,
+      "win": 1,
+      "winrate": 25.0
+    },
+    {
+      "hero_id": 131,
+      "name": "Ringmaster",
+      "short": "ringmaster",
+      "pick": 14,
+      "ban": 2,
+      "win": 6,
+      "winrate": 42.9
+    },
+    {
+      "hero_id": 55,
+      "name": "Dark Seer",
+      "short": "dark_seer",
+      "pick": 18,
+      "ban": 32,
+      "win": 8,
+      "winrate": 44.4
+    },
+    {
+      "hero_id": 100,
+      "name": "Tusk",
+      "short": "tusk",
+      "pick": 21,
+      "ban": 11,
+      "win": 8,
+      "winrate": 38.1
+    },
+    {
+      "hero_id": 78,
+      "name": "Brewmaster",
+      "short": "brewmaster",
+      "pick": 2,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 48,
+      "name": "Luna",
+      "short": "luna",
+      "pick": 3,
+      "ban": 1,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 20,
+      "name": "Vengeful Spirit",
+      "short": "vengefulspirit",
+      "pick": 2,
+      "ban": 1,
+      "win": 1,
+      "winrate": 50.0
     },
     {
       "hero_id": 56,
       "name": "Clinkz",
       "short": "clinkz",
+      "pick": 6,
+      "ban": 4,
+      "win": 4,
+      "winrate": 66.7
+    },
+    {
+      "hero_id": 28,
+      "name": "Slardar",
+      "short": "slardar",
+      "pick": 15,
+      "ban": 19,
+      "win": 5,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 33,
+      "name": "Enigma",
+      "short": "enigma",
+      "pick": 8,
+      "ban": 25,
+      "win": 4,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 6,
+      "name": "Drow Ranger",
+      "short": "drow_ranger",
+      "pick": 15,
+      "ban": 19,
+      "win": 7,
+      "winrate": 46.7
+    },
+    {
+      "hero_id": 65,
+      "name": "Batrider",
+      "short": "batrider",
+      "pick": 2,
+      "ban": 1,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 70,
+      "name": "Ursa",
+      "short": "ursa",
+      "pick": 0,
+      "ban": 3,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 93,
+      "name": "Slark",
+      "short": "slark",
       "pick": 1,
-      "ban": 0,
+      "ban": 4,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 7,
+      "name": "Earthshaker",
+      "short": "earthshaker",
+      "pick": 8,
+      "ban": 4,
+      "win": 3,
+      "winrate": 37.5
+    },
+    {
+      "hero_id": 97,
+      "name": "Magnus",
+      "short": "magnataur",
+      "pick": 3,
+      "ban": 3,
+      "win": 2,
+      "winrate": 66.7
+    },
+    {
+      "hero_id": 16,
+      "name": "Sand King",
+      "short": "sand_king",
+      "pick": 4,
+      "ban": 8,
+      "win": 1,
+      "winrate": 25.0
+    },
+    {
+      "hero_id": 34,
+      "name": "Tinker",
+      "short": "tinker",
+      "pick": 1,
+      "ban": 3,
       "win": 0,
       "winrate": 0.0
     },
     {
-      "hero_id": 103,
-      "name": "Elder Titan",
-      "short": "elder_titan",
+      "hero_id": 71,
+      "name": "Spirit Breaker",
+      "short": "spirit_breaker",
+      "pick": 4,
+      "ban": 0,
+      "win": 1,
+      "winrate": 25.0
+    },
+    {
+      "hero_id": 67,
+      "name": "Spectre",
+      "short": "spectre",
+      "pick": 6,
+      "ban": 3,
+      "win": 3,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 89,
+      "name": "Naga Siren",
+      "short": "naga_siren",
+      "pick": 1,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 114,
+      "name": "Monkey King",
+      "short": "monkey_king",
+      "pick": 6,
+      "ban": 6,
+      "win": 3,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 111,
+      "name": "Oracle",
+      "short": "oracle",
+      "pick": 1,
+      "ban": 1,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 95,
+      "name": "Troll Warlord",
+      "short": "troll_warlord",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 137,
+      "name": "Primal Beast",
+      "short": "primal_beast",
+      "pick": 2,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 29,
+      "name": "Tidehunter",
+      "short": "tidehunter",
+      "pick": 4,
+      "ban": 3,
+      "win": 2,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 41,
+      "name": "Faceless Void",
+      "short": "faceless_void",
+      "pick": 1,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 10,
+      "name": "Morphling",
+      "short": "morphling",
+      "pick": 1,
+      "ban": 2,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 8,
+      "name": "Juggernaut",
+      "short": "juggernaut",
+      "pick": 2,
+      "ban": 0,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 126,
+      "name": "Void Spirit",
+      "short": "void_spirit",
       "pick": 4,
       "ban": 2,
       "win": 2,
       "winrate": 50.0
     },
     {
-      "hero_id": 106,
-      "name": "Ember Spirit",
-      "short": "ember_spirit",
-      "pick": 8,
-      "ban": 14,
-      "win": 5,
-      "winrate": 62.5
+      "hero_id": 27,
+      "name": "Shadow Shaman",
+      "short": "shadow_shaman",
+      "pick": 6,
+      "ban": 0,
+      "win": 3,
+      "winrate": 50.0
     },
     {
-      "hero_id": 36,
-      "name": "Necrophos",
-      "short": "necrolyte",
-      "pick": 6,
-      "ban": 8,
-      "win": 2,
+      "hero_id": 103,
+      "name": "Elder Titan",
+      "short": "elder_titan",
+      "pick": 9,
+      "ban": 2,
+      "win": 4,
+      "winrate": 44.4
+    },
+    {
+      "hero_id": 30,
+      "name": "Witch Doctor",
+      "short": "witch_doctor",
+      "pick": 4,
+      "ban": 2,
+      "win": 3,
+      "winrate": 75.0
+    },
+    {
+      "hero_id": 23,
+      "name": "Kunkka",
+      "short": "kunkka",
+      "pick": 0,
+      "ban": 4,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 129,
+      "name": "Mars",
+      "short": "mars",
+      "pick": 3,
+      "ban": 3,
+      "win": 1,
       "winrate": 33.3
+    },
+    {
+      "hero_id": 105,
+      "name": "Techies",
+      "short": "techies",
+      "pick": 3,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 39,
+      "name": "Queen of Pain",
+      "short": "queenofpain",
+      "pick": 2,
+      "ban": 1,
+      "win": 1,
+      "winrate": 50.0
+    },
+    {
+      "hero_id": 63,
+      "name": "Weaver",
+      "short": "weaver",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
+    },
+    {
+      "hero_id": 72,
+      "name": "Gyrocopter",
+      "short": "gyrocopter",
+      "pick": 2,
+      "ban": 2,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 43,
+      "name": "Death Prophet",
+      "short": "death_prophet",
+      "pick": 1,
+      "ban": 0,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 113,
+      "name": "Arc Warden",
+      "short": "arc_warden",
+      "pick": 1,
+      "ban": 0,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 5,
+      "name": "Crystal Maiden",
+      "short": "crystal_maiden",
+      "pick": 3,
+      "ban": 0,
+      "win": 1,
+      "winrate": 33.3
+    },
+    {
+      "hero_id": 62,
+      "name": "Bounty Hunter",
+      "short": "bounty_hunter",
+      "pick": 5,
+      "ban": 3,
+      "win": 2,
+      "winrate": 40.0
+    },
+    {
+      "hero_id": 15,
+      "name": "Razor",
+      "short": "razor",
+      "pick": 1,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 22,
+      "name": "Zeus",
+      "short": "zuus",
+      "pick": 1,
+      "ban": 1,
+      "win": 1,
+      "winrate": 100.0
+    },
+    {
+      "hero_id": 32,
+      "name": "Riki",
+      "short": "riki",
+      "pick": 1,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0.0
+    },
+    {
+      "hero_id": 52,
+      "name": "Leshrac",
+      "short": "leshrac",
+      "pick": 0,
+      "ban": 1,
+      "win": 0,
+      "winrate": 0
     },
     {
       "hero_id": 14,
@@ -1673,414 +2750,9 @@
       "winrate": 100.0
     },
     {
-      "hero_id": 128,
-      "name": "Snapfire",
-      "short": "snapfire",
-      "pick": 4,
-      "ban": 3,
-      "win": 4,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 33,
-      "name": "Enigma",
-      "short": "enigma",
-      "pick": 3,
-      "ban": 8,
-      "win": 2,
-      "winrate": 66.7
-    },
-    {
-      "hero_id": 114,
-      "name": "Monkey King",
-      "short": "monkey_king",
-      "pick": 0,
-      "ban": 2,
-      "win": 0,
-      "winrate": 0
-    },
-    {
-      "hero_id": 26,
-      "name": "Lion",
-      "short": "lion",
-      "pick": 1,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 21,
-      "name": "Windranger",
-      "short": "windrunner",
-      "pick": 11,
-      "ban": 4,
-      "win": 5,
-      "winrate": 45.5
-    },
-    {
-      "hero_id": 55,
-      "name": "Dark Seer",
-      "short": "dark_seer",
-      "pick": 5,
-      "ban": 9,
-      "win": 1,
-      "winrate": 20.0
-    },
-    {
-      "hero_id": 74,
-      "name": "Invoker",
-      "short": "invoker",
-      "pick": 2,
-      "ban": 16,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 6,
-      "name": "Drow Ranger",
-      "short": "drow_ranger",
-      "pick": 7,
-      "ban": 1,
-      "win": 4,
-      "winrate": 57.1
-    },
-    {
-      "hero_id": 112,
-      "name": "Winter Wyvern",
-      "short": "winter_wyvern",
-      "pick": 10,
-      "ban": 8,
-      "win": 5,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 18,
-      "name": "Sven",
-      "short": "sven",
-      "pick": 4,
-      "ban": 10,
-      "win": 4,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 120,
-      "name": "Pangolier",
-      "short": "pangolier",
-      "pick": 3,
-      "ban": 3,
-      "win": 3,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 13,
-      "name": "Puck",
-      "short": "puck",
-      "pick": 4,
-      "ban": 12,
-      "win": 1,
-      "winrate": 25.0
-    },
-    {
-      "hero_id": 16,
-      "name": "Sand King",
-      "short": "sand_king",
-      "pick": 2,
-      "ban": 2,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 85,
-      "name": "Undying",
-      "short": "undying",
-      "pick": 12,
-      "ban": 10,
-      "win": 8,
-      "winrate": 66.7
-    },
-    {
-      "hero_id": 97,
-      "name": "Magnus",
-      "short": "magnataur",
-      "pick": 1,
-      "ban": 0,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 22,
-      "name": "Zeus",
-      "short": "zuus",
-      "pick": 1,
-      "ban": 0,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 98,
-      "name": "Timbersaw",
-      "short": "shredder",
-      "pick": 4,
-      "ban": 4,
-      "win": 1,
-      "winrate": 25.0
-    },
-    {
-      "hero_id": 70,
-      "name": "Ursa",
-      "short": "ursa",
-      "pick": 0,
-      "ban": 1,
-      "win": 0,
-      "winrate": 0
-    },
-    {
-      "hero_id": 86,
-      "name": "Rubick",
-      "short": "rubick",
-      "pick": 4,
-      "ban": 3,
-      "win": 1,
-      "winrate": 25.0
-    },
-    {
-      "hero_id": 9,
-      "name": "Mirana",
-      "short": "mirana",
-      "pick": 12,
-      "ban": 4,
-      "win": 5,
-      "winrate": 41.7
-    },
-    {
       "hero_id": 4,
       "name": "Bloodseeker",
       "short": "bloodseeker",
-      "pick": 1,
-      "ban": 0,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 28,
-      "name": "Slardar",
-      "short": "slardar",
-      "pick": 5,
-      "ban": 6,
-      "win": 3,
-      "winrate": 60.0
-    },
-    {
-      "hero_id": 105,
-      "name": "Techies",
-      "short": "techies",
-      "pick": 2,
-      "ban": 1,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 62,
-      "name": "Bounty Hunter",
-      "short": "bounty_hunter",
-      "pick": 4,
-      "ban": 2,
-      "win": 1,
-      "winrate": 25.0
-    },
-    {
-      "hero_id": 15,
-      "name": "Razor",
-      "short": "razor",
-      "pick": 1,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 145,
-      "name": "Kez",
-      "short": "kez",
-      "pick": 5,
-      "ban": 3,
-      "win": 4,
-      "winrate": 80.0
-    },
-    {
-      "hero_id": 155,
-      "name": "Largo",
-      "short": "largo",
-      "pick": 6,
-      "ban": 12,
-      "win": 3,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 3,
-      "name": "Bane",
-      "short": "bane",
-      "pick": 4,
-      "ban": 11,
-      "win": 2,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 91,
-      "name": "Io",
-      "short": "wisp",
-      "pick": 3,
-      "ban": 8,
-      "win": 1,
-      "winrate": 33.3
-    },
-    {
-      "hero_id": 131,
-      "name": "Ringmaster",
-      "short": "ringmaster",
-      "pick": 3,
-      "ban": 1,
-      "win": 2,
-      "winrate": 66.7
-    },
-    {
-      "hero_id": 69,
-      "name": "Doom",
-      "short": "doom_bringer",
-      "pick": 3,
-      "ban": 8,
-      "win": 2,
-      "winrate": 66.7
-    },
-    {
-      "hero_id": 54,
-      "name": "Lifestealer",
-      "short": "life_stealer",
-      "pick": 1,
-      "ban": 6,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 73,
-      "name": "Alchemist",
-      "short": "alchemist",
-      "pick": 4,
-      "ban": 2,
-      "win": 1,
-      "winrate": 25.0
-    },
-    {
-      "hero_id": 32,
-      "name": "Riki",
-      "short": "riki",
-      "pick": 0,
-      "ban": 1,
-      "win": 0,
-      "winrate": 0
-    },
-    {
-      "hero_id": 126,
-      "name": "Void Spirit",
-      "short": "void_spirit",
-      "pick": 1,
-      "ban": 2,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 53,
-      "name": "Nature's Prophet",
-      "short": "furion",
-      "pick": 1,
-      "ban": 8,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 72,
-      "name": "Gyrocopter",
-      "short": "gyrocopter",
-      "pick": 2,
-      "ban": 1,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 108,
-      "name": "Underlord",
-      "short": "abyssal_underlord",
-      "pick": 4,
-      "ban": 6,
-      "win": 3,
-      "winrate": 75.0
-    },
-    {
-      "hero_id": 17,
-      "name": "Storm Spirit",
-      "short": "storm_spirit",
-      "pick": 2,
-      "ban": 2,
-      "win": 1,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 49,
-      "name": "Dragon Knight",
-      "short": "dragon_knight",
-      "pick": 2,
-      "ban": 1,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 100,
-      "name": "Tusk",
-      "short": "tusk",
-      "pick": 4,
-      "ban": 2,
-      "win": 2,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 27,
-      "name": "Shadow Shaman",
-      "short": "shadow_shaman",
-      "pick": 3,
-      "ban": 0,
-      "win": 1,
-      "winrate": 33.3
-    },
-    {
-      "hero_id": 7,
-      "name": "Earthshaker",
-      "short": "earthshaker",
-      "pick": 4,
-      "ban": 2,
-      "win": 2,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 79,
-      "name": "Shadow Demon",
-      "short": "shadow_demon",
-      "pick": 4,
-      "ban": 1,
-      "win": 2,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 2,
-      "name": "Axe",
-      "short": "axe",
-      "pick": 2,
-      "ban": 8,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 50,
-      "name": "Dazzle",
-      "short": "dazzle",
       "pick": 1,
       "ban": 0,
       "win": 1,
@@ -2096,180 +2768,9 @@
       "winrate": 0.0
     },
     {
-      "hero_id": 77,
-      "name": "Lycan",
-      "short": "lycan",
-      "pick": 2,
-      "ban": 1,
-      "win": 1,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 38,
-      "name": "Beastmaster",
-      "short": "beastmaster",
-      "pick": 2,
-      "ban": 1,
-      "win": 1,
-      "winrate": 50.0
-    },
-    {
       "hero_id": 121,
       "name": "Grimstroke",
       "short": "grimstroke",
-      "pick": 1,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 46,
-      "name": "Templar Assassin",
-      "short": "templar_assassin",
-      "pick": 2,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 67,
-      "name": "Spectre",
-      "short": "spectre",
-      "pick": 3,
-      "ban": 2,
-      "win": 1,
-      "winrate": 33.3
-    },
-    {
-      "hero_id": 12,
-      "name": "Phantom Lancer",
-      "short": "phantom_lancer",
-      "pick": 2,
-      "ban": 1,
-      "win": 1,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 129,
-      "name": "Mars",
-      "short": "mars",
-      "pick": 1,
-      "ban": 2,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 110,
-      "name": "Phoenix",
-      "short": "phoenix",
-      "pick": 1,
-      "ban": 1,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 135,
-      "name": "Dawnbreaker",
-      "short": "dawnbreaker",
-      "pick": 1,
-      "ban": 2,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 64,
-      "name": "Jakiro",
-      "short": "jakiro",
-      "pick": 1,
-      "ban": 0,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 78,
-      "name": "Brewmaster",
-      "short": "brewmaster",
-      "pick": 1,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 71,
-      "name": "Spirit Breaker",
-      "short": "spirit_breaker",
-      "pick": 2,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 34,
-      "name": "Tinker",
-      "short": "tinker",
-      "pick": 1,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 60,
-      "name": "Night Stalker",
-      "short": "night_stalker",
-      "pick": 1,
-      "ban": 1,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 93,
-      "name": "Slark",
-      "short": "slark",
-      "pick": 1,
-      "ban": 0,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
-      "hero_id": 23,
-      "name": "Kunkka",
-      "short": "kunkka",
-      "pick": 0,
-      "ban": 2,
-      "win": 0,
-      "winrate": 0
-    },
-    {
-      "hero_id": 20,
-      "name": "Vengeful Spirit",
-      "short": "vengefulspirit",
-      "pick": 1,
-      "ban": 0,
-      "win": 0,
-      "winrate": 0.0
-    },
-    {
-      "hero_id": 5,
-      "name": "Crystal Maiden",
-      "short": "crystal_maiden",
-      "pick": 2,
-      "ban": 0,
-      "win": 1,
-      "winrate": 50.0
-    },
-    {
-      "hero_id": 29,
-      "name": "Tidehunter",
-      "short": "tidehunter",
-      "pick": 0,
-      "ban": 1,
-      "win": 0,
-      "winrate": 0
-    },
-    {
-      "hero_id": 65,
-      "name": "Batrider",
-      "short": "batrider",
       "pick": 1,
       "ban": 0,
       "win": 0,
@@ -2303,15 +2804,6 @@
       "winrate": 100.0
     },
     {
-      "hero_id": 10,
-      "name": "Morphling",
-      "short": "morphling",
-      "pick": 1,
-      "ban": 0,
-      "win": 1,
-      "winrate": 100.0
-    },
-    {
       "hero_id": 68,
       "name": "Ancient Apparition",
       "short": "ancient_apparition",
@@ -2321,5 +2813,5 @@
       "winrate": 0
     }
   ],
-  "_note": "Liquipedia 429 限流, 本文件由 OpenDota 重建, 今日赛程暂缺"
+  "_note": "Liquipedia 429 限流, 本文件由 OpenDota 全量比赛数据重建(含 08-15 全部场次)"
 }
